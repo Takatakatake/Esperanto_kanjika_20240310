@@ -47,31 +47,18 @@ with open("全語根＿約11200個.txt", 'r', encoding='utf-8') as file:
             replacements_dict[root]=[root,len(root)*10000]##漢字化するかどうかで置換の優先順位が変わるので、漢字化しないものはすべての並べ替えが終わってから、
             
 
-# ファイルパスを指定
-file_path = './20240306世界语词根列表_0308.xlsx'
-sheet_name = '确认用于汉字化的汉字（最终仅使用此表格进行世界语文本的汉字化）'
-# 指定されたシートを読み込む
-df = pd.read_excel(file_path, sheet_name=sheet_name)
-
-# 結果を格納するリストを初期化
-# 正確な列名をここで指定
-COLUMN_A_HEADER = '世界语单词'# 実際のA列のヘッダー名に置き換えてください
-COLUMN_C_HEADER = '候选汉字1'# 実際のC列のヘッダー名に置き換えてください
-COLUMN_B_HEADER = '词性与重要性'# 実際のB列のヘッダー名に置き換えてください
-
-# A列とC列のデータをループ処理し、条件に従ってreplacementsリストに追加
-for index, row in df.iterrows():
-    VALUE_A,VALUE_B,VALUE_C=str(row[COLUMN_A_HEADER]),str(row[COLUMN_B_HEADER]),str(row[COLUMN_C_HEADER])
-    # A列の値に"#"が含まれているかチェック
-    if ("#" in VALUE_A) or VALUE_A=='nan' or pd.isna(row[COLUMN_A_HEADER]):
-        continue  # "#"が含まれている場合はスキップ
-    # replacementsリストに(A列の値, C列の値)のタプルとして追加
-    # if row[COLUMN_A_HEADER] not in replacements_dict:
-    #     print(row[COLUMN_A_HEADER])
-    if VALUE_C=='nan' or pd.isna(row[COLUMN_C_HEADER]) or (VALUE_B not in HANZILEVEL):##ここで4文字以下を除く手もある。
-        replacements_dict[VALUE_A]=[VALUE_A,len(VALUE_A)*10000]
-    else:
-        replacements_dict[VALUE_A]=[VALUE_C+VALUE_A+")",len(VALUE_A)*10000+5000]##実際に漢字化するものを優先するため         
+with open('./20240306世界语词根列表_0308.csv', 'r') as file:
+    for line in file:
+        line = line.rstrip()
+        j = line.split(',')
+        if len(j)==4:
+            word,level,hanzi=j[0],j[1],j[2]
+            if ("#" in word) or word=='':
+                continue
+            elif hanzi=='' or (level not in HANZILEVEL):
+                replacements_dict[word]=[word,len(word)*10000]##ここで4文字以下を除く手もある。
+            else:
+                replacements_dict[word]=[hanzi+word+")",len(word)*10000+5000]##実際に漢字化するものを優先するため        
             
 with open('後から加える語根リスト(優先順位も決められる).txt', 'r') as file:
     for line in file:
