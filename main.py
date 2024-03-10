@@ -70,7 +70,7 @@ with open('後から加える語根リスト(優先順位も決められる).txt
                 else:
                     replacements_dict[word]=[hanzi+'('+word+')',int(priority)]##一旦整数に変えておく。(どちらでも良い)          
 
-root_de_fusiyo=['min','amas','mas','vin','boj','ros']
+root_de_fusiyo=['min','amas','mas','vin','boj']
 pre_replacements=[]
 for old,new in replacements_dict.items():
     if old not in root_de_fusiyo:
@@ -111,10 +111,7 @@ def safe_replace(text, replacements):
 st.title("世界语汉字化")
 st.caption('这是一个将世界语文本转换成汉字符号的网络应用程序。')
 
-code = '''
-import streamlit as st
-'''
-st.code(code,language='python')
+
 
 
 
