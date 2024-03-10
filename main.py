@@ -1,4 +1,3 @@
-
 import streamlit as st
 import re
 import io
@@ -42,7 +41,7 @@ with open("全語根＿約11200個.txt", 'r', encoding='utf-8') as file:
     roots = file.readlines()
     for root in roots:
         root = root.strip()
-        if len(root)>4:###5文字以上のみ 調節ポイント
+        if len(root)>4:###5文字以上のみ 調節ポイント  malm,avis,deviなど色々あるので
             replacements_dict[root]=[root,len(root)*10000]##漢字化するかどうかで置換の優先順位が変わるので、漢字化しないものはすべての並べ替えが終わってから、
             
 
@@ -57,7 +56,7 @@ with open('./20240306世界语词根列表_0308.csv', 'r') as file:
             elif hanzi=='' or (level not in HANZILEVEL):
                 replacements_dict[word]=[word,len(word)*10000]##ここで4文字以下を除く手もある。
             else:
-                replacements_dict[word]=[hanzi+word+")",len(word)*10000+5000]##実際に漢字化するものを優先するため        
+                replacements_dict[word]=[hanzi+'('+word+")",len(word)*10000+5000]##実際に漢字化するものを優先するため        
             
 with open('後から加える語根リスト(優先順位も決められる).txt', 'r') as file:
     for line in file:
@@ -69,18 +68,19 @@ with open('後から加える語根リスト(優先順位も決められる).txt
                 if word==hanzi:
                     replacements_dict[word]=[hanzi,int(priority)]##一旦整数に変えておく。(どちらでも良い)
                 else:
-                    replacements_dict[word]=[hanzi+word+')',int(priority)]##一旦整数に変えておく。(どちらでも良い)          
+                    replacements_dict[word]=[hanzi+'('word+')',int(priority)]##一旦整数に変えておく。(どちらでも良い)          
 
-
+root_de_fusiyo=['min','amas']
 pre_replacements=[]
 for old,new in replacements_dict.items():
-    pre_replacements.append((old,new[0],new[1]))
+    if old not in root_de_fusiyo:
+        pre_replacements.append((old,new[0],new[1]))
     if (24000 <= new[1] <= 26000) or (34000 <= new[1] <= 36000) or (44000 <= new[1] <= 46000):##調節　実際に漢字化する3,4文字のエスペラント語根のみ
         for aiueo in list("aiueo"):
-            pre_replacements.append((old+aiueo,new[0]+aiueo,new[1]))
+            pre_replacements.append((old+aiueo,new[0]+aiueo,new[1]))##漢字化の守備範囲を広げるため
             
 pre_replacements2=[]
-for old,new,priority in pre_replacements:
+for old,new,priority in pre_replacements:##大文字のみ、小文字のみ、頭文字だけ大文字の単語に対応させるため。
     pre_replacements2.append((old,new,priority))
     pre_replacements2.append((old.upper(),new.upper(),priority))
     pre_replacements2.append((old.capitalize(),new.capitalize(),priority))
