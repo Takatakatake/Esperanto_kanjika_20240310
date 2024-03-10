@@ -68,7 +68,7 @@ with open('後から加える語根リスト(優先順位も決められる).txt
                 if word==hanzi:
                     replacements_dict[word]=[hanzi,int(priority)]##一旦整数に変えておく。(どちらでも良い)
                 else:
-                    replacements_dict[word]=[hanzi+'('word+')',int(priority)]##一旦整数に変えておく。(どちらでも良い)          
+                    replacements_dict[word]=[hanzi+'('+word+')',int(priority)]##一旦整数に変えておく。(どちらでも良い)          
 
 root_de_fusiyo=['min','amas']
 pre_replacements=[]
