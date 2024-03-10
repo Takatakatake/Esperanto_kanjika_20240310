@@ -1,6 +1,8 @@
 
 import streamlit as st
 import re
+import io
+import pandas as pd
 
 # 置換用の辞書
 esperanto_to_x = {
@@ -44,7 +46,7 @@ with open("全語根＿約11200個.txt", 'r', encoding='utf-8') as file:
         if len(root)>4:###5文字以上のみ 調節ポイント
             replacements_dict[root]=[root,len(root)*10000]##漢字化するかどうかで置換の優先順位が変わるので、漢字化しないものはすべての並べ替えが終わってから、
             
-import pandas as pd
+
 # ファイルパスを指定
 file_path = './20240306世界语词根列表_0308.xlsx'
 sheet_name = '确认用于汉字化的汉字（最终仅使用此表格进行世界语文本的汉字化）'
@@ -167,7 +169,7 @@ with st.form(key='profile_form'):
         st.text_area("", text, height=300)
           
         
-to_download = io.BytesIO(text4.encode())
+to_download = io.BytesIO(text.encode())
 st.download_button(
 label="テキストをダウンロード",
 data=to_download,
