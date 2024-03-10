@@ -2,7 +2,6 @@
 import streamlit as st
 import re
 import io
-import pandas as pd
 
 # 置換用の辞書
 esperanto_to_x = {
@@ -49,7 +48,7 @@ with open("全語根＿約11200個.txt", 'r', encoding='utf-8') as file:
 
 with open('./20240306世界语词根列表_0308.csv', 'r') as file:
     for line in file:
-        line = line.rstrip()
+        line = line.strip()
         j = line.split(',')
         if len(j)==4:
             word,level,hanzi=j[0],j[1],j[2]
@@ -62,7 +61,7 @@ with open('./20240306世界语词根列表_0308.csv', 'r') as file:
             
 with open('後から加える語根リスト(優先順位も決められる).txt', 'r') as file:
     for line in file:
-        line = line.rstrip()
+        line = line.strip()
         j = line.split(',')
         if len(j)==4:
             word,level,hanzi,priority=j[0],j[1],j[2],j[3]
@@ -109,15 +108,10 @@ def safe_replace(text, replacements):
 
 
 
-st.title("エスペラントの漢字化")
-st.caption('これはエスペラント文を漢字表記に変換するアプリです。')
+st.title("世界语汉字化")
+st.caption('这是一个将世界语文本转换成汉字符号的网络应用程序。')
 
-st.subheader('自己紹介')
-st.text('webページの作り方')
 
-code = '''
-import streamlit as st
-'''
 st.code(code,language='python')
 
 
@@ -138,11 +132,11 @@ with st.form(key='profile_form'):
     # ラジオボタン
     letter_type = st.radio('文字形式',('字上符','x形式','^形式'))###select_boxでもいい
 
-    sentence = st.text_area('エスペラントの文章')
+    sentence = st.text_area('世界语句子')
     
     # ボタン
-    submit_btn = st.form_submit_button('送信')
-    cancel_btn = st.form_submit_button('キャンセル')
+    submit_btn = st.form_submit_button('发送')
+    cancel_btn = st.form_submit_button('取消')
     if submit_btn:
         replaced_text = replace_esperanto_chars(sentence,esperanto_to_x)
         # replaced_text = replace_esperanto_chars(text,esperanto_to_x)
@@ -158,7 +152,7 @@ with st.form(key='profile_form'):
         
 to_download = io.BytesIO(text.encode())
 st.download_button(
-label="テキストをダウンロード",
+label="下载文本",
 data=to_download,
 file_name="processed_text.txt",
 mime="text/plain"
