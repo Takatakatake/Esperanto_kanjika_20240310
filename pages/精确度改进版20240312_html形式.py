@@ -110,11 +110,11 @@ with open('後から加える語根リスト(優先順位も決められる).txt
 # for d1,d2 in prefix_3l.items():
 #     prefix_3l_2[d1]=safe_replace(d2, replacements)
 #prefix_3l_2
-                    
-prefix_2l_2={'ek': 'ek', 're': 're'}
-prefix_3l_2={'dis': '散(dis)','for': '离(for)','mal': '非(mal)'}
-suffix_2l_2={'as':'as', 'is':'is', 'os':'os', 'us':'us', 'um':'um','at':'at','it':'it','ot':'ot', 'ad':'ad','an':'an','ar':'ar','ec':'ec', 'eg':'eg',	'ej':'ej', 'em':'em', 'er':'er', 'et':'et', 'ig':'ig', 'il':'il', 'in':'in', 'uj':'uj', 'ul':'ul'}
-suffix_3l_2={'acx': '劣(acx)','ajx': '物(ajx)','ebl': '能(ebl)','end': '必(end)','estr': '长(estr)','igx': '成(igx)','ind': '价(ind)','ism': '义(ism)','ist': '家(ist)','ant': 'ant','int': 'int','ont': 'ont'}       
+prefix_3l_2={'cxef': '<ruby>首<rt>cxef</rt></ruby>','dis': '<ruby>散<rt>dis</rt></ruby>','eks': '<ruby>前<rt>eks</rt></ruby>','for': '<ruby>离<rt>for</rt></ruby>',
+                'mal': '<ruby>非<rt>mal</rt></ruby>','post': '<ruby>后<rt>post</rt></ruby>'}
+suffix_3l_2= {'acx': '<ruby>劣<rt>acx</rt></ruby>','ajx': '<ruby>物<rt>ajx</rt></ruby>','ebl': '<ruby>能<rt>ebl</rt></ruby>','end': '<ruby>必<rt>end</rt></ruby>','estr': '<ruby>长<rt>estr</rt></ruby>',
+  'igx': '<ruby>成<rt>igx</rt></ruby>','ind': '<ruby>价<rt>ind</rt></ruby>','ing': '<ruby>壳<rt>ing</rt></ruby>','ism': '<ruby>义<rt>ism</rt></ruby>','ist': '<ruby>家<rt>ist</rt></ruby>','obl': '<ruby>倍<rt>obl</rt></ruby>',
+  'ant': 'ant','int': 'int','ont': 'ont'}
 
 ###最重要的巧思点
 ###一番の工夫ポイント
