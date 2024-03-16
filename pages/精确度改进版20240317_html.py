@@ -103,7 +103,7 @@ to_download = io.BytesIO(text.encode())
 st.download_button(
 label="下载文本",
 data=to_download,
-file_name="processed_text.txt",
+file_name="processed_text.html",
 mime="text/plain"
 )
 
