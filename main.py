@@ -58,10 +58,7 @@ def safe_replace(text, replacements3):
 st.title("世界语汉字化")
 st.caption('这是一个将世界语文本转换成汉字符号的网络应用程序。')
 
-code = '''
-import streamlit as st
-'''
-st.code(code,language='python')
+
 
 
 
