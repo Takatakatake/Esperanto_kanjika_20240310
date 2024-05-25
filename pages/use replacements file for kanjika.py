@@ -33,7 +33,6 @@ def safe_replace(text, replacements):
     # プレースホルダーを実際の新しい文字列に置換
     for placeholder, new in valid_replacements.items():
         text = text.replace(placeholder, new)
-
     return text
 
 st.title("世界语汉字化")
@@ -69,6 +68,9 @@ else:
                 old, new, place_holder = j[0], j[1], j[2]
                 replacements3.append((old, new, place_holder))
 
+# フォームの外でテキスト出力を管理するための変数
+output_text = ""
+
 with st.form(key='profile_form'):
     # テキストボックス
 
@@ -82,20 +84,19 @@ with st.form(key='profile_form'):
     cancel_btn = st.form_submit_button('取消')
     if submit_btn:
         replaced_text = replace_esperanto_chars(sentence, esperanto_to_x)
-        text = safe_replace(replaced_text, replacements3)
+        output_text = safe_replace(replaced_text, replacements3)
         if letter_type == '字上符':
-            text = replace_esperanto_chars(text, x_to_jijofu)
+            output_text = replace_esperanto_chars(output_text, x_to_jijofu)
         elif letter_type == '^形式':
-            text = replace_esperanto_chars(text, x_to_hat)
-        st.text_area("", text, height=300)
+            output_text = replace_esperanto_chars(output_text, x_to_hat)
+        st.text_area("", output_text, height=300)
 
-        to_download = io.BytesIO(text.encode())
-        st.download_button(
-            label="下载文本",
-            data=to_download,
-            file_name="processed_text.html",
-            mime="text/plain"
-        )
-
-# 元のコードの他の部分はそのまま
-
+# フォームの外でダウンロードボタンを配置
+if output_text:
+    to_download = io.BytesIO(output_text.encode())
+    st.download_button(
+        label="下载文本",
+        data=to_download,
+        file_name="processed_text.html",
+        mime="text/plain"
+    )
