@@ -68,7 +68,6 @@ if uploaded_file is not None:
         return any(char.isdigit() for char in s)
 
     result=[]
-    # "tmp.txt"("世界语全部单词_大约44100个(原pejvo.txt).txt"を小文字、X形式に変換したもの)を開く。
     with open("tmp.txt", 'r', encoding='utf-8') as file:
         # "tmp.txt"の各行をループ。
         for line in file:
