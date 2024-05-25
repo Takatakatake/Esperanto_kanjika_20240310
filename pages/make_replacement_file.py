@@ -12,6 +12,15 @@ if uploaded_file is not None:
     # Streamlitの環境でファイルを読み込むために必要な変更
     dataframe = pd.read_csv(uploaded_file)
     dataframe.to_csv("20240316世界语词根列表＿包含2个字符的世界语词根.csv", index=False)
+
+
+    
+    current_dir = os.getcwd()# 現在の作業ディレクトリを取得
+    pages_dir = os.path.join(current_dir, 'pages')# pagesディレクトリへのパスを設定
+    os.chdir(pages_dir)# 作業ディレクトリをpagesディレクトリに変更
+
+    
+
     ##エスペラント文の文字形式の変換関数
     esperanto_to_x = { "ĉ": "cx", "ĝ": "gx", "ĥ": "hx", "ĵ": "jx", "ŝ": "sx", "ŭ": "ux",
                     "Ĉ": "Cx", "Ĝ": "Gx", "Ĥ": "Hx", "Ĵ": "Jx", "Ŝ": "Sx", "Ŭ": "Ux",
