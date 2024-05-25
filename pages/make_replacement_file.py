@@ -14,10 +14,7 @@ if uploaded_file is not None:
     dataframe.to_csv("20240316世界语词根列表＿包含2个字符的世界语词根.csv", index=False)
 
 
-    
-    current_dir = os.getcwd()# 現在の作業ディレクトリを取得
-    pages_dir = os.path.join(current_dir, 'pages')# pagesディレクトリへのパスを設定
-    os.chdir(pages_dir)# 作業ディレクトリをpagesディレクトリに変更
+
 
     
 
