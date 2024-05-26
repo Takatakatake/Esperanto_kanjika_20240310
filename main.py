@@ -38,9 +38,6 @@ st.caption('这是一个将世界语文本转换成汉字符号的网络应用�
 
 
 
-# 画像
-image = Image.open('エスペラントの漢字化の理想図.png')
-st.image(image)
 
 
 # サンプルファイルのパス
@@ -113,3 +110,8 @@ if text:
         mime="text/plain"
     )
 
+
+# 画像をページの下部に配置
+st.markdown("---")  # 水平線を追加して区切りを作成
+image = Image.open('エスペラントの漢字化の理想図.png')
+st.image(image, use_column_width=False, width=300)  # 画像を小さくするためにwidthを指定
