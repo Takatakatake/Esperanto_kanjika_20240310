@@ -53,7 +53,7 @@ if uploaded_file is not None:
             # 改行文字を除去し、カンマで分割
             parts = line.strip().split(',')
             # 分割されたデータが2つの要素を持つことを確認
-            if len(parts) == 2:
+            if len(parts) >= 2:
                 result.append((parts[0], parts[1]))
 
 
