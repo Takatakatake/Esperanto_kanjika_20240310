@@ -115,3 +115,7 @@ if text:
 st.markdown("---")  # 水平線を追加して区切りを作成
 image = Image.open('エスペラントの漢字化の理想図.png')
 st.image(image, use_column_width=False, width=300)  # 画像を小さくするためにwidthを指定
+
+# # 連絡先の追加
+st.sidebar.title("应用程序的github仓库")
+st.sidebar.markdown("https://github.com/Takatakatake/Esperanto_kanjika_20240310/tree/main")
