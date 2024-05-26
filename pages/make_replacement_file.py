@@ -12,7 +12,7 @@ file_path = './files_needed_to_get_replacements_text/20240316世界语词根列�
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
-            label="サンプルファイルをダウンロード",
+            label="下载示例文件",
             data=file,
             file_name="sample_file.csv",
             mime="text/csv"
