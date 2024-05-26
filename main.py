@@ -46,7 +46,7 @@ file_path1 = './files_needed_to_get_replacements_text/replacements2_list_html.tx
 # ファイルを読み込む
 with open(file_path1, "rb") as file:
     btn = st.download_button(
-            label="サンプルファイル1をダウンロード",
+            label="下载示例文件1",
             data=file,
             file_name="replacements2_list_html.txt",
             mime="text/plain"
@@ -58,7 +58,7 @@ file_path2 = './files_needed_to_get_replacements_text/replacements2_list_parenth
 # ファイルを読み込む
 with open(file_path2, "rb") as file:
     btn = st.download_button(
-            label="サンプルファイル2をダウンロード",
+            label="下载示例文件2",
             data=file,
             file_name="replacements2_list_parenthesis.txt",
             mime="text/plain"
