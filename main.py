@@ -2,8 +2,7 @@ import streamlit as st
 import re
 import io
 from PIL import Image
-
-
+import pandas as pd
 
 
 # 置換用の辞書
@@ -38,29 +37,39 @@ st.caption('这是一个将世界语文本转换成汉字符号的网络应用�
 
 
 
-
-
 # サンプルファイルのパス
-file_path1 = './files_needed_to_get_replacements_text/replacements2_list_html.txt'
+file_path1 = './files_needed_to_get_replacements_text/replacements_list_html_format.txt'
 
 # ファイルを読み込む
 with open(file_path1, "rb") as file:
     btn = st.download_button(
-            label="下载示例文件1",
+            label="下载示例文件1(HTML Format)",
             data=file,
-            file_name="replacements2_list_html.txt",
+            file_name="replacements_list_html_format.txt",
             mime="text/plain"
         )
     
 # サンプルファイルのパス
-file_path2 = './files_needed_to_get_replacements_text/replacements2_list_parenthesis.txt'
+file_path2 = './files_needed_to_get_replacements_text/replacements_list_parentheses_format.txt'
 
 # ファイルを読み込む
 with open(file_path2, "rb") as file:
     btn = st.download_button(
-            label="下载示例文件2",
+            label="下载示例文件2(Parentheses Format)",
             data=file,
-            file_name="replacements2_list_parenthesis.txt",
+            file_name="replacements_list_parentheses_format.txt",
+            mime="text/plain"
+        )
+    
+# サンプルファイルのパス
+file_path3 = './files_needed_to_get_replacements_text/replacements_list_onlyhanzi_format.txt'
+
+# ファイルを読み込む
+with open(file_path3, "rb") as file:
+    btn = st.download_button(
+            label="下载示例文件3(Only Hanzi)",
+            data=file,
+            file_name="replacements_list_onlyhanzi_format.txt",
             mime="text/plain"
         )
 
@@ -75,7 +84,7 @@ if uploaded_file is not None:
             replacements3.append((parts[0], parts[1], parts[2]))
 else:
     replacements3 = []
-    with open("replacements2_list_html.txt", 'r', encoding='utf-8') as file:
+    with open("replacements_list_html_format.txt", 'r', encoding='utf-8') as file:
         for line in file:
             line = line.strip()
             j = line.split(',')
@@ -86,7 +95,7 @@ else:
 text = ""
 
 with st.form(key='profile_form'):
-    letter_type = st.radio('文字形式', ('字上符', 'x形式', '^形式'))
+    letter_type = st.radio('出力文字形式', ('字上符', 'x形式', '^形式'))
     sentence = st.text_area('世界语句子')
 
     submit_btn = st.form_submit_button('发送')
@@ -111,11 +120,49 @@ if text:
     )
 
 
+
+
+# # コメント欄の追加
+# st.sidebar.title("コメント欄")
+# comments = st.sidebar.text_area("ご意見・ご感想をお聞かせください")
+
+
+
+# # 操作方法の説明
+st.title("操作方法")
+st.markdown("""
+自作のエスペラント語根-漢字対応表をエスペラント文の漢字変換に用いたい場合、
+まず、'make replacement file'に添付されている'下载示例文件'をダウンロード・参照し、
+以下の添付画像ような形式のcsvファイルを作成してください。(エスペラント語根はX形式)""")
+                               
+# エスペラント語根と対応する漢字の例画像を表示
+image2 = Image.open('エスペラント語根-漢字対応表(csv形式)の作り方.png')
+st.image(image2, caption='エスペラント語根-漢字対応表(csv形式)の作り方', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整                
+
+st.markdown("""
+次に、作成したcsvファイルを'make replacement file'にアップロードし、
+'replacements_list_html_format.txt'を作成、ダウンロードします。(このときに、
+漢字変換の形式を、'html形式(HTML Format)','括弧形式(Parentheses Format)','漢字のみの形式(Only Hanzi)'
+から選択してください。)
+csvファイルをアップロードした段階で自動的に'replacements_list_html_format.txt'
+の作成が始まります。作成完了まで20秒程かかります。
+最後に作成された'replacements_list_html_format.txt'を'main'にアップロードし、
+'出力文字形式'を選択、'世界语句子'に漢字変換したいエスペラント文を貼り付け、
+'发送' ボタンを押せば、漢字変換されたエスペラント文がプレビューとして
+出力され、'下载文本'ボタンを押すと、 漢字変換されたエスペラント文を
+テキストファイルとしてダウンロード保存することが出来ます。
+(html形式であれば、google chromeなどのウェブブラウザで開くと綺麗にふりがな
+(ふりアルファベット)がついているのを見ることが出来ます。)                                                        
+""")
+
+
+
+
 # 画像をページの下部に配置
 st.markdown("---")  # 水平線を追加して区切りを作成
 image = Image.open('エスペラントの漢字化の理想図.png')
-st.image(image, use_column_width=False, width=300)  # 画像を小さくするためにwidthを指定
+st.image(image, caption='世界语汉字化的理想图', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整
 
 # # 連絡先の追加
-st.sidebar.title("应用程序的github仓库")
-st.sidebar.markdown("https://github.com/Takatakatake/Esperanto_kanjika_20240310/tree/main")
+st.title("应用程序的github仓库")
+st.markdown("https://github.com/Takatakatake/Esperanto_kanjika_20240310/tree/main")
