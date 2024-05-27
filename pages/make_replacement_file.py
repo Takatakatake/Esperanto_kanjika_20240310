@@ -12,7 +12,7 @@ file_path = './files_needed_to_get_replacements_text/20240316世界语词根列�
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
-            label="下载示例文件",
+            label="サンプルファイルをダウンロード",
             data=file,
             file_name="sample_file.csv",
             mime="text/csv"
@@ -48,7 +48,7 @@ if uploaded_file is not None:
 
     result = []
     # ファイルを読み込み
-    with open("./files_needed_to_get_replacements_text/检查世界语所有单词的结尾是否被正确切除(result).txt", "r", encoding='utf-8') as file:
+    with open("./files_needed_to_get_replacements_text/检查世界语所有单词的结尾是否被正确切除(result).txt", "r", encoding='utf-8') as file:##世界语全部单词_大约44100个(原pejvo.txt)をここまで成形したものから使う。
         for line in file:
             # 改行文字を除去し、カンマで分割
             parts = line.strip().split(',')
@@ -276,17 +276,29 @@ if uploaded_file is not None:
         replacements2.append((old.capitalize(),new.capitalize(),place_holder))
 
     #"replacements2"リストの内容を確認
-    with open("./files_needed_to_get_replacements_text/replacements2_list_html.txt", 'w', encoding='utf-8') as file:
+    with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:
         for old,new,place_holder in replacements2:
             file.write(f'{old},{new},{place_holder}\n')
     
     # 最終的な置換リストをファイルとしてダウンロード
-    with open("./files_needed_to_get_replacements_text/replacements2_list_html.txt", 'r', encoding='utf-8') as file:
+    with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'r', encoding='utf-8') as file:
         download_data = file.read()
 
-    st.download_button(
-        label="Download replacements2_list_html.txt",
+    if format_type == 'HTML Format':
+        st.download_button(
+        label="Download replacements_list_html_format.txt",
         data=download_data,
-        file_name="replacements2_list_html.txt",
-        mime='text/plain'
-    )
+        file_name="replacements_list_html_format.txt",
+        mime='text/plain')
+    elif format_type == 'Parentheses Format':
+        st.download_button(
+        label="Download replacements_list_parentheses_format.txt",
+        data=download_data,
+        file_name="replacements_list_parentheses_format.txt",
+        mime='text/plain')
+    elif format_type == 'Only Hanzi':
+        st.download_button(
+        label="Download replacements_list_onlyhanzi_format.txt",
+        data=download_data,
+        file_name="replacements_list_onlyhanzi_format.txt",
+        mime='text/plain')
