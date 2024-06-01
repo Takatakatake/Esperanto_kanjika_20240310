@@ -28,18 +28,18 @@ def conversion_format(hanzi, word, format_type):
 
 # ユーザーに出力形式を選んでもらう
 format_type = st.selectbox(
-    'Choose the output format:',
+    '选择输出格式:',
     ('HTML Format', 'Parentheses Format', 'Only Hanzi')
 )
 
 # 例示
-hanzi = '漢字'
-word = 'kanji'
+hanzi = '汉字'
+word = 'hanzi'
 formatted_text = conversion_format(hanzi, word, format_type)
-st.write('Formatted Text:', formatted_text)
+st.write('格式化文本:', formatted_text)
 
 # Streamlitでファイルアップロード機能を追加
-uploaded_file = st.file_uploader("Upload your file", type=['csv'])
+uploaded_file = st.file_uploader("上传你的CSV文件", type=['csv'])
 if uploaded_file is not None:
     # Streamlitの環境でファイルを読み込むために必要な変更
     dataframe = pd.read_csv(uploaded_file)
