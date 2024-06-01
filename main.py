@@ -74,7 +74,7 @@ with open(file_path3, "rb") as file:
         )
 
 
-uploaded_file = st.file_uploader("Upload your replacements file", type=['txt'])
+uploaded_file = st.file_uploader("上传你的'replacements_list_<html,parentheses,onlyhanzi>_format.txt'", type=['txt'])
 if uploaded_file is not None:
     replacements3 = []
     for line in uploaded_file:
@@ -95,7 +95,7 @@ else:
 text = ""
 
 with st.form(key='profile_form'):
-    letter_type = st.radio('出力文字形式', ('字上符', 'x形式', '^形式'))
+    letter_type = st.radio('输出字符格式', ('上标字符', 'x形式', '^形式'))
     sentence = st.text_area('世界语句子')
 
     submit_btn = st.form_submit_button('发送')
@@ -127,13 +127,34 @@ if text:
 # comments = st.sidebar.text_area("ご意見・ご感想をお聞かせください")
 
 
+# # 操作方法の説明
+st.title("操作方法(下に日本語訳が有ります。)")
+st.markdown("""
+如果您想在世界语文本的汉字转换中使用自制的世界语词根-汉字对照表,
+首先,请下载并参考'make replacement file'中附带的'下载示例文件',
+并创建如下附图所示格式的csv文件。(请使用X形式的世界语词根。)""")
+                               
+# エスペラント語根と対応する漢字の例画像を表示
+image2 = Image.open('エスペラント語根-漢字対応表(csv形式)の作り方.png')
+st.image(image2, caption='世界语词根-汉字对照表(csv格式)的创建方法', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整          
+st.markdown("""
+接下来,请将创建的csv文件上传到'make replacement file'
+并创建和下载'replacements_list_<html,parentheses,onlyhanzi>_format.txt'。
+(在此过程中,请从'html格式(HTML Format)'、'括号格式(Parentheses Format)'、'仅汉字格式(Only Hanzi)'中选择汉字转换格式。)
+上传csv文件后,'replacements_list_<html,parentheses,onlyhanzi>_format.txt'的创建将自动开始。创建完成大约需要20秒。
+最后,将创建的'replacements_list_<html,parentheses,onlyhanzi>_format.txt'上传到'main',
+选择'输出字符格式',在'世界语句子'中粘贴要转换为汉字的世界语句子,按下'发送'按钮,
+转换为汉字的世界语句子将作为预览输出,按'下载文本'按钮,可以将转换为汉字的世界语句子作为文本文件下载并保存。
+(如果是html格式,可以在Google Chrome等网络浏览器中打开,就能看到干净整洁的注音(注音字母)。)                                                        
+""")
+
 
 # # 操作方法の説明
 st.title("操作方法")
 st.markdown("""
 自作のエスペラント語根-漢字対応表をエスペラント文の漢字変換に用いたい場合、
 まず、'make replacement file'に添付されている'下载示例文件'をダウンロード・参照し、
-以下の添付画像ような形式のcsvファイルを作成してください。(エスペラント語根はX形式)""")
+以下の添付画像ような形式のcsvファイルを作成してください。(エスペラント語根はX形式でお願いします。)""")
                                
 # エスペラント語根と対応する漢字の例画像を表示
 image2 = Image.open('エスペラント語根-漢字対応表(csv形式)の作り方.png')
@@ -141,12 +162,12 @@ st.image(image2, caption='エスペラント語根-漢字対応表(csv形式)の
 
 st.markdown("""
 次に、作成したcsvファイルを'make replacement file'にアップロードし、
-'replacements_list_html_format.txt'を作成、ダウンロードします。(このときに、
+'replacements_list_<html,parentheses,onlyhanzi>_format.txt'を作成、ダウンロードします。(このときに、
 漢字変換の形式を、'html形式(HTML Format)','括弧形式(Parentheses Format)','漢字のみの形式(Only Hanzi)'
 から選択してください。)
-csvファイルをアップロードした段階で自動的に'replacements_list_html_format.txt'
+csvファイルをアップロードした段階で自動的に'replacements_list_<html,parentheses,onlyhanzi>_format.txt'
 の作成が始まります。作成完了まで20秒程かかります。
-最後に作成された'replacements_list_html_format.txt'を'main'にアップロードし、
+最後に作成された'replacements_list_<html,parentheses,onlyhanzi>_format.txt'を'main'にアップロードし、
 '出力文字形式'を選択、'世界语句子'に漢字変換したいエスペラント文を貼り付け、
 '发送' ボタンを押せば、漢字変換されたエスペラント文がプレビューとして
 出力され、'下载文本'ボタンを押すと、 漢字変換されたエスペラント文を
@@ -154,6 +175,9 @@ csvファイルをアップロードした段階で自動的に'replacements_lis
 (html形式であれば、google chromeなどのウェブブラウザで開くと綺麗にふりがな
 (ふりアルファベット)がついているのを見ることが出来ます。)                                                        
 """)
+
+
+
 
 
 
