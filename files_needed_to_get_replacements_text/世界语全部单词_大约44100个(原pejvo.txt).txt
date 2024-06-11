@@ -973,7 +973,6 @@ akv/o/prem/o:【理】水圧
 akv/o/problem/o:水問題
 akv/o/proviz/i:=akvumi
 akv/o/pul/o:【動】ミジンコ,=dafnio
-akv/o/pump/ad/o:揚水
 akv/o/pur/ig/il/o:浄水器
 akv/o/rad/o:（動力用・灌漑用の）水車
 akv/o/rezerv/ej/o:貯水池
@@ -39638,7 +39637,7 @@ s^uld/atest/o:借用証書
 s^uld/at/o:=>kreditoro（債権者）
 s^uld/i:{Ｂ}［他］借りがある;【商】債務を負う;（精神的）義務がある;恩義を受けている,おかげである
 s^uld/i al iu mil frank/ojn:ある人に千フランの借りがある
-s^uld/i al la membroj detal/an klar/ig/on:会員に詳しく説明しなければならない
+s^uld/i al la membro/j detal/an klar/ig/on:会員に詳しく説明しなければならない
 s^uld/i al s^i ni/an sukces/on:我々の成功は彼女のおかげである
 s^uld/ig/i:［他］債務を負わせる;（精神的）義務を負わせる,貸しをつくる
 s^uld/ig^/i:［自］（精神的）義務を負う,借りをつくる
