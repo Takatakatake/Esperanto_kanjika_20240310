@@ -7,36 +7,24 @@ import re
 
 
 # サンプルファイルのパス
-file_path = './files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根.csv'
+file_path = './files_needed_to_get_replacements_text/ふりがな形式.csv'
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
-            label="下载示例CSV文件1(生成AI创建的世界语词根和汉字对应列表)",
+            label="下载示例CSV文件1(ふりがな形式)",
             data=file,
             file_name="sample_file.csv",
             mime="text/csv"
         )
 
-file_path2 = './files_needed_to_get_replacements_text/Mingeo_san_hanziization.csv' 
-with open(file_path2, "rb") as file:
-    btn = st.download_button(
-            label="下载示例CSV文件2(中国世界语者杨先生(Mingeo,知乎)创建的世界语词根和汉字对应列表)",
-            data=file,
-            file_name="sample_file2.csv",
-            mime="text/csv"
-        )
-
-st.markdown("""如果还有其他人创建了世界语词根和汉字的对应列表,请务必在这里作为示例CSV文件上传!
-            其中一个联系方式是<aisacfaraday4@gmail.com>
-            (我想如果您也可以直接在github上评论,我们也可以回应)。恳请您的合作。
-""")
-
-st.markdown("""他にもエスペラント語根と漢字の対応リストを作成した方がいらっしゃれば、
-            是非ここにサンプル(示例CSV文件)としてアップロードさせてください!
-            連絡先の一つは、<aisacfaraday4@gmail.com>です
-            (他にもgithubから直接コメントしていただいても対応させていただけると思います)。
-            ご協力どうぞよろしくお願いいたします。
-""")
+# file_path2 = './files_needed_to_get_replacements_text/Mingeo_san_hanziization.csv' 
+# with open(file_path2, "rb") as file:
+#     btn = st.download_button(
+#             label="下载示例CSV文件2(中国世界语者杨先生(Mingeo,知乎)创建的世界语词根和汉字对应列表)",
+#             data=file,
+#             file_name="sample_file2.csv",
+#             mime="text/csv"
+#         )
 
 
 def conversion_format(hanzi, word, format_type):
