@@ -81,7 +81,7 @@ with open(file_path4, "rb") as file:
     btn = st.download_button(
             label="下载示例文件4(Ruby)",
             data=file,
-            file_name="replacements_list_ruby_format.txt",
+            file_name="replacements_list_ruby_html_format.txt",
             mime="text/plain"
         )
 
