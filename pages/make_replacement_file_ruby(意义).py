@@ -145,9 +145,34 @@ if uploaded_file is not None:
                     SS[j[0]]=[safe_replace(j[0], replacements),j[1]]
 
     #上の作業で作成した辞書型リスト(SS)の最初から20個分を表示
-    for key, value in dict(list(SS.items())[:20]).items():
-        print(f"{key}: {value}")
+    # for key, value in dict(list(SS.items())[:20]).items():
+    #     print(f"{key}: {value}")
+    # スラッシュを取り除いたキーでデータを整理するための辞書
+    normalized_keys = {}
 
+    # 各キーからスラッシュを取り除き、既存のキーとして整理
+    for old, value in SS.items():
+        # スラッシュを取り除く
+        normalized_key = old.replace('/', '')
+
+        # 辞書に追加
+        if normalized_key not in normalized_keys:
+            normalized_keys[normalized_key] = []
+        normalized_keys[normalized_key].append((old, value))
+
+    # 各語根ごとに最長のキーを保持する辞書
+    max_length_keys = {}
+
+    # スラッシュを取り除いた語根をキーとして、最長のキーと値を保存
+    for old, value in SS.items():
+        # スラッシュを取り除く
+        normalized_key = old.replace('/', '')
+        # 辞書にこの語根が存在するか、存在する場合は現在のキーと比較
+        if normalized_key not in max_length_keys or len(max_length_keys[normalized_key][0]) < len(old):
+            max_length_keys[normalized_key] = (old, value)
+
+    # 最終的な辞書を作成
+    SS = {k: v for _, (k, v) in max_length_keys.items()}
     ##更改替换方式(关于如何更改汉字转换,请编辑第一个csv文件)  (置換の仕方の変更(漢字変換の仕方の変更については最初のcsvファイルを編集する))
     # never_used_as_roots_only=[" vin "," lin "," min "," amas "]
     # for i in never_used_as_roots_only:
@@ -216,17 +241,17 @@ if uploaded_file is not None:
             continue
         else:
             RR[i]=[j[0],j[2]]##品詞情報はここで用いるためにあった。以後は不要なので省いていく。
-            if j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000:##実際に漢字化するエスペラント語根のみが対象
-                if "名詞" in j[1]:
-                    for k1,k2 in noun_prefix_2l.items():
-                        if not k1+i in QQ:
-                            RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
-                    for k1,k2 in noun_suffix_2l.items():##"obl","on","op",
-                        if not i+k1 in QQ:
-                            RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
-                    for k in ["o"]:
-                        if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる 
+            if "名詞" in j[1] and (len(i)<=6) :
+                for k1,k2 in noun_prefix_2l.items():
+                    if not k1+i in QQ:
+                        RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
+                for k1,k2 in noun_suffix_2l.items():##"obl","on","op",
+                    if not i+k1 in QQ:
+                        RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
+                for k in ["o"]:
+                    if not i+k in QQ:
+                        RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+            if j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
                 if "形容詞" in j[1]:
                     for k1,k2 in adj_prefix_2l.items():
                         if not k1+i in QQ:
@@ -254,21 +279,26 @@ if uploaded_file is not None:
                     for k1,k2 in verb_suffix_2l.items():
                         if not i+k1 in QQ:
                             RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
-                    for k in ["u ","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+2*10000-5000]
+            if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo
+                RR.pop(i, None)
 
 
     ##RRの編集(主に置換の優先順位の変更) ここでも置換の仕方の変更ができないことはないが、品詞の種類に応じて接尾辞や接頭辞を追加するところをスキップすることになってしまう。
-    never_used_as_roots_only=["vin","lin","min","amas"]
+    never_used_as_roots_only=["vin","lin","min",'sin']
     for i in never_used_as_roots_only:
-        RR[i]=[i,i,len(i)*10000-2500]
+        RR[i]=[i,len(i)*10000+2500]##これらについては数字の大きさはそこまで重要ではない
+
+    RR['amas']=['<ruby>爱<rt>am</rt></ruby>as',len('amas')*10000+2500]
+    RR['farigx'][1]=len('farigx')*10000+27500
 
     TT=[]
     for old,new in  RR.items():
         TT.append((old,new[0],new[1]))
 
-    pre_replacements3= sorted(TT, key=lambda x: len(x[0]), reverse=True)##(置換順序の数字の大きさ順にソート。)
+    pre_replacements3= sorted(TT, key=lambda x: x[2], reverse=True)##(置換順序の数字の大きさ順にソート!)
 
     ##'エスペラント語根'、'置換漢字'、'place holder'の順に並べ、最終的な置換に用いる"replacements"リストを作成。
     replacements=[]
@@ -279,8 +309,8 @@ if uploaded_file is not None:
     replacements2=[]
     for old,new,place_holder in replacements:
         replacements2.append((old,new,place_holder))
-        replacements2.append((old.upper(),new.upper(),place_holder))
-        replacements2.append((old.capitalize(),new.capitalize(),place_holder))
+        replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+        replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
 
     #"replacements2"リストの内容を確認
     with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:
