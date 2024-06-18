@@ -72,16 +72,26 @@ with open(file_path3, "rb") as file:
             file_name="replacements_list_onlyhanzi_format.txt",
             mime="text/plain"
         )
-    
-# サンプルファイルのパス
-file_path4 = './files_needed_to_get_replacements_text/replacements_list_ruby_html_format.txt'
 
+# サンプルファイルのパス
+file_path4 = './files_needed_to_get_replacements_text/replacements_list_ruby_html_format_中文.txt'
 # ファイルを読み込む
 with open(file_path4, "rb") as file:
     btn = st.download_button(
-            label="下载示例文件4(Ruby)",
+            label="下载示例文件4(Ruby_中文)",
             data=file,
-            file_name="replacements_list_ruby_html_format.txt",
+            file_name="replacements_list_ruby_html_format_中文.txt",
+            mime="text/plain"
+        )
+    
+# サンプルファイルのパス
+file_path5 = './files_needed_to_get_replacements_text/replacements_list_ruby_html_format.txt'
+# ファイルを読み込む
+with open(file_path5, "rb") as file:
+    btn = st.download_button(
+            label="下载示例文件5(Ruby_日本語)",
+            data=file,
+            file_name="replacements_list_ruby_html_format_日本語.txt",
             mime="text/plain"
         )
 
