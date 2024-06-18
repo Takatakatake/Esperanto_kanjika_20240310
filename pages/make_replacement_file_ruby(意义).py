@@ -11,7 +11,7 @@ file_path = './files_needed_to_get_replacements_text/Ruby形式.csv'
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
-            label="下载示例CSV文件1(ふりがな形式)",
+            label="下载示例CSV文件1(Ruby形式)",
             data=file,
             file_name="sample_file.csv",
             mime="text/csv"
