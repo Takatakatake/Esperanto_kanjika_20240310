@@ -7,7 +7,7 @@ import re
 
 
 # サンプルファイルのパス
-file_path = './files_needed_to_get_replacements_text/ふりがな形式.csv'
+file_path = './files_needed_to_get_replacements_text/Ruby形式.csv'
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
