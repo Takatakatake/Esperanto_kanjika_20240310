@@ -72,9 +72,21 @@ with open(file_path3, "rb") as file:
             file_name="replacements_list_onlyhanzi_format.txt",
             mime="text/plain"
         )
+    
+# サンプルファイルのパス
+file_path4 = './files_needed_to_get_replacements_text/replacements_list_ruby_format.txt'
+
+# ファイルを読み込む
+with open(file_path4, "rb") as file:
+    btn = st.download_button(
+            label="下载示例文件4(Ruby)",
+            data=file,
+            file_name="replacements_list_ruby_format.txt",
+            mime="text/plain"
+        )
 
 
-uploaded_file = st.file_uploader("上传你的'replacements_list_<html,parentheses,onlyhanzi>_format.txt'", type=['txt'])
+uploaded_file = st.file_uploader("上传你的'replacements_list_<html,parentheses,onlyhanzi,ruby>_format.txt'", type=['txt'])
 if uploaded_file is not None:
     replacements3 = []
     for line in uploaded_file:
