@@ -7,13 +7,23 @@ import re
 
 
 # サンプルファイルのパス
-file_path = './files_needed_to_get_replacements_text/Ruby形式.csv'
+file_path1 = './files_needed_to_get_replacements_text/Ruby形式＿中文.csv'
 # ファイルを読み込む
-with open(file_path, "rb") as file:
+with open(file_path1, "rb") as file:
     btn = st.download_button(
-            label="下载示例CSV文件1(Ruby形式)",
+            label="下载示例CSV文件1(Ruby形式＿中文)",
             data=file,
-            file_name="sample_file_ruby.csv",
+            file_name="sample_file_ruby_中文.csv",
+            mime="text/csv"
+        )
+# サンプルファイルのパス
+file_path2 = './files_needed_to_get_replacements_text/Ruby形式＿日本語.csv'
+# ファイルを読み込む
+with open(file_path2, "rb") as file:
+    btn = st.download_button(
+            label="下载示例CSV文件2(Ruby形式＿日本語)",
+            data=file,
+            file_name="sample_file_ruby_日本語.csv",
             mime="text/csv"
         )
 
