@@ -74,7 +74,7 @@ with open(file_path3, "rb") as file:
         )
     
 # サンプルファイルのパス
-file_path4 = './files_needed_to_get_replacements_text/replacements_list_ruby_format.txt'
+file_path4 = './files_needed_to_get_replacements_text/replacements_list_ruby_html_format.txt'
 
 # ファイルを読み込む
 with open(file_path4, "rb") as file:
