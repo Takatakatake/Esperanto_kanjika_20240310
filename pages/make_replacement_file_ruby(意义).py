@@ -325,17 +325,11 @@ if uploaded_file is not None:
         st.download_button(
         label="Download replacements_list_html_format.txt",
         data=download_data,
-        file_name="replacements_list_html_format.txt",
+        file_name="replacements_list_ruby_html_format.txt",
         mime='text/plain')
     elif format_type == 'Parentheses Format':
         st.download_button(
-        label="Download replacements_list_parentheses_format.txt",
+        label="Download replacements_list_ruby_parentheses_format.txt",
         data=download_data,
         file_name="replacements_list_parentheses_format.txt",
-        mime='text/plain')
-    elif format_type == 'Only Hanzi':
-        st.download_button(
-        label="Download replacements_list_onlyhanzi_format.txt",
-        data=download_data,
-        file_name="replacements_list_onlyhanzi_format.txt",
         mime='text/plain')
