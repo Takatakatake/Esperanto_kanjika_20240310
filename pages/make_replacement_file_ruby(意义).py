@@ -13,7 +13,7 @@ with open(file_path, "rb") as file:
     btn = st.download_button(
             label="下载示例CSV文件1(Ruby形式)",
             data=file,
-            file_name="sample_file.csv",
+            file_name="sample_file_ruby.csv",
             mime="text/csv"
         )
 
@@ -323,7 +323,7 @@ if uploaded_file is not None:
 
     if format_type == 'HTML Format':
         st.download_button(
-        label="Download replacements_list_html_format.txt",
+        label="Download replacements_list_ruby_html_format.txt",
         data=download_data,
         file_name="replacements_list_ruby_html_format.txt",
         mime='text/plain')
@@ -331,5 +331,5 @@ if uploaded_file is not None:
         st.download_button(
         label="Download replacements_list_ruby_parentheses_format.txt",
         data=download_data,
-        file_name="replacements_list_parentheses_format.txt",
+        file_name="replacements_list_ruby_parentheses_format.txt",
         mime='text/plain')
