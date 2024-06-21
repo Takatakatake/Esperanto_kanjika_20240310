@@ -72,7 +72,7 @@ if uploaded_file is not None:
     with open("./files_needed_to_get_replacements_text/检查世界语所有单词的结尾是否被正确切除(result).txt", "r", encoding='utf-8') as file:##世界语全部单词_大约44100个(原pejvo.txt)をここまで成形したものから使う。
         for line in file:
             # 改行文字を除去し、カンマで分割
-            parts = line.strip().split(',')
+            parts = line.rstrip().split(',')##lstripはしない
             # 分割されたデータが2つの要素を持つことを確認
             if len(parts) >= 2:
                 result.append((parts[0], parts[1]))
@@ -85,7 +85,7 @@ if uploaded_file is not None:
     ##ただし、その完璧な漢字置換のためにはあらかじめ"世界语全部单词_大约44100个(原pejvo.txt).txt"から"从世界语全部单词_大约44100个(原pejvo.txt).txt中提取并输出世界语所有词根_大约11360个.txt_带中文日文注释.ipynb"を用いてエスペラントの全語根を抽出しておく必要がある。
 
     replacements_dict={}##一旦辞書型を使う。(後で内容(value)を更新するため)
-    with open("./files_needed_to_get_replacements_text/世界语所有词根_大约11360个.txt", 'r', encoding='utf-8') as file:
+    with open("./files_needed_to_get_replacements_text/世界语所有词根_大约11222个_20240621.txt", 'r', encoding='utf-8') as file:
         ##"世界语所有词根_大约11360个.txt"は"世界语全部单词_大约44100个(原pejvo.txt).txt"から"从世界语全部单词_大约44100个(原pejvo.txt).txt中提取并输出世界语所有词根_大约11360个.txt_带中文日文注释.ipynb"を用いて抽出したエスペラントの全語根である。
         roots = file.readlines()
         for root in roots:
@@ -158,39 +158,6 @@ if uploaded_file is not None:
                 else:
                     SS[j[0]]=[safe_replace(j[0], replacements),j[1]]
 
-    #上の作業で作成した辞書型リスト(SS)の最初から20個分を表示
-    # for key, value in dict(list(SS.items())[:20]).items():
-    #     print(f"{key}: {value}")
-    # スラッシュを取り除いたキーでデータを整理するための辞書
-    normalized_keys = {}
-    # 各キーからスラッシュを取り除き、既存のキーとして整理
-    for old, value in SS.items():
-        # スラッシュを取り除く
-        normalized_key = old.replace('/', '')
-        # 辞書に追加
-        if normalized_key not in normalized_keys:
-            normalized_keys[normalized_key] = []
-        normalized_keys[normalized_key].append((old, value))
-    # 各語根ごとに最長のキーを保持する辞書
-    max_length_keys = {}
-
-    # スラッシュを取り除いた語根をキーとして、最長のキーと値を保存
-    for old, value in SS.items():
-        # スラッシュを取り除く
-        normalized_key = old.replace('/', '')
-        # 辞書にこの語根が存在するか、存在する場合は現在のキーと比較
-        if normalized_key not in max_length_keys or len(max_length_keys[normalized_key][0]) < len(old):
-            max_length_keys[normalized_key] = (old, value)
-    # 最終的な辞書を作成
-    SS = {k: v for _, (k, v) in max_length_keys.items()}
-    ##更改替换方式(关于如何更改汉字转换,请编辑第一个csv文件)  (置換の仕方の変更(漢字変換の仕方の変更については最初のcsvファイルを編集する))
-    # never_used_as_roots_only=[" vin "," lin "," min "," amas "]
-    # for i in never_used_as_roots_only:
-    #     SS[i]=[i,"無詞"]
-
-    ## SS→QQ  ("'単語の語尾だけをカットした、完全に語根分解された状態の全単語リスト'(result)を漢字置換し終えたリスト"(SS)を最終的な漢字置換リストに成形していく。)
-    ##SSの'置換対象の単語'、'漢字置換後の単語'から"/"を抜く(html形式にしたい場合、"</rt></ruby>"は"/"を含むので要注意！)。
-    ##新たに置換優先順位を表す数字を追加し(漢字化する単語は'文字数×10000'、漢字化しない単語は'文字数×10000-2500')、辞書式配列QQとして保存。
 
     QQ={}
     for i,j in SS.items():##(iが置換対象の単語、j[0]が漢字置換後の単語、j[1]が品詞。)
@@ -241,17 +208,54 @@ if uploaded_file is not None:
     ##例えば、"置換対象の単語に接頭辞、接尾辞を追加し、単語の文字数を増やし、置換の優先順位を上げたものを、置換対象の単語として新たに追加する。"などが、置換精度を上げる方策として考えられる。
     ##しかし、いろいろ試した結果、動詞に対してのみ活用語尾を追加し、置換対象の単語の文字数を増やす(置換の優先順位を上げる。)のが、ベストに近いことがわかった。
 
-    ## SS→QQ→RR  ("'単語の語尾だけをカットした、完全に語根分解された状態の全単語リスト'(result)を漢字置換し終えたリスト"(SS)を最終的な漢字置換リストに成形していく。)
     RR={}
+    # 辞書をコピーする
+    QQ_copy = QQ.copy()
+    for i,j in QQ_copy.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
+        if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo 固有名詞対策  意味ふりがなのときは再検討
+            for k1,k2 in noun_prefix_2l.items():
+                if not k1+i in QQ_copy:
+                    RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
+            for k1,k2 in noun_suffix_2l.items():##"obl","on","op"現在はなし
+                if not i+k1 in QQ_copy:
+                    RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
+            for k in ["o"]:
+                if not i+k in QQ_copy:
+                    RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+            QQ.pop(i, None)
+
     for i,j in QQ.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
         # if len(i)<=2 and i==j[0]:##2文字以下の語根で漢字化されないものは削除 もしくは2文字以下の語根すべてを削除するのも有りかもしれない。
-        if len(i)==2 and ("動詞"  not in j[1]):
+        if len(i)<=2:##1文字は存在しないはずではある。
             ##基本的に非動詞の2文字の語根単体を以て漢字置換することはない。　ただし、世界语全部单词_大约44100个(原pejvo.txt).txtに最初から含まれている2文字の語根は既に漢字化されており、実際の漢字置換にも反映されることになる。
             ##2文字の語根でも、動詞については活用語尾を追加することで、自動的に+2文字以上できるので追加した。
+            if "名詞" in j[1]:
+                for k in ["o","on",'oj','ojn']:
+                    if not i+k in QQ:
+                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+            if "形容詞" in j[1]:
+                for k in ["a","aj","ajn",'an']:
+                    if not i+k in QQ:
+                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+            if "副詞" in j[1]:
+                for k in ["e",'en']:
+                    if not i+k in QQ:
+                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+            if "動詞" in j[1]:
+                for k1,k2 in verb_prefix_2l.items():
+                    if not k1+i in QQ:
+                        RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]
+                for k1,k2 in verb_suffix_2l.items():
+                    if not i+k1 in QQ:
+                        RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
+                for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    if not i+k in QQ:
+                        RR[i+k]=[j[0]+k,j[2]+2*10000-5000]
             continue
+
         else:
             RR[i]=[j[0],j[2]]##品詞情報はここで用いるためにあった。以後は不要なので省いていく。
-            if "名詞" in j[1] and (len(i)<=6) :
+            if "名詞" in j[1] and (len(i)<=6) :##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
                 for k1,k2 in noun_prefix_2l.items():
                     if not k1+i in QQ:
                         RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
@@ -292,17 +296,43 @@ if uploaded_file is not None:
                     for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+2*10000-5000]
-            if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo
-                RR.pop(i, None)
+            # if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo 固有名詞対策  意味ふりがなのときは再検討
+            #     RR.pop(i, None)  最初に消すべきと判断
+                    
+    ##in QQで良かったっけ？ →　辞書ではキーの完全一致が必要なため、部分的な一致では True を得ることはできないので大丈夫。
 
 
     ##RRの編集(主に置換の優先順位の変更) ここでも置換の仕方の変更ができないことはないが、品詞の種類に応じて接尾辞や接頭辞を追加するところをスキップすることになってしまう。
-    never_used_as_roots_only=["vin","lin","min",'sin']
+    # def conversion_format(hanzi,word):##変換形式を決める。
+    #     return '<ruby>{}<rt>{}</rt></ruby>'.format(hanzi,word)
+
+    never_used_as_roots_only=["vin","lin","sin","min"]
     for i in never_used_as_roots_only:
         RR[i]=[i,len(i)*10000+2500]##これらについては数字の大きさはそこまで重要ではない
+    # QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-2500]##漢字化しない単語は優先順位を下げる
+    # conversion_format(hanzi,word)
 
-    RR['amas']=['<ruby>爱<rt>am</rt></ruby>as',len('amas')*10000+2500]
-    RR['farigx'][1]=len('farigx')*10000+27500
+
+
+
+
+    RR['amas']=['<ruby>爱<rt>am</rt></ruby>as',len('amas')*10000+2500]##漢字化しない語根単体については上記で、うまく処理できているはずだが、amasoは群oと漢字化するので。
+    RR['farigx'][1]=len('farigx')*10000+27500##優先順位だけ変更
+
+    x='mondo/n'
+    RR[x.replace('/', '')]=[safe_replace(x,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len(x.replace('/', ''))*10000+2500]
+
+
+    ##以下は完全手作業
+    RR['dat/um/i'.replace('/', '')]=[safe_replace('dat/um/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/i'.replace('/', ''))*10000+2500]
+    RR['dat/um/u'.replace('/', '')]=[safe_replace('dat/um/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u'.replace('/', ''))*10000+2500]
+    RR['dat/um/u!'.replace('/', '')]=[safe_replace('dat/um/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u!'.replace('/', ''))*10000+2500]
+    #dat/um/u  dat/um/u!
+    RR['tra/met/i'.replace('/', '')]=[safe_replace('tra/met/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/i'.replace('/', ''))*10000+2500]
+    RR['tra/met/u'.replace('/', '')]=[safe_replace('tra/met/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u'.replace('/', ''))*10000+2500]
+    RR['tra/met/u!'.replace('/', '')]=[safe_replace('tra/met/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u!'.replace('/', ''))*10000+2500]
+
+    # RR['trametu!']=['<ruby>通<rt>tra</rt></ruby><ruby>置<rt>met</rt></ruby>u!',len('trametu!')*10000+2500]
 
     TT=[]
     for old,new in  RR.items():
@@ -322,7 +352,10 @@ if uploaded_file is not None:
     for old,new,place_holder in replacements:
         replacements2.append((old,new,place_holder))
         replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
-        replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
+        if old[0]==' ':
+            replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + new[1].upper() + new[2:],place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+        else:
+            replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
 
     #"replacements2"リストの内容を確認
     with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:
