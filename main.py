@@ -32,6 +32,43 @@ def safe_replace(text, replacements):
         text = text.replace(placeholder, new)
     return text
 
+import re
+def find_strings_in_text(text):
+    # 正規表現パターンを定義
+    pattern = re.compile(r'%%(.{1,20}?)%%')
+    matches = []
+    used_indices = set()
+
+    # 正規表現のマッチを見つける
+    for match in pattern.finditer(text):
+        start, end = match.span()
+        # 重複する%%を避けるためにインデックスをチェック
+        if start not in used_indices and end-2 not in used_indices:  # end-2 because of double %%
+            matches.append(match.group(1))
+            # インデックスを使用済みセットに追加
+            used_indices.update(range(start, end))
+    return matches
+def load_placeholders(filename):
+    with open(filename, 'r') as file:
+        placeholders = [line.strip() for line in file if line.strip()]
+    return placeholders
+def create_replacements(text, placeholders):
+    # テキストから%%で囲まれた部分を抽出
+    matches = find_strings_in_text(text)
+    replacements_list_for_intact_parts = []
+    # プレースホルダーとマッチを対応させる
+    for i, match in enumerate(matches):
+        if i < len(placeholders):
+            replacements_list_for_intact_parts.append([f"%%{match}%%", placeholders[i]])
+        else:
+            break  # プレースホルダーが足りなくなった場合は終了
+    return replacements_list_for_intact_parts
+
+# プレースホルダーファイルから読み込む
+placeholders = load_placeholders('./files_needed_to_get_replacements_text/No.1000_9999.txt')
+
+
+
 st.title("世界语汉字化")
 st.caption('这是一个将世界语文本转换成汉字符号的网络应用程序。')
 
@@ -100,7 +137,7 @@ uploaded_file = st.file_uploader("上传你的'replacements_list_<html,parenthes
 if uploaded_file is not None:
     replacements3 = []
     for line in uploaded_file:
-        decoded_line = line.decode('utf-8').strip()
+        decoded_line = line.decode('utf-8').rstrip()##strip()では駄目
         parts = decoded_line.split(',')
         if len(parts) == 3:
             replacements3.append((parts[0], parts[1], parts[2]))
@@ -108,14 +145,14 @@ else:
     replacements3 = []
     with open("replacements_list_html_format.txt", 'r', encoding='utf-8') as file:
         for line in file:
-            line = line.strip()
+            line = line.rstrip()##strip()では駄目
+        parts = decoded_line.split(',')
             j = line.split(',')
             if len(j) == 3:
                 old, new, place_holder = j[0], j[1], j[2]
                 replacements3.append((old, new, place_holder))
 
-text = ""
-
+text3=""
 with st.form(key='profile_form'):
     letter_type = st.radio('输出字符格式', ('上标字符', 'x形式', '^形式'))
     sentence = st.text_area('世界语句子')
@@ -124,15 +161,22 @@ with st.form(key='profile_form'):
     cancel_btn = st.form_submit_button('取消')
     if submit_btn:
         replaced_text = replace_esperanto_chars(sentence, esperanto_to_x)
-        text = safe_replace(replaced_text, replacements3)
-        if letter_type == '字上符':
-            text = replace_esperanto_chars(text, x_to_jijofu)
-        elif letter_type == '^形式':
-            text = replace_esperanto_chars(text, x_to_hat)
-        st.text_area("转换后的文本预览", text, height=300)
 
-if text:
-    to_download = io.BytesIO(text.encode('utf-8'))
+        replacements_list_for_intact_parts = create_replacements(replaced_text, placeholders)
+        sorted_replacements_list_for_intact_parts = sorted(replacements_list_for_intact_parts, key=lambda x: len(x[0]), reverse=True)
+        for original, place_holder_ in sorted_replacements_list_for_intact_parts:
+            replaced_text = replaced_text.replace(original, place_holder_)
+        text3 = safe_replace(replaced_text, replacements3)
+        for original, place_holder_ in sorted_replacements_list_for_intact_parts:
+            text3 = text3.replace(place_holder_, original.replace("%%",""))
+        if letter_type == '字上符':
+            text3 = replace_esperanto_chars(text3, x_to_jijofu)
+        elif letter_type == '^形式':
+            text3 = replace_esperanto_chars(text3, x_to_hat)
+        st.text_area("转换后的文本预览", text3, height=300)
+
+if text3:
+    to_download = io.BytesIO(text3.encode('utf-8'))
     to_download.seek(0)
     st.download_button(
         label="下载文本",
