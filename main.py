@@ -146,7 +146,6 @@ else:
     with open("replacements_list_html_format.txt", 'r', encoding='utf-8') as file:
         for line in file:
             line = line.rstrip()##strip()では駄目
-        parts = decoded_line.split(',')
             j = line.split(',')
             if len(j) == 3:
                 old, new, place_holder = j[0], j[1], j[2]
