@@ -35,7 +35,7 @@ def safe_replace(text, replacements):
 import re
 def find_strings_in_text(text):
     # 正規表現パターンを定義
-    pattern = re.compile(r'%%(.{1,20}?)%%')
+    pattern = re.compile(r'%%(.{1,50}?)%%')
     matches = []
     used_indices = set()
 
