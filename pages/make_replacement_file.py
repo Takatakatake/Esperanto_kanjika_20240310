@@ -232,15 +232,15 @@ if uploaded_file is not None:
             if "名詞" in j[1]:
                 for k in ["o","on",'oj','ojn']:
                     if not i+k in QQ:
-                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "形容詞" in j[1]:
                 for k in ["a","aj","ajn",'an']:
                     if not i+k in QQ:
-                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "副詞" in j[1]:
                 for k in ["e",'en']:
                     if not i+k in QQ:
-                        RR[' '+i+k+' ']=[' '+j[0]+k+' ',j[2]+len(k)*10000-2000]
+                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "動詞" in j[1]:
                 for k1,k2 in verb_prefix_2l.items():
                     if not k1+i in QQ:
@@ -265,7 +265,7 @@ if uploaded_file is not None:
                 for k in ["o"]:
                     if not i+k in QQ:
                         RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
-            if j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
+            if j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
                 if "形容詞" in j[1]:
                     for k1,k2 in adj_prefix_2l.items():
                         if not k1+i in QQ:
