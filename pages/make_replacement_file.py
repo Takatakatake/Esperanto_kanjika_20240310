@@ -7,7 +7,7 @@ import re
 
 
 # サンプルファイルのパス
-file_path = './files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根.csv'
+file_path = './files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根＿生成AI_upload用.csv'
 # ファイルを読み込む
 with open(file_path, "rb") as file:
     btn = st.download_button(
@@ -64,7 +64,7 @@ uploaded_file = st.file_uploader("上传你的CSV文件", type=['csv'])
 if uploaded_file is not None:
     # Streamlitの環境でファイルを読み込むために必要な変更
     dataframe = pd.read_csv(uploaded_file)
-    dataframe.to_csv("./files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根.csv", index=False)
+    dataframe.to_csv("./files_needed_to_get_replacements_text/世界语词根列表＿user.csv", index=False)
 
 
     result = []
@@ -97,7 +97,7 @@ if uploaded_file is not None:
     ##上の作業に引き続き、"'単語の語尾だけをカットした、完全に語根分解された状態の全単語リスト'(result)を漢字置換するための、漢字置換リスト"を作成していく。　
     ##ここでは自分で作成したエスペラント語根の漢字化リストを反映させる。
 
-    input_file="./files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根.csv"
+    input_file="./files_needed_to_get_replacements_text/世界语词根列表＿user.csv"
     # input_file="世界语汉字表格_20240312.csv"
     with open(input_file, 'r', encoding='utf-8') as file:
         for line in file:
@@ -168,37 +168,9 @@ if uploaded_file is not None:
 
 
     ### 基本的には動詞に対してのみ活用語尾を追加し、置換対象の単語の文字数を増やす(置換の優先順位を上げる。)
-    noun_prefix_2l={}
-    noun_suffix_2l={}
-    adj_prefix_2l={}
-    adj_suffix_2l={}
-    adv_prefix_2l={}
-    adv_suffix_2l={}
-    verb_prefix_2l={}
-    verb_suffix_2l={'as':'as', 'is':'is', 'os':'os', 'us':'us','at':'at','it':'it','ot':'ot', 'ad':'ad','igx':'igx','ant':'ant','int':'int','ont':'ont'}
-    ##接頭辞接尾時の追加については、主に動詞が対象である。
 
-    noun_prefix_2l_2={}
-    for d1,d2 in noun_prefix_2l.items():
-        noun_prefix_2l_2[d1]=safe_replace(d2, replacements)
-    noun_suffix_2l_2={}
-    for d1,d2 in noun_suffix_2l.items():
-        noun_suffix_2l_2[d1]=safe_replace(d2, replacements)
-    adj_prefix_2l_2={}
-    for d1,d2 in adj_prefix_2l.items():
-        adj_prefix_2l_2[d1]=safe_replace(d2, replacements)
-    adj_suffix_2l_2={}
-    for d1,d2 in adj_suffix_2l.items():
-        adj_suffix_2l_2[d1]=safe_replace(d2, replacements)
-    adv_prefix_2l_2={}
-    for d1,d2 in adv_prefix_2l.items():
-        adv_prefix_2l_2[d1]=safe_replace(d2, replacements)
-    adv_suffix_2l_2={}
-    for d1,d2 in adv_suffix_2l.items():
-        adv_suffix_2l_2[d1]=safe_replace(d2, replacements)
-    verb_prefix_2l_2={}
-    for d1,d2 in verb_prefix_2l.items():
-        verb_prefix_2l_2[d1]=safe_replace(d2, replacements)
+    verb_suffix_2l={'as':'as', 'is':'is', 'os':'os', 'us':'us','at':'at','it':'it','ot':'ot', 'ad':'ad','igx':'igx','ig':'ig','ant':'ant','int':'int','ont':'ont'}
+    ##接頭辞接尾時の追加については、主に動詞が対象である。
     verb_suffix_2l_2={}
     for d1,d2 in verb_suffix_2l.items():
         verb_suffix_2l_2[d1]=safe_replace(d2, replacements)
@@ -212,29 +184,22 @@ if uploaded_file is not None:
     # 辞書をコピーする
     QQ_copy = QQ.copy()
     for i,j in QQ_copy.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
-        if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo 固有名詞対策  意味ふりがなのときは再検討
-            for k1,k2 in noun_prefix_2l.items():
-                if not k1+i in QQ_copy:
-                    RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
-            for k1,k2 in noun_suffix_2l.items():##"obl","on","op"現在はなし
-                if not i+k1 in QQ_copy:
-                    RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
+        if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo,aviso,malm,abes 固有名詞対策  意味ふりがなのときは再検討
             for k in ["o"]:
                 if not i+k in QQ_copy:
-                    RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+                    RR[i+k]=[j[0]+k,j[2]+len(k)*10000-6500]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
             QQ.pop(i, None)
 
     for i,j in QQ.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
-        # if len(i)<=2 and i==j[0]:##2文字以下の語根で漢字化されないものは削除 もしくは2文字以下の語根すべてを削除するのも有りかもしれない。
-        if len(i)<=2:##1文字は存在しないはずではある。
+        if j[2]==20000:##2文字で漢字化するやつ##len(i)<=2:#1文字は存在しないはずではある。
             ##基本的に非動詞の2文字の語根単体を以て漢字置換することはない。　ただし、世界语全部单词_大约44100个(原pejvo.txt).txtに最初から含まれている2文字の語根は既に漢字化されており、実際の漢字置換にも反映されることになる。
             ##2文字の語根でも、動詞については活用語尾を追加することで、自動的に+2文字以上できるので追加した。
             if "名詞" in j[1]:
-                for k in ["o","on",'oj','ojn']:
+                for k in ["o","on",'oj']:##"ojn"は不要か
                     if not i+k in QQ:
                         RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "形容詞" in j[1]:
-                for k in ["a","aj","ajn",'an']:
+                for k in ["a","aj",'an']:##"ajn"は不要か
                     if not i+k in QQ:
                         RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "副詞" in j[1]:
@@ -242,60 +207,56 @@ if uploaded_file is not None:
                     if not i+k in QQ:
                         RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
             if "動詞" in j[1]:
-                for k1,k2 in verb_prefix_2l.items():
-                    if not k1+i in QQ:
-                        RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]
-                for k1,k2 in verb_suffix_2l.items():
+                for k1,k2 in verb_suffix_2l_2.items():
                     if not i+k1 in QQ:
-                        RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
+                        RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-4000]
                 for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                     if not i+k in QQ:
-                        RR[i+k]=[j[0]+k,j[2]+2*10000-5000]
+                        RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]
             continue
 
         else:
             RR[i]=[j[0],j[2]]##品詞情報はここで用いるためにあった。以後は不要なので省いていく。
-            if "名詞" in j[1] and (len(i)<=6) :##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
-                for k1,k2 in noun_prefix_2l.items():
-                    if not k1+i in QQ:
-                        RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
-                for k1,k2 in noun_suffix_2l.items():##"obl","on","op",
-                    if not i+k1 in QQ:
-                        RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]#既存でないものは優先順位を大きく下げる
-                for k in ["o"]:
-                    if not i+k in QQ:
-                        RR[i+k]=[j[0]+k,j[2]+1*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
-            if j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
+            if j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
+                if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
+                    for k in ["o","oj"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
-                    for k1,k2 in adj_prefix_2l.items():
-                        if not k1+i in QQ:
-                            RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]
-                    for k1,k2 in adj_suffix_2l.items():
-                        if not i+k1 in QQ:
-                            RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
-                    for k in ["a"]:
+                    for k in ["a","aj",'an']:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+1*10000-5000] 
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000] 
                 if "副詞" in j[1]:
-                    for k1,k2 in adv_prefix_2l.items():
-                        if not k1+i in QQ:
-                            RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]
-                    for k1,k2 in adv_suffix_2l.items():
-                        if not i+k1 in QQ:
-                            RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
-                    for k in ["e"]:
+                    for k in ["e",'en']:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+1*10000-5000]  
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]  
                 if "動詞" in j[1]:
-                    for k1,k2 in verb_prefix_2l.items():
-                        if not k1+i in QQ:
-                            RR[k1+i]=[k2+j[0],j[2]+2*10000-5000]
-                    for k1,k2 in verb_suffix_2l.items():
+                    for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
-                            RR[i+k1]=[j[0]+k2,j[2]+2*10000-5000]
+                            RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-4000]
                     for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+2*10000-5000]
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]
+            elif len(i)>=3 and len(i)<=6:##3文字から6文字の語根で漢字化しないもの　　結局2文字の語根で漢字化しないものについては、完全に除外している。
+                if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
+                    for k in ["o"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+                if "形容詞" in j[1]:
+                    for k in ["a"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000] 
+                if "副詞" in j[1]:
+                    for k in ["e"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]  
+                if "動詞" in j[1]:
+                    for k1,k2 in verb_suffix_2l_2.items():
+                        if not i+k1 in QQ:
+                            RR[i+k1]=[j[0]+k2,j[2]+(len(k1)-1)*10000-5000]
+                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+(len(k)-1)*10000-5000]
             # if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo 固有名詞対策  意味ふりがなのときは再検討
             #     RR.pop(i, None)  最初に消すべきと判断
                     
@@ -305,22 +266,28 @@ if uploaded_file is not None:
     ##RRの編集(主に置換の優先順位の変更) ここでも置換の仕方の変更ができないことはないが、品詞の種類に応じて接尾辞や接頭辞を追加するところをスキップすることになってしまう。
     # def conversion_format(hanzi,word):##変換形式を決める。
     #     return '<ruby>{}<rt>{}</rt></ruby>'.format(hanzi,word)
-
     never_used_as_roots_only=["vin","lin","sin","min"]
     for i in never_used_as_roots_only:
         RR[i]=[i,len(i)*10000+2500]##これらについては数字の大きさはそこまで重要ではない
     # QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-2500]##漢字化しない単語は優先順位を下げる
-    # conversion_format(hanzi,word)
+    # conversion_format(hanzi, word, format_type)
 
 
-
-
-
-    RR['amas']=['<ruby>爱<rt>am</rt></ruby>as',len('amas')*10000+2500]##漢字化しない語根単体については上記で、うまく処理できているはずだが、amasoは群oと漢字化するので。
+    # RR['amas']=['<ruby>爱<rt>am</rt></ruby>as',len('amas')*10000+2500]##漢字化しない語根単体については上記で、うまく処理できているはずだが、amasoは群oと漢字化するので。
     RR['farigx'][1]=len('farigx')*10000+27500##優先順位だけ変更
 
     x='mondo/n'
-    RR[x.replace('/', '')]=[safe_replace(x,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len(x.replace('/', ''))*10000+2500]
+    RR[x.replace('/', '')]=[safe_replace(x,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len(x.replace('/', ''))*10000+2000]
+
+    ##正しく語根分解・漢字変換してほしいやつ
+    y1=[['gvid/ant/o',82000],['am/as',42000]]
+    for i in y1:
+        RR[i[0].replace('/', '')]=[safe_replace(i[0],replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), i[1]]
+
+    ##漢字変換してほしくないやつ
+    y2=[['lian',42000]]
+    for j in y2:
+        RR[j[0].replace('/', '')]=[conversion_format("lian","lian", format_type), j[1]]
 
 
     ##以下は完全手作業
