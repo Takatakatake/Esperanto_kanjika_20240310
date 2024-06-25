@@ -155,7 +155,8 @@ text3=""
 with st.form(key='profile_form'):
     letter_type = st.radio('输出字符格式', ('上标字符', 'x形式', '^形式'))
     sentence = st.text_area('世界语句子')
-
+    st.markdown("""通过在前后加上“%%”（形式为“%%<50个字符以内的字符串>%%”），可以保持被“%%”包围的部分不转换为汉字，保留原样。""")
+    st.markdown("""“%%”で前後を囲むことによって(“%%<50字以内の文字列>%%”の形式)、“%%”で囲まれた部分を漢字化せずに、元のままに保つことができます。""")
     submit_btn = st.form_submit_button('发送')
     cancel_btn = st.form_submit_button('取消')
     if submit_btn:
