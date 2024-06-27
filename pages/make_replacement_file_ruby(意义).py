@@ -181,9 +181,9 @@ if uploaded_file is not None:
     QQ_copy = QQ.copy()
     for i,j in QQ_copy.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
         if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo,aviso,malm,abes 固有名詞対策  意味ふりがなのときは再検討
-            for k in ["o"]:
-                if not i+k in QQ_copy:
-                    RR[i+k]=[j[0]+k,j[2]+len(k)*10000-6500]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+            for k in ["o"]:##4 ['buro', 'haloo', 'tauxro', 'unesko']
+                if not i+k in QQ_copy:##if not ありのままで良い。
+                    RR[i+k]=[j[0]+k,j[2]+len(k)*10000-2000]#実質5000 #既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
             QQ.pop(i, None)
 
     for i,j in QQ.items():##j[0]:置換後の文字列　j[1]:品詞 j[2]:置換優先順位
@@ -193,22 +193,22 @@ if uploaded_file is not None:
             if "名詞" in j[1]:
                 for k in ["o","on",'oj']:##"ojn"は不要か
                     if not i+k in QQ:
-                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
+                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "形容詞" in j[1]:
-                for k in ["a","aj",'an']:##"ajn"は不要か
-                    if not i+k in QQ:
-                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
+                for k in ["a","aj",'an']:##"ajn"は不要か  ##sia pian
+                    # if not i+k in QQ:##if not なしのほうが良い
+                    RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "副詞" in j[1]:
-                for k in ["e",'en']:
-                    if not i+k in QQ:
-                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-6000]
+                for k in ["e",'en']:##ege   エーゲ海を意味するegeoを元の辞書に追加
+                    # if not i+k in QQ:##if not なしのほうが良い
+                    RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "動詞" in j[1]:
                 for k1,k2 in verb_suffix_2l_2.items():
                     if not i+k1 in QQ:
-                        RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-4000]
-                for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                        RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-3000]
+                for k in ["u ","u!","u?","u.","i ","i.","i?"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                     if not i+k in QQ:
-                        RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]
+                        RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
             continue
 
         else:
@@ -217,35 +217,57 @@ if uploaded_file is not None:
                 if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
                     for k in ["o","oj"]:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
                     for k in ["a","aj",'an']:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000] 
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                 if "副詞" in j[1]:
                     for k in ["e",'en']:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]  
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                 if "動詞" in j[1]:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
-                            RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-4000]
-                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                            RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-3000]
+                    for k in ["u ","u!","u?","u.","i ","i.","i?"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-4000]
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
+                            
             elif len(i)>=3 and len(i)<=6:##3文字から6文字の語根で漢字化しないもの　　結局2文字の語根で漢字化しないものについては、完全に除外している。
                 if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
                     for k in ["o"]:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#実質3000#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
                     for k in ["a"]:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000] 
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
                 if "副詞" in j[1]:
                     for k in ["e"]:
                         if not i+k in QQ:
-                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]  
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
+                if "動詞" in j[1]:
+                    for k1,k2 in verb_suffix_2l_2.items():
+                        if not i+k1 in QQ:
+                            RR[i+k1]=[j[0]+k2,j[2]+(len(k1)-1)*10000-5000]
+                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+(len(k)-1)*10000-5000]
+            
+            elif  i in ["regulus","kolorad","satirus","spirant","traktat","akirant","ordinat"]:#7文字以上の例外処理
+                if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
+                    for k in ["o"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#実質3000#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
+                if "形容詞" in j[1]:
+                    for k in ["a"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
+                if "副詞" in j[1]:
+                    for k in ["e"]:
+                        if not i+k in QQ:
+                            RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
                 if "動詞" in j[1]:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
@@ -254,20 +276,12 @@ if uploaded_file is not None:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+(len(k)-1)*10000-5000]
 
-            # if (j[1] == "名詞") and (len(i)<=6) and not(j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000 or j[2]==20000):##名詞だけで、6文字以下で、漢字化しないやつ  ##置換ミスを防ぐための条件(20240614) altajo 固有名詞対策  意味ふりがなのときは再検討
-            #     RR.pop(i, None)  最初に消すべきと判断
-                    
-    ##in QQで良かったっけ？ →　辞書ではキーの完全一致が必要なため、部分的な一致では True を得ることはできないので大丈夫。
-
-
     ##RRの編集(主に置換の優先順位の変更) ここでも置換の仕方の変更ができないことはないが、品詞の種類に応じて接尾辞や接頭辞を追加するところをスキップすることになってしまう。
-    # def conversion_format(hanzi,word):##変換形式を決める。
-    #     return '<ruby>{}<rt>{}</rt></ruby>'.format(hanzi,word)
 
     never_used_as_roots_only=["vin","lin","sin","min"]
     for i in never_used_as_roots_only:
-        RR[i]=[i,len(i)*10000+2500]##これらについては数字の大きさはそこまで重要ではない
-    # QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-2500]##漢字化しない単語は優先順位を下げる
+        RR[i]=[i,len(i)*10000+3000]##これらについては数字の大きさはそこまで重要ではない
+    # QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-3000]##漢字化しない単語は優先順位を下げる
     # conversion_format(hanzi, word, format_type)
 
 
@@ -275,28 +289,35 @@ if uploaded_file is not None:
     RR['farigx'][1]=len('farigx')*10000+27500##優先順位だけ変更
 
     x='mondo/n'
-    RR[x.replace('/', '')]=[safe_replace(x,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len(x.replace('/', ''))*10000+2000]
+    RR[x.replace('/', '')]=[safe_replace(x,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len(x.replace('/', ''))*10000+3000]
 
-    ##正しく語根分解・漢字変換してほしいやつ
-    y1=[['gvid/ant/o',82000],['am/as',42000]]
+    ##正しく語根分解・漢字変換してほしいやつ  anとenは念の為a/n/,e/n/としておく。ant,int,ontは大丈夫  空白を使うのは最終手段。  ","は絶対に使っては駄目
+    y1=[['gvid/ant/o',73000],['am/as',33000],["kor/a/n",43000],["ink/a",33000],["post/e/n",53000],["per/e",33000],["fer/o",33000],["kor/e",33000],["mal/a/j",43000],["mal/e",33000],
+        ["par/a/n",33000],['sam/o',33000],['sat/a/n',33000],['sav/oj',43000],['sud/a/n',43000],['vet/o',33000],['ir/is',33000],['regul/us',63000],['akir/ant',63000],["prem/is",53000],
+        ["mark/ot",53000],["kolor/ad",63000],["lot/us",43000],["mank/is",53000],["pat/os",43000],["rem/ont",53000],["satir/us",63000],["send/at",53000],["send/ot",53000]
+        ,["spir/ant",63000],["ten/is ",53000],["trakt/at",63000],["alt/e",33000],["apog/e ",53000],["dom/e/n",4300],["kaz/e/ ",33000],["dek/a/n",43000]
+        ,["post/e/n",53000],["posten/ul",73000],["kalk/a/n ",53000],["faz/a/n ",43000],["hav/a/j",43000],["sol/e ",33000],["lam/a",33000],["nord/a/n ",63000]
+        ,["ref/oj ",53000],["ref/oj/n",53000],["akir/ant",63000],["ordin/at",63000],["form/at",53000],["kant/at",53000],["end/os",43000]
+        ,["konus ",53000],["lek/ant",53000],["leg/at",43000],["taks/us",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
     for i in y1:
         RR[i[0].replace('/', '')]=[safe_replace(i[0],replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), i[1]]
 
     ##漢字変換してほしくないやつ
-    y2=[['lian',42000]]
+    y2=[['lian',43000]]
     for j in y2:
-        RR[j[0].replace('/', '')]=[conversion_format("lian","lian", format_type), j[1]]
+        RR[j[0].replace('/', '')]=[conversion_format(j[0],j[0], format_type), j[1]]
 
 
     ##以下は完全手作業
-    RR['dat/um/i'.replace('/', '')]=[safe_replace('dat/um/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/i'.replace('/', ''))*10000+2500]
-    RR['dat/um/u'.replace('/', '')]=[safe_replace('dat/um/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u'.replace('/', ''))*10000+2500]
-    RR['dat/um/u!'.replace('/', '')]=[safe_replace('dat/um/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u!'.replace('/', ''))*10000+2500]
+    RR['dat/um/i'.replace('/', '')]=[safe_replace('dat/um/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/i'.replace('/', ''))*10000+3000]
+    RR['dat/um/u'.replace('/', '')]=[safe_replace('dat/um/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u'.replace('/', ''))*10000+3000]
+    RR['dat/um/u!'.replace('/', '')]=[safe_replace('dat/um/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('dat/um/u!'.replace('/', ''))*10000+3000]
     #dat/um/u  dat/um/u!
-    RR['tra/met/i'.replace('/', '')]=[safe_replace('tra/met/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/i'.replace('/', ''))*10000+2500]
-    RR['tra/met/u'.replace('/', '')]=[safe_replace('tra/met/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u'.replace('/', ''))*10000+2500]
-    RR['tra/met/u!'.replace('/', '')]=[safe_replace('tra/met/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u!'.replace('/', ''))*10000+2500]
-    # RR['trametu!']=['<ruby>通<rt>tra</rt></ruby><ruby>置<rt>met</rt></ruby>u!',len('trametu!')*10000+2500]
+    RR['tra/met/i'.replace('/', '')]=[safe_replace('tra/met/i',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/i'.replace('/', ''))*10000+3000]
+    RR['tra/met/u'.replace('/', '')]=[safe_replace('tra/met/u',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u'.replace('/', ''))*10000+3000]
+    RR['tra/met/u!'.replace('/', '')]=[safe_replace('tra/met/u!',replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),  len('tra/met/u!'.replace('/', ''))*10000+3000]
+
+
 
     TT=[]
     for old,new in  RR.items():
