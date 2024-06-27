@@ -10,14 +10,12 @@ sinkrociklotron
 antropomorfism
 avalokitesxvar
 euxroparlament
-galvanoplastik
 konstantinopol
 administrator
 auxtobiografi
 ekspresionism
 esperantologi
 frekvencometr
-galvanoterapi
 hejlonggxjang
 hidroaeroplan
 individualism
@@ -29,7 +27,6 @@ jekaterinburg
 kristalografi
 lihxtensxtejn
 magnetostring
-mikroorganism
 neuxrokirurgi
 nitroglicerin
 paralelepiped
@@ -37,7 +34,6 @@ perpendikular
 provincialism
 stratokumulus
 teleauxtograf
-termoelektron
 transformator
 administraci
 ahxasxverosx
@@ -76,7 +72,6 @@ kumulonimbus
 madjapradesx
 maltusianism
 merkantilism
-mikrobiologi
 monokromator
 multiplikend
 nebukadnecar
@@ -92,17 +87,13 @@ presbiterian
 propedeuxtik
 refleksologi
 refraktometr
-rektumoskopi
 retrospektiv
 spektrometri
-spektroskopi
 spiritualism
 spiritualist
 streptomicin
-termodinamik
 trigonometri
 turkmenistan
-volumenometr
 admiralitat
 aeronauxtik
 agnostikism
@@ -138,23 +129,15 @@ eksperiment
 eksponometr
 ekstemporal
 elektrometr
-elektroskop
 elektrotipi
 embriogenez
 enciklopedi
 entablement
 euxdiometri
-faringoskop
 farmakologi
 fizioterapi
 formaldehid
 francxkonte
-galvanometr
-galvanoskop
-gastrokamer
-gastroskopi
-gastrospasm
-gastrostomi
 gratifikaci
 gvadalkanal
 gvadalkivir
@@ -212,8 +195,6 @@ merkurokrom
 metempsikoz
 meteorologi
 mikelangxel
-mikrokredit
-mikrosivert
 mnemoteknik
 monokristal
 nacionalism
@@ -240,7 +221,6 @@ protuberanc
 racionalism
 racionalist
 radioterapi
-rektumoskop
 saskacxevan
 sauxrkrauxt
 sekvestraci
@@ -248,17 +228,13 @@ sentimental
 spektrograf
 spektrogram
 spektrometr
-spektroskop
 stereografi
 stereometri
-stereoskopi
 superpozici
 tagxikistan
 temperament
 terapeuxtik
 terminologi
-termoelektr
-termostatik
 tragikomedi
 trahxeotomi
 transilvani
@@ -266,8 +242,6 @@ transmutaci
 umbeliferac
 universitat
 vasxingtoni
-vathorometr
-viskozometr
 vladivostok
 zoogeografi
 abiturient
@@ -369,9 +343,6 @@ franciskan
 frontispic
 galeopitek
 gasteroste
-gastronomi
-gastroskop
-gastrotomi
 georgtauxn
 gimnosperm
 ginekologi
@@ -503,9 +474,6 @@ metastabil
 meteorolog
 metodologi
 mezopotami
-mikroamper
-mikrofarad
-mikrokanel
 milisivert
 militarism
 militarist
@@ -530,8 +498,6 @@ orkestrion
 ornitologi
 ornitorink
 ortokromat
-oscilograf
-osciloskop
 osmozometr
 osxviencim
 paleografi
@@ -564,7 +530,6 @@ poliklinik
 politeknik
 pornografi
 postpozici
-predikativ
 prerogativ
 prolegomen
 proskripci
@@ -573,7 +538,6 @@ pseuxdonim
 psikrometr
 radioaktiv
 radiografi
-radioskopi
 ranunkolac
 rapidometr
 referendum
@@ -596,11 +560,9 @@ spermatozo
 stafilokok
 stenografi
 stereofoni
-stereoskop
 stradivari
 stratosfer
 streptokok
-stroboskop
 subjunktiv
 substantiv
 superlativ
@@ -617,11 +579,7 @@ tauxtologi
 tegucigalp
 telekomand
 temperatur
-tensiometr
 teratologi
-termometri
-termonukle
-termosifon
 trajektori
 trakeotomi
 transistor
@@ -766,13 +724,11 @@ digitalin
 diminutiv
 dinamotor
 dinosauxr
-diplomati
 direktori
 direktric
 disciplin
 disenteri
 disertaci
-diskredit
 diskursiv
 dispozici
 dolcxamar
@@ -822,7 +778,6 @@ fanerogam
 farenhejt
 farmakope
 ferdinand
-fibroskop
 filadelfi
 filantrop
 firmament
@@ -841,8 +796,6 @@ ftizologi
 fundament
 galanteri
 gastornit
-gastronom
-gastropod
 genealogi
 generator
 geometred
@@ -881,8 +834,6 @@ hidrometr
 hidroplan
 hierarhxi
 hieroglif
-higrometr
-higroskop
 hindocxin
 hindukusx
 hindustan
@@ -1040,8 +991,6 @@ magnetism
 mahabarat
 mahxinaci
 majoritat
-makrokosm
-makroskop
 makulatur
 mamografi
 mancxestr
@@ -1067,11 +1016,6 @@ meteologi
 meteorism
 metrologi
 mezalianc
-mikrofilm
-mikrokosm
-mikrometr
-mikronezi
-mikroskop
 mimeograf
 mineralog
 ministeri
@@ -1245,7 +1189,6 @@ stenograf
 stenotipi
 stereofon
 stereotip
-stetoskop
 stilistik
 strasburg
 subaltern
@@ -1266,11 +1209,7 @@ telegrafi
 telematik
 telemetri
 teleologi
-termokupl
-termologi
 termometr
-termoskop
-termostat
 tesalonik
 testament
 tipografi
@@ -1287,7 +1226,6 @@ transmisi
 transvers
 trapezoid
 trebizond
-tremometr
 tridentin
 trifosfat
 trikosant
@@ -1302,7 +1240,6 @@ uzurpator
 valencien
 valparais
 vandegraf
-vapormetr
 varingjen
 vegetalin
 velington
@@ -1310,7 +1247,6 @@ velociped
 vermicxel
 vermiljon
 veterinar
-vibrometr
 vinilkosm
 vintertur
 viskonsin
@@ -1453,7 +1389,6 @@ barelief
 barkarol
 barograf
 barometr
-baroskop
 batalion
 bazilisk
 bekverel
@@ -1614,9 +1549,6 @@ enciklik
 endokard
 endokarp
 endokrin
-endoskop
-endosmoz
-endoterm
 engrauxl
 envergur
 epidauxr
@@ -1675,7 +1607,6 @@ fonetism
 fonograf
 fonogram
 fonometr
-fonoskop
 fontanel
 forfikul
 formalin
@@ -1717,7 +1648,6 @@ gigabajt
 gigaherc
 gingivit
 ginostem
-giroskop
 glicerid
 gliceril
 glicerin
@@ -1912,7 +1842,6 @@ kilovolt
 kingdaux
 kingston
 kinkonin
-kinoskop
 kisxinev
 kjongjxu
 klasifik
@@ -1934,9 +1863,7 @@ kolocint
 kolokasi
 kolokint
 kolombed
-koloradi
 kolubred
-komandit
 komandor
 komision
 kompendi
@@ -1980,7 +1907,6 @@ kosmolog
 kostarik
 kotiljon
 kovalent
-kreditor
 krescent
 kriminal
 kristofo
@@ -2028,7 +1954,6 @@ lumbalgi
 luminesk
 madrigal
 magdalen
-magnetit
 magnetiz
 magneton
 magnezit
@@ -2085,10 +2010,6 @@ metronom
 metropol
 mezozoik
 micxigan
-mikrofon
-mikrokok
-mikroond
-mikrotom
 miligram
 milimetr
 mincikad
@@ -2221,10 +2142,8 @@ periheli
 perikard
 perikarp
 perimetr
-periskop
 peristil
 peritone
-perkolat
 perlamot
 permeabl
 permeanc
@@ -2263,7 +2182,6 @@ populaci
 porcelan
 portland
 portugal
-postulat
 precipit
 predikat
 premolar
@@ -2327,7 +2245,6 @@ revelaci
 revoluci
 revolver
 rezoluci
-rezultat
 riogrand
 riverenc
 robinson
@@ -2404,7 +2321,6 @@ striknin
 strombol
 struktur
 stutgart
-sublimat
 substanc
 substitu
 substrat
@@ -2441,7 +2357,6 @@ telegraf
 telegram
 telemetr
 telepati
-teleskop
 televizi
 temporal
 teodolit
@@ -2450,14 +2365,12 @@ terabajt
 terebint
 teritori
 terminal
-termopar
 tiangxin
 tiansxan
 tiberiad
 timbuktu
 timpanit
 tipograf
-tipometr
 tiraljor
 tjangxin
 tjansxan
@@ -2494,7 +2407,6 @@ vagabond
 vagadugu
 vaginism
 vajoming
-vakumetr
 valenten
 valerian
 vankuver
@@ -2511,7 +2423,6 @@ visegrad
 vjentjan
 vladimir
 volejbal
-voltmetr
 vorcestr
 vulkaniz
 zamenhof
@@ -2948,7 +2859,6 @@ euxklid
 euxrazi
 euxropi
 euxtrof
-eventoj
 everest
 evident
 evoluci
@@ -3488,7 +3398,6 @@ mahajan
 mahomet
 majolik
 majonez
-majoran
 majtrej
 majuskl
 makadam
@@ -3723,6 +3632,8 @@ placent
 plagiat
 plantag
 plastik
+platano
+plateno
 pliocen
 plutark
 plutoni
@@ -3809,12 +3720,12 @@ ratifik
 reaktor
 recital
 redakci
-referat
 refleks
 reflekt
 refrakt
 registr
 regulus
+rektumo
 rekviem
 relativ
 rendevu
@@ -4081,7 +3992,6 @@ variete
 varsovi
 vaterlo
 vatikan
-vatmetr
 vazelin
 vegetal
 vegetar
@@ -4188,6 +4098,7 @@ alkemi
 almati
 alongx
 altair
+alteno
 altern
 alumet
 alumin
@@ -4371,7 +4282,6 @@ biskot
 bismut
 bizanc
 blazon
-blokad
 bocvan
 bodler
 bofort
@@ -4710,7 +4620,6 @@ festuk
 feticx
 fiancx
 fibrin
-fibrom
 fiktiv
 filant
 fimbri
@@ -5143,7 +5052,6 @@ kavern
 kaviar
 kavier
 kazahx
-kazein
 kazern
 kazuar
 kecxup
@@ -5299,7 +5207,6 @@ kratag
 krater
 krauxl
 kravat
-kredit
 krenel
 krepid
 kreten
@@ -5508,8 +5415,6 @@ metrik
 midvaj
 migdal
 migren
-mikrob
-mikron
 milici
 milion
 milton
@@ -5544,7 +5449,6 @@ momant
 moment
 monahx
 monark
-monato
 mongol
 monism
 monokl
@@ -5748,7 +5652,6 @@ pizang
 plafon
 planed
 plastr
-platan
 platen
 plates
 platon
@@ -6077,6 +5980,7 @@ statut
 stauxd
 stauxl
 stefan
+stereo
 steril
 steven
 stilet
@@ -6090,6 +5994,7 @@ strecx
 strigl
 strikt
 string
+strobo
 stumbl
 sublim
 subret
@@ -6182,7 +6087,6 @@ tercet
 termik
 termin
 termit
-termos
 tesali
 testik
 testud
@@ -6964,6 +6868,7 @@ gamel
 gansu
 garol
 garon
+gastr
 gauxl
 gauxs
 gavot
@@ -8148,12 +8053,14 @@ statu
 stele
 sterk
 stern
+steto
 stift
 stigm
 stilb
 stilz
 stiri
 stoik
+stomi
 stomp
 stopl
 strab
@@ -8303,6 +8210,7 @@ teras
 terci
 teren
 terez
+termo
 teror
 terur
 tetan
@@ -8848,6 +8756,7 @@ efez
 efik
 efod
 egal
+egea
 egid
 ekin
 ekip
@@ -8859,6 +8768,7 @@ eman
 emil
 emir
 enad
+endo
 engl
 envi
 epir
@@ -8951,6 +8861,7 @@ fojn
 fold
 foli
 fond
+fono
 font
 forc
 fork
@@ -9020,6 +8931,7 @@ gild
 gine
 gink
 gips
+giro
 gist
 glac
 glad
@@ -9112,6 +9024,7 @@ hero
 hiat
 hidr
 hien
+higr
 himn
 hind
 hirt
@@ -9458,6 +9371,7 @@ loar
 lobi
 lodz
 loes
+logi
 logx
 lojt
 lome
@@ -9612,6 +9526,7 @@ neri
 nerv
 ness
 nest
+nezi
 nicx
 niel
 nifo
@@ -9625,6 +9540,7 @@ nobl
 noci
 nocx
 nokt
+nomi
 nord
 nori
 norm
@@ -9727,6 +9643,7 @@ peon
 pep'
 perd
 pere
+peri
 perk
 perl
 pers
@@ -9970,6 +9887,7 @@ skun
 slav
 sled
 slip
+smoz
 smut
 snob
 snuf
@@ -10136,6 +10054,7 @@ tohu
 toki
 toks
 tomb
+tomi
 tond
 tong
 tora
@@ -10453,7 +10372,6 @@ edd
 edo
 edr
 edz
-ege
 ego
 egx
 ehx
@@ -11020,6 +10938,7 @@ tiu
 tof
 tog
 tol
+tom
 ton
 top
 tor
