@@ -162,9 +162,10 @@ if uploaded_file is not None:
     QQ={}
     for i,j in SS.items():##(iが置換対象の単語、j[0]が漢字置換後の単語、j[1]が品詞。)
         if i==j[0]:##漢字化しない単語
-            QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-2500]##漢字化しない単語は優先順位を下げる
+            QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-3000]##漢字化しない単語は優先順位を下げる
         else:
             QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000]
+
 
 
     ### 基本的には動詞に対してのみ活用語尾を追加し、置換対象の単語の文字数を増やす(置換の優先順位を上げる。)
@@ -234,7 +235,7 @@ if uploaded_file is not None:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
                             RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-3000]
-                    for k in ["u ","u!","u?","u.","i ","i.","i?"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                             
@@ -371,3 +372,5 @@ if uploaded_file is not None:
         data=download_data,
         file_name="replacements_list_onlyhanzi_format.txt",
         mime='text/plain')
+    
+    
