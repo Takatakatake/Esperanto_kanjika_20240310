@@ -35,11 +35,44 @@ with open(file_path2, "rb") as file:
 #             file_name="sample_file2.csv",
 #             mime="text/csv"
 #         )
+import unicodedata
+
+def get_character_width(char):
+    """
+    文字の幅を取得する。
+    全角文字は2、半角文字は1を返す。
+    """
+    if unicodedata.east_asian_width(char) in 'FWA':
+        return 2
+    else:
+        return 1
+
+def get_string_width(s):
+    """
+    文字列の全体幅を取得する。
+    全角文字は2、半角文字は1として計算する。
+    """
+    return sum(get_character_width(char) for char in s)
+
+# # テスト用文字列
+# test_string = "半角abc全角あいう123"
+
+# # 文字列の幅を計算
+# width = get_string_width(test_string)
+
+# print(f"文字列の幅: {width}")
 
 
 def conversion_format(hanzi, word, format_type):
     if format_type == 'HTML Format':
-        return '<ruby>{}<rt>{}</rt></ruby>'.format(word, hanzi)
+        if get_string_width(word)/get_string_width(hanzi)<(9/25):
+            return '<ruby>{}<rt class="ruby-s_S_s">{}</rt></ruby>'.format(word, hanzi)
+        elif  get_string_width(word)/get_string_width(hanzi)<(21/40):
+            return '<ruby>{}<rt class="ruby-m_M_m">{}</rt></ruby>'.format(word, hanzi)
+        elif  get_string_width(word)/get_string_width(hanzi)<(7/8):
+            return '<ruby>{}<rt class="ruby-l_L_l">{}</rt></ruby>'.format(word, hanzi)
+        else:
+            return '<ruby>{}<rt class="ruby-x_X_x">{}</rt></ruby>'.format(word, hanzi)
     elif format_type == 'Parentheses Format':
         return '{}({})'.format(word, hanzi)
 
@@ -161,7 +194,7 @@ if uploaded_file is not None:
             QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-3000]##漢字化しない単語は優先順位を下げる
         else:
             QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000]
-
+            # '<ruby>{}<rt class="ruby-m_M_m">{}</rt></ruby>'.format(word, hanzi)
 
     ### 基本的には動詞に対してのみ活用語尾を追加し、置換対象の単語の文字数を増やす(置換の優先順位を上げる。)
 

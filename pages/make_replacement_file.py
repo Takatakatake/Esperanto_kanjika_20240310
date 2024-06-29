@@ -283,7 +283,7 @@ if uploaded_file is not None:
 
     ##RRの編集(主に置換の優先順位の変更) ここでも置換の仕方の変更ができないことはないが、品詞の種類に応じて接尾辞や接頭辞を追加するところをスキップすることになってしまう。
 
-    never_used_as_roots_only=["vin","lin","sin","min"]
+    never_used_as_roots_only=["vin","lin","sin","min","gxin"]
     for i in never_used_as_roots_only:
         RR[i]=[i,len(i)*10000+3000]##これらについては数字の大きさはそこまで重要ではない
     # QQ[i.replace('/', '')]=[j[0].replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"),j[1],len(i.replace('/', ''))*10000-3000]##漢字化しない単語は優先順位を下げる
