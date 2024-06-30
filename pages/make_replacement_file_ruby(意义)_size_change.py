@@ -27,6 +27,19 @@ with open(file_path2, "rb") as file:
             mime="text/csv"
         )
 
+def capitalize_rt_tag(match):
+    rt_start, rt_word, rt_end = match.groups()
+    return rt_start + rt_word.capitalize() + rt_end
+def capitalize_according_to_condition_htmlruby(new_text):
+    if new_text.startswith('<ruby>'):
+        # <で始まる場合、最初の<rt>タグ内の最初の文字を大文字にする
+        new_text = re.sub(r'(<ruby>)(.*?)(<rt)', capitalize_rt_tag, new_text, count=1)
+    else:
+        # <で始まらない場合、new_textの最初の文字を大文字にする
+        new_text = new_text[0].upper() + new_text[1:]
+    
+    return new_text
+
 # file_path2 = './files_needed_to_get_replacements_text/Mingeo_san_hanziization.csv' 
 # with open(file_path2, "rb") as file:
 #     btn = st.download_button(
@@ -66,13 +79,13 @@ def get_string_width(s):
 def conversion_format(hanzi, word, format_type):
     if format_type == 'HTML Format':
         if get_string_width(word)/get_string_width(hanzi)<(9/25):
-            return '<ruby>{}<rt class="ruby-s_S_s">{}</rt></ruby>'.format(word, hanzi)
+            return '<ruby>{}<rt class="ruby-S_S_S">{}</rt></ruby>'.format(word, hanzi)
         elif  get_string_width(word)/get_string_width(hanzi)<(21/40):
-            return '<ruby>{}<rt class="ruby-m_M_m">{}</rt></ruby>'.format(word, hanzi)
+            return '<ruby>{}<rt class="ruby-M_M_M">{}</rt></ruby>'.format(word, hanzi)
         elif  get_string_width(word)/get_string_width(hanzi)<(7/8):
-            return '<ruby>{}<rt class="ruby-l_L_l">{}</rt></ruby>'.format(word, hanzi)
+            return '<ruby>{}<rt class="ruby-L_L_L">{}</rt></ruby>'.format(word, hanzi)
         else:
-            return '<ruby>{}<rt class="ruby-x_X_x">{}</rt></ruby>'.format(word, hanzi)
+            return '<ruby>{}<rt class="ruby-X_X_X">{}</rt></ruby>'.format(word, hanzi)
     elif format_type == 'Parentheses Format':
         return '{}({})'.format(word, hanzi)
 
@@ -365,13 +378,22 @@ if uploaded_file is not None:
             replacements.append([pre_replacements3[kk][0],pre_replacements3[kk][1],loaded_strings[kk]])
 
     replacements2=[]
-    for old,new,place_holder in replacements:
-        replacements2.append((old,new,place_holder))
-        replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
-        if old[0]==' ':
-            replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + new[1].upper() + new[2:],place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
-        else:
-            replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
+    if format_type == 'HTML Format':
+        for old,new,place_holder in replacements:
+            replacements2.append((old,new,place_holder))
+            replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+            if old[0]==' ':
+                replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + capitalize_according_to_condition_htmlruby(new[1:]),place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+            else:
+                replacements2.append((old.capitalize(),capitalize_according_to_condition_htmlruby(new),place_holder[:-1]+'cap$'))
+    else:
+        for old,new,place_holder in replacements:
+            replacements2.append((old,new,place_holder))
+            replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+            if old[0]==' ':
+                replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + new[1].upper() + new[2:],place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+            else:
+                replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
 
     #"replacements2"リストの内容を確認
     with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:

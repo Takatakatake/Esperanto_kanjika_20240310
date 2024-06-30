@@ -6,20 +6,20 @@ import pandas as pd
 
 ##html形式におけるルビサイズの変更
 ruby_style="""<style>
-    .text-s_S_s {font-size: 12px;}
-    .text-m_M_m {font-size: 16px;}
-    .text-l_L_l {font-size: 20px;}
-    .text-x_X_x {font-size: 24px;}
-    .ruby-s_S_s { font-size: 0.33em; }
-    .ruby-m_M_m { font-size: 0.45em; }
-    .ruby-l_L_l { font-size: 0.60em; }
-    .ruby-x_X_x { font-size: 0.70em; }
+    .text-S_S_S {font-size: 12px;}
+    .text-M_M_M {font-size: 16px;}
+    .text-L_L_L {font-size: 20px;}
+    .text-X_X_X {font-size: 24px;}
+    .ruby-S_S_S { font-size: 0.33em; }
+    .ruby-M_M_M { font-size: 0.45em; }
+    .ruby-L_L_L { font-size: 0.60em; }
+    .ruby-X_X_X { font-size: 0.70em; }
 
     ruby {text-align: center; /* ルビの中央揃え */ }
     rt {text-align: center;}
 </style>
 
-<p class="text-m_M_m">
+<p class="text-M_M_M">
 """
 ruby_style_tail="""
 

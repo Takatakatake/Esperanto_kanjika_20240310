@@ -47,6 +47,33 @@ def conversion_format(hanzi, word, format_type):
     elif format_type == 'Only Hanzi':
         return '{}'.format(hanzi)
 
+def capitalize_rt_tag(match):
+    rt_start, rt_word, rt_end = match.groups()
+    return rt_start + rt_word.capitalize() + rt_end
+def capitalize_according_to_condition_htmlruby(new_text):
+    if new_text.startswith('<ruby>'):
+        # <で始まる場合、最初の<rt>タグ内の最初の文字を大文字にする
+        new_text = re.sub(r'(<rt>)(.*?)(</rt>)', capitalize_rt_tag, new_text, count=1)
+    else:
+        # <で始まらない場合、new_textの最初の文字を大文字にする
+        new_text = new_text[0].upper() + new_text[1:]
+    return new_text
+def get_character_width(char):###文字の幅を取得する。全角文字は2、半角文字は1を返す。
+    if unicodedata.east_asian_width(char) in 'FWA':
+        return 2
+    else:
+        return 1
+import unicodedata
+def capitalize_according_to_condition_parentheses(new_text):
+    if get_character_width(new_text[0])==2:
+        # 漢字で始まる場合、最初の()内の最初の文字を大文字にする
+        new_text = re.sub(r'(\()([^()]+)(\))', capitalize_rt_tag, new_text, count=1)
+    else:
+        # 漢字で始まらない場合、new_textの最初の文字を大文字にする
+        new_text = new_text[0].upper() + new_text[1:]
+    return new_text    
+
+
 # ユーザーに出力形式を選んでもらう
 format_type = st.selectbox(
     '选择输出格式:',
@@ -337,13 +364,31 @@ if uploaded_file is not None:
             replacements.append([pre_replacements3[kk][0],pre_replacements3[kk][1],loaded_strings[kk]])
 
     replacements2=[]
-    for old,new,place_holder in replacements:
-        replacements2.append((old,new,place_holder))
-        replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
-        if old[0]==' ':
-            replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + new[1].upper() + new[2:],place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
-        else:
-            replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
+    if format_type == 'HTML Format':
+        for old,new,place_holder in replacements:
+            replacements2.append((old,new,place_holder))
+            replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+            if old[0]==' ':
+                replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + capitalize_according_to_condition_htmlruby(new[1:]),place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+            else:
+                replacements2.append((old.capitalize(),capitalize_according_to_condition_htmlruby(new),place_holder[:-1]+'cap$'))
+    elif format_type == 'Parentheses Format':
+        for old,new,place_holder in replacements:
+            replacements2.append((old,new,place_holder))
+            replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+            if old[0]==' ':
+                replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + capitalize_according_to_condition_parentheses(new[1:]),place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+            else:
+                replacements2.append((old.capitalize(),capitalize_according_to_condition_parentheses(new),place_holder[:-1]+'cap$'))
+    elif format_type == 'Only Hanzi':
+        for old,new,place_holder in replacements:
+            replacements2.append((old,new,place_holder))
+            replacements2.append((old.upper(),new.upper(),place_holder[:-1]+'up$'))##place holderを少し変更する必要があった。
+            if old[0]==' ':
+                replacements2.append((old[0] + old[1].upper() + old[2:],new[0] + new[1].upper() + new[2:],place_holder[:-1]+'cap$'))##new[0] + new[1].upper() + new[2:]は本当は怪しいが。。  
+            else:
+                replacements2.append((old.capitalize(),new.capitalize(),place_holder[:-1]+'cap$'))
+
 
     #"replacements2"リストの内容を確認
     with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:
