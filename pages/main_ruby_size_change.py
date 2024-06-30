@@ -129,7 +129,7 @@ if uploaded_file is not None:
             replacements3.append((parts[0], parts[1], parts[2]))
 else:
     replacements3 = []
-    with open("replacements_list_html_format.txt", 'r', encoding='utf-8') as file:
+    with open("./files_needed_to_get_replacements_text/replacements_list_ruby_html_format_中文_対応ruby尺寸更改.txt", 'r', encoding='utf-8') as file:
         for line in file:
             line = line.rstrip()##strip()では駄目
             j = line.split(',')
