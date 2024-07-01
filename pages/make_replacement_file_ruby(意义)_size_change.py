@@ -241,7 +241,7 @@ if uploaded_file is not None:
                     if not i+k in QQ:
                         RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "形容詞" in j[1]:
-                for k in ["a","aj",'an']:##"ajn"は不要か  ##sia pian
+                for k in ["a","aj",'an','an ']:##"ajn"は不要か  ##sia pian
                     # if not i+k in QQ:##if not なしのほうが良い
                     RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "副詞" in j[1]:
@@ -265,7 +265,7 @@ if uploaded_file is not None:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
-                    for k in ["a","aj",'an']:
+                    for k in ["a","aj",'an','an ']:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                 if "副詞" in j[1]:
@@ -286,7 +286,7 @@ if uploaded_file is not None:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#実質3000#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
-                    for k in ["a"]:
+                    for k in ["a",'an ']:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
                 if "副詞" in j[1]:
