@@ -208,7 +208,7 @@ if uploaded_file is not None:
                     if not i+k in QQ:
                         RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "形容詞" in j[1]:
-                for k in ["a","aj",'an','an ']:##"ajn"は不要か  ##sia pian
+                for k in ["a","aj",'an']:##"ajn"は不要か  ##sia pian
                     # if not i+k in QQ:##if not なしのほうが良い
                     RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-5000]
             if "副詞" in j[1]:
@@ -219,9 +219,9 @@ if uploaded_file is not None:
                 for k1,k2 in verb_suffix_2l_2.items():
                     if not i+k1 in QQ:
                         RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-3000]
-                for k in ["u ","u!","u?","u.","i ","i.","i?"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                for k in ["u ","i ","u","i"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。["u ","u!","u?","u.","u,","i ","i.","i?","i,","i!"]
                     if not i+k in QQ:
-                        RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
+                        RR[' '+i+k]=[' '+j[0]+k,j[2]+(len(k)+1)*10000-3000]
             continue
 
         else:
@@ -232,7 +232,7 @@ if uploaded_file is not None:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
-                    for k in ["a","aj",'an','an ']:
+                    for k in ["a","aj",'an']:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                 if "副詞" in j[1]:
@@ -243,7 +243,7 @@ if uploaded_file is not None:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
                             RR[i+k1]=[j[0]+k2,j[2]+len(k1)*10000-3000]
-                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    for k in ["u ","i ","u","i"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。 premi premio
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]
                             
@@ -253,7 +253,7 @@ if uploaded_file is not None:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]#実質3000#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
-                    for k in ["a",'an ']:
+                    for k in ["a"]:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-5000]
                 if "副詞" in j[1]:
@@ -264,7 +264,7 @@ if uploaded_file is not None:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
                             RR[i+k1]=[j[0]+k2,j[2]+(len(k1)-1)*10000-5000]
-                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    for k in ["u ","i ","u","i"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+(len(k)-1)*10000-5000]
             
@@ -285,7 +285,7 @@ if uploaded_file is not None:
                     for k1,k2 in verb_suffix_2l_2.items():
                         if not i+k1 in QQ:
                             RR[i+k1]=[j[0]+k2,j[2]+(len(k1)-1)*10000-5000]
-                    for k in ["u ","u!","i "]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
+                    for k in ["u ","i ","u","i"]:##動詞の"u","i"単体の接尾辞は後ろが空白と決まっているので、2文字分増やすことができる。
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+(len(k)-1)*10000-5000]
 
@@ -306,14 +306,41 @@ if uploaded_file is not None:
 
     ##正しく語根分解・漢字変換してほしいやつ  anとenは念の為a/n/,e/n/としておく。ant,int,ontは大丈夫  空白を使うのは最終手段。  ","は絶対に使っては駄目
     y1=[['gvid/ant/o',73000],['am/as',33000],["kor/a/n",43000],["ink/a",33000],["post/e/n",53000],["per/e",33000],["fer/o",33000],["kor/e",33000],["mal/a/j",43000],["mal/e",33000],
-        ["par/a/n",33000],['sam/o',33000],['sat/a/n',33000],['sav/oj',43000],['sud/a/n',43000],['vet/o',33000],['ir/is',33000],['regul/us',63000],['akir/ant',63000],["prem/is",53000],
-        ["mark/ot",53000],["kolor/ad",63000],["lot/us",43000],["mank/is",53000],["pat/os",43000],["rem/ont",53000],["satir/us",63000],["send/at",53000],["send/ot",53000]
-        ,["spir/ant",63000],["ten/is ",53000],["trakt/at",63000],["alt/e",33000],["apog/e ",53000],["dom/e/n",4300],["kaz/e/ ",33000],["dek/a/n",43000]
-        ,["post/e/n",53000],["posten/ul",73000],["kalk/a/n ",53000],["faz/a/n ",43000],["hav/a/j",43000],["sol/e ",33000],["lam/a",33000],["nord/a/n ",63000]
-        ,["ref/oj ",53000],["ref/oj/n",53000],["akir/ant",63000],["ordin/at",63000],["form/at",53000],["kant/at",53000],["end/os",43000]
-        ,["konus ",53000],["lek/ant",53000],["leg/at",43000],["taks/us",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
+        ['sam/o',33000],['sat/a/n',43000],['sav/oj',43000],['sud/a/n',43000],['vet/o',33000],['ir/is',33000],['regul/us',63000],['akir/ant',63000],["prem/is",53000],
+        ["mark/ot",53000],["kolor/ad",63000],["lot/us",43000],["mank/is",53000],["pat/os",43000],["rem/ont",53000],["satir/us",63000],["send/at",53000],["send/ot",53000],
+        ["spir/ant",63000],["ten/is",43000],["trakt/at",63000],["alt/e",33000],["apog/e ",53000],["dom/e/n",4300],["kaz/e/ ",43000],
+        ["post/e/n",53000],["posten/ul",73000],["kalk/a/n ",63000],["faz/a/n",43000],["hav/a/j",43000],["sol/e",33000],["lam/a",33000],
+        ["ref/oj",43000],["akir/ant",63000],["ordin/at",63000],["form/at",53000],["kant/at",53000],["end/os",43000],
+        ["konus ",53000],["lek/ant",53000],["leg/at",43000],["taks/us",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
     for i in y1:
         RR[i[0].replace('/', '')]=[safe_replace(i[0],replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), i[1]]
+
+    ##an系
+    y2=['diet/a/n','afrik/a/n','mov/ad/a/n','akci/a/n','mont/ar/a/n','amerik/a/n','regn/a/n','dezert/a/n','asoci/a/n','insul/a/n','azi/a/n','sxtat/a/n','dom/a/n',
+        'mont/a/n','famili/a/n','urb/a/n','popol/a/n','parti/a/n','lok/a/n','sxip/a/n','eklezi/a/n','land/a/n','orient/a/n','lern/ej/a/n','en/land/a/n','estr/ar/a/n',
+        'etn/a/n','euxrop/a/n','polic/a/n','soci/a/n','soci/et/a/n','grup/a/n','lig/a/n','naci/a/n','religi/a/n','kub/a/n','major/a/n','pariz/a/n','parok/a/n','podi/a/n',
+        'rus/i/a/n','sekt/a/n','senat/a/n','skism/a/n','utopi/a/n','vilagx/a/n',"dek/a/n","nord/a/n","sat/a/n","par/a/n"]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
+    for i2 in y2:
+        RR[i2.replace('/', '')]=[safe_replace(i2,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), (len(i2.replace('/', ''))-1)*10000+3000]
+        i3 = re.sub(r"/a/n$", "", i2)##正規表現を使わないと、etn/a/n　において、etnのnまで削られてしまった。
+        i4=i3+"/an/o"
+        i5=i3+"/an/a"
+        i6=i3+"/an/e"
+        RR[i4.replace('/', '')]=[safe_replace(i4,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), (len(i4.replace('/', ''))-1)*10000+3000]
+        RR[i5.replace('/', '')]=[safe_replace(i5,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), (len(i5.replace('/', ''))-1)*10000+3000]
+        RR[i6.replace('/', '')]=[safe_replace(i6,replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), (len(i6.replace('/', ''))-1)*10000+3000]
+
+    ##正しく語根分解・漢字変換してほしいやつ  anとenは念の為a/n/,e/n/としておく。ant,int,ontは大丈夫  空白を使うのは最終手段。  ","は絶対に使っては駄目
+    y1=[['sole/o',43000],['sole/a',43000],["sudan/o",53000],["sudan/a",53000],["fazan/o",53000],["fazan/a",53000],["re/foj/a",53000],["re/foj/o",53000],
+        ["re/foj/e",53000],["tenis/o",53000],["paran/o",53000],["paran/a",53000],["dekan/o",53000],["dekan/a",53000],["satan/a",53000],["satan/o",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
+    for i in y1:
+        RR[i[0].replace('/', '')]=[safe_replace(i[0],replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), i[1]]
+
+
+    ##漢字変換してほしくないやつ
+    y2=[['lian',43000]]
+    for j in y2:
+        RR[j[0].replace('/', '')]=[conversion_format(j[0],j[0], format_type), j[1]]
 
     ##漢字変換してほしくないやつ
     y2=[['lian',43000]]
