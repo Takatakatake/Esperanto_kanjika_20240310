@@ -261,7 +261,7 @@ if uploaded_file is not None:
             RR[i]=[j[0],j[2]]##品詞情報はここで用いるためにあった。以後は不要なので省いていく。
             if j[2]==60000 or j[2]==50000 or j[2]==40000 or j[2]==30000:##文字数が比較的少なく(<=5)、実際に漢字化するエスペラント語根(文字数×10000)のみを対象とする 
                 if "名詞" in j[1]:##名詞については形容詞、副詞と違い、漢字化しないものにもoをつける。
-                    for k in ["o","oj"]:
+                    for k in ["o","oj","on"]:
                         if not i+k in QQ:
                             RR[i+k]=[j[0]+k,j[2]+len(k)*10000-3000]#既存でないものは優先順位を大きく下げる→普通の品詞接尾辞が既存でないという言い方はおかしい気がしてきた。(20240612)
                 if "形容詞" in j[1]:
@@ -365,7 +365,7 @@ if uploaded_file is not None:
 
     ##正しく語根分解・漢字変換してほしいやつ  anとenは念の為a/n/,e/n/としておく。ant,int,ontは大丈夫  空白を使うのは最終手段。  ","は絶対に使っては駄目
     y1=[['sole/o',43000],['sole/a',43000],["sudan/o",53000],["sudan/a",53000],["fazan/o",53000],["fazan/a",53000],["re/foj/a",53000],["re/foj/o",53000],
-        ["re/foj/e",53000],["tenis/o",53000],["paran/o",53000],["paran/a",53000],["dekan/o",53000],["dekan/a",53000],["satan/a",53000],["satan/o",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
+        ["re/foj/e",53000],["tenis/o",53000],["tenis/a",53000],["paran/o",53000],["paran/a",53000],["dekan/o",53000],["dekan/a",53000],["satan/a",53000],["satan/o",53000]]##["pi/a/n",38000] anをa/n/で分けるのは正しくはないが。  havaj
     for i in y1:
         RR[i[0].replace('/', '')]=[safe_replace(i[0],replacements).replace("</rt></ruby>","%%%").replace('/', '').replace("%%%","</rt></ruby>"), i[1]]
 
