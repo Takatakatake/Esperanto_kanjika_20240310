@@ -170,7 +170,7 @@ with st.form(key='profile_form'):
         text3 = safe_replace(replaced_text, replacements3)
         for original, place_holder_ in sorted_replacements_list_for_intact_parts:
             text3 = text3.replace(place_holder_, original.replace("%%",""))
-        if letter_type == '字上符':
+        if letter_type == '上标字符':
             text3 = replace_esperanto_chars(text3, x_to_jijofu)
         elif letter_type == '^形式':
             text3 = replace_esperanto_chars(text3, x_to_hat)
