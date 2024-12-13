@@ -1,0 +1,1084 @@
+Acor/oj:【地名】アゾレス諸島（大西洋北東部）
+Adelaid/o:【地名】=Adelajdo（アデレード）
+Adelajd/o:【地名】アデレード（オーストラリア）
+Aden/a Golf/o:【地名】アデン湾（アラビア半島南部）
+Aden/o:【地名】アデン（イエメン）
+Adri/a Mar/o:【地名】アドリア海（イタリア半島東方）
+Adriatik/o:【地名】アドリア海,=Adria Maro
+Afgan/i/o:【国名】アフガニスタン（アジア）
+Afgan/land/o:【国名】=Afganio（アフガニスタン）
+Afgan/uj/o:【国名】=Afganio（アフガニスタン）
+Afganistan/o:=>Afganio（アフガニスタン）
+Afrodit/o:【神】アフロディテ（ギリシア神話の美と愛の女神）,>>Venuso
+Agamemnon/o:【神】アガメムノン（ギリシア神話でミケーネの王）
+Ah^eron/o:【神】アケロン（ギリシア神話で冥界の川）,>>Karono
+Ah^il/o:【人名】アキレス,アキレウス（ギリシア神話の英雄）
+Ajaks/o:【神】アイアス,アイアース（ギリシア神話の英雄）
+Akad/o:【史】アッカド（アッカド王国の首都）;アッカド（古代メソポタミア北部地方の名称）
+Alask/a Duon/insul/o:【地名】アラスカ半島（米国）
+Alask/o:【地名】アラスカ州（米国）
+Aleksandri/o:【地名】アレクサンドリア（エジプト）
+Alzac/o:【地名】アルザス地方（フランス）
+Amazon/o:【地名】アマゾン川（南米）
+Amazon/oj:アマゾネス（ギリシア神話に登場する勇猛な女戦士の部族）
+Amerik/a bizon/o:【動】アメリカバイソン,アメリカヤギュウ
+Amerik/a cerv/o:【動】ワピチ,オオシカ
+Amerik/a larik/o:【植】アメリカカラマツ（種）
+Amor/o:{Ｏ}【神】アモル（ギリシア神話の愛の神エロスのラテン訳名）,>>Eroso,>>Kupido
+Anakreon/o:【人名】アナクレオン（古代ギリシアの詩人）
+Anaksagor/o:【人名】アナクサゴラス（古代ギリシアの哲学者）
+And/oj:【地名】アンデス山脈（南アメリカ）
+Andor/o:【国名】アンドラ（欧州）
+Andromed/a galaksi/o:【天】アンドロメダ銀河
+Andromed/o:【神】アンドロメダ（ギリシア神話）;【天】アンドロメダ座
+Angol/o:【国名】アンゴラ（アフリカ）
+Antarkt/a Duon/insul/o:【地名】南極半島（南極大陸）
+Antarkt/a Ocean/o:【地名】南極海（＝南氷洋）
+Antigon/o:【神】アンティゴネ（ギリシア神話、オイディプスの娘）
+Antigv/o kaj Barbud/o:【国名】アンティグア・バーブーダ（北アメリカ）
+Antil/oj:【地名】アンティル諸島（中部アメリカ）
+Antverpen/o:【地名】アントワープ（ベルギー）
+Apolon/o:【神】アポロン（ギリシア神話の太陽神）
+Arab/a Duon/insul/o:【地名】アラビア半島（西アジア）
+Arab/a Mar/o:【地名】アラビア海（インド洋北西）
+Ares/o:【神】アレス（ギリシア神話の軍神）
+Arg/o:【神】アルゴー号（ギリシア神話の巨船）,>>Jazono
+Argentin/o:【国名】アルゼンチン（南アメリカ）
+Ariadn/a faden/o:アリアドネの糸（難問を解くかぎ）
+Ariadn/o:【神】アリアドネ（ギリシア神話、ミノス王の娘）
+Aristofan/o:【人名】アリストファネス（古代ギリシアの喜劇作家）
+Aristotel/o:【人名】アリストテレス（古代ギリシアの哲学者）
+Arkadi/o:【地名】アルカディア（ギリシア、ペロポネソス半島中央部の山岳地帯）;《転》牧歌的な理想郷
+Arkimed/o:【人名】アルキメデス（古代ギリシアの数学者・物理学者）
+Arkt/a Ocean/o:【地名】北極海（＝北氷洋）
+Artemis/o:【神】アルテミス（ギリシア神話の狩りと月の女神）
+Asir/i/o:【古地名】アッシリア（古代メソポタミアの国）
+Aten/o:【地名】アテネ（ギリシアの首都）
+Atik/o:【地名】アッティカ半島（ギリシア）
+Au^gsburg/o:【地名】アウクスブルク（ドイツ）
+Au^lid/o:【地名】アウリス（古代港湾都市遺跡，ギリシア）
+Au^str/i/o-Hungari/o:【史】オーストリア・ハンガリー帝国
+Au^str/i/o:【国名】オーストリア（欧州）
+Au^str/uj/o:【国名】=Au^strio（オーストリア）
+Au^stronezi/o:【地名】オーストロネシア（インド洋から太平洋にかけた大小の島々を含む地域）
+Azerbajg^an/o:【国名】アゼルバイジャン（アジア）
+Babilon/a salik/o:【植】シダレヤナギ（枝垂柳）（種）
+Babilon/o:【史】バビロン（古代バビロニアの首都）
+Bagdad/o:【地名】バグダッド（イラクの首都）
+Baham/oj:【国名】バハマ（北アメリカ）
+Baham/oj:【地名】バハマ諸島（中央アメリカ）
+Bakh^/o:【神】バッコス,バッカス（ギリシア神話の酒神）,=Dionizo
+Balkan/a Duon/insul/o:【地名】バルカン半島（南ヨーロッパ）
+Balkan/oj:【地名】バルカン山脈（ブルガリア）
+Balt/a Mar/o:【地名】バルト海（ヨーロッパ北）
+Banglades^/o:【国名】バングラデシュ（アジア）
+Bankok/o:【地名】バンコク（タイの首都）
+Barat/o:【国名】インド（アジア）,=Hindio
+Barbad/o:【国名】バルバドス（北アメリカ）
+Barcelon/o:【地名】バルセロナ（スペイン）
+Barejn/o:【国名】バーレーン（アジア）
+Bavari/o:【地名】バイエルン,ババリア（ドイツ）
+Belfast/o:【地名】ベルファスト（イギリス）
+Beliz/o:【国名】ベリーズ（北アメリカ）
+Belorus/i/o:【国名】ベラルーシ（欧州）
+Belorus/uj/o:【国名】=Belorusio（ベラルーシ）
+Bengal/a Golf/o:【地名】ベンガル湾（インド東方）
+Bengal/o:【地名】ベンガル地方（インド・バングラデシュ）
+Benin/o:【国名】ベナン（アフリカ）
+Beograd/o:【地名】ベオグラード（セルビア・モンテネグロの首都）
+Beot/i/o:【地名】ボイオティア地方（ギリシア）
+Berlin/a mur/o:【史】ベルリンの壁
+Berlin/a:ベルリンの
+Bern/o:【地名】ベルン（スイスの首都）
+Bisau^/o:【地名】ビサオ（ギニア・ビサオの首都）
+Bizanc/o:【史】ビザンチウム（東ローマ帝国の首都）,>>Istanbulo
+Bjalistok/o:【地名】ビヤウィストク（ポーランド）
+Bjelostok/o:【地名】=Bjalistoko
+Blank/a Mar/o:【地名】白海（ロシア北西）
+Bocvan/o:【国名】ボツワナ（アフリカ）
+Bogot/o:【地名】ボゴタ（コロンビアの首都）
+Bohem/uj/o:【地名】ボヘミア（チェコ）
+Bohemi/o:【地名】ボヘミア（チェコ）
+Bolonj/o:【地名】ボローニャ（イタリア）
+Bonaer/o:【地名】ブエノスアイレス（アルゼンチンの首都）,=Buenos-Ajreso
+Bordoz/a likv/o:【農】ボルドー液
+Bordoz/a vin/o:【料】ボルドーワイン
+Bore/o:【神】ボレアス（ギリシア神話で北風の神）
+Borne/o:【地名】ボルネオ島（＝カリマンタン島，インドネシア）,=Kalimantano
+Bosni/o kaj Hercegovin/o:【国名】ボスニア・ヘルツェゴビナ（欧州）
+Bosni/o-Hercegovin/o:=>Bosnio kaj Hercegovino（ボスニア・ヘルツェゴビナ）
+Bosni/o:【地名】ボスニア地方（ボスニア・ヘルツェゴビナ）
+Bospor/o:【地名】ボスポラス海峡（トルコ北西部）
+Boston/o:【地名】ボストン（米国）
+Bratislav/o:【地名】ブラチスラバ（スロバキアの首都）
+Brazavil/o:【地名】ブラザビル（コンゴ共和国の首都）
+Brazilj/o:【地名】ブラジリア（ブラジルの首都）
+Breton/i/o:【地名】ブルターニュ地方（フランス）
+Brit/i/o:【国名】イギリス,英国（欧州）;【地名】ブリテン島
+Brit/uj/o:【国名】=Britio（イギリス）;【地名】=Britio（ブリテン島）
+Brn/o:【地名】ブルノ（チェコ）
+Brunej/o:【国名】ブルネイ（アジア）,=Brunej-Darusalamo
+Brusel/o:【地名】ブリュッセル（ベルギーの首都）
+Budapes^t/o:【地名】ブダペスト（ハンガリーの首都）
+Bukares^t/o:【地名】ブカレスト（ルーマニアの首都）
+Bule/a operaci/o:【情】ブール演算
+Burkin/o:【国名】ブルキナファソ（アフリカ）,=Burkina-Faso
+Burund/o:【国名】ブルンジ（アフリカ）
+Butan/o:【国名】ブータン（アジア）
+C^ad/o:【国名】チャド（アフリカ）
+C^ad/o:【地名】チャド湖（サハラ南部）
+C^ec^en/i/o:【地名】チェチェン共和国（ロシア連邦）
+C^ec^en/uj/o:【地名】=C^ec^enio（チェチェン）
+C^eh^/i/o:【国名】チェコ（欧州）
+C^eh^/o/slovak/i/o:【史】チェコスロバキア（旧国名）
+C^eh^/o/slovak/uj/o:【史】=C^eh^oslovakio（チェコスロバキア）
+C^eh^/uj/o:【国名】=C^eh^io（チェコ）
+C^ernobil/o:【地名】チェルノブイリ（ウクライナ共和国）
+C^ikag/o:【地名】シカゴ（米国）
+C^ili/o:【国名】チリ（南アメリカ）
+C^in/i/o:【国名】中国（アジア）,=Popola Respubliko C^inio
+C^in/uj/o:【国名】=C^inio（中国）
+C^ud/a Lag/o:【地名】チュド湖（エストニア・ロシア）
+C^ukot/a Duon/insul/o:【地名】チュコト半島（シベリア）
+C^uvas^i/o:【地名】チュバシ共和国（ロシア）
+Cefaloni/o:【地名】ケファリニア島（ギリシア）
+Centr-Afrik/o:【国名】中央アフリカ（アフリカ）
+Cezar/o:【人名】カエサル（古代ローマの将軍・政治家，英語読みでシーザー）
+Ciril/o:（男子名）キュリロス;【人名】聖キュリロス（モラビア地方にキリスト教を布教したギリシア人宣教師，キリル文字の基礎を築いた）,>>Metodo
+Dak/o:【地名】ダッカ（バングラデシュの首都）
+Dalas/o:【地名】ダラス（米国）
+Damask/o:【地名】ダマスカス（シリアの首都）
+Dan/i/o:【国名】デンマーク（欧州）
+Dan/uj/o:【国名】=Danio（デンマーク）
+Dancig/o:【地名】ダンツィヒ（＝グダニスク，ポーランド）,=Gdansko
+Danub/o:【地名】ドナウ川（＝ダニューブ川，中欧）
+Delf/o:【史】デルフォイ（古代ギリシアの都市）
+Delhi/o:【地名】デリー（インド）
+Delos/o:【地名】デロス島（ギリシア）
+Demokrit/o:【人名】デモクリトス（古代ギリシアの哲学者）
+Di/a grac/o:（la 〜）神の恩寵（おんちょう）
+Dioniz/o:【神】ディオニュソス（ギリシア神話の酒と豊穣の神）,=Bakh^o
+Dnepr/o:【地名】ドニエプル川（ウクライナ・ベラルーシ）
+Dominik/a Respublik/o:【国名】ドミニカ共和国（首都Santo-Domingo，大アンティル諸島，北アメリカ）
+Dominik/o:【国名】ドミニカ国（首都Roseo，小アンティル諸島，北アメリカ）
+Dori/o:【地名】ドリス地方（ギリシア）
+Dresden/o:【地名】ドレスデン（ドイツ）
+Dublin/o:【地名】ダブリン（アイルランドの首都）
+Edinburg/o:【地名】エジンバラ（イギリス）
+Edip/o:【神】オイディプス,エディプス（ギリシア神話でテーバイの王）
+Ege/a Mar/o:【地名】エーゲ海（ギリシア）
+Egipt/i/o:【国名】エジプト（アフリカ）
+Egipt/o:【国名】=>Egiptio（エジプト）
+Egipt/uj/o:【国名】=Egiptio（エジプト）
+Ekvator/a Gvine/o:【国名】赤道ギニア（アフリカ）
+Elektr/o:【神】エレクトラ（ギリシア神話で伝説中の女性）
+Eol/o:【神】アイオロス（ギリシア神話の風の神）
+Epidau^r/o:【古地名】エピダウロス（古代ギリシアの港湾都市）
+Epikur/o:【人名】エピクロス（古代ギリシアの哲学者）
+Epir/o:【地名】エピロス地方（ギリシア）
+Eratosten/o:【人名】エラトステネス（古代ギリシアの数学者・天文学者）
+Eritre/o:【国名】エリトリア（アフリカ）
+Eros/o:【神】エロス（ギリシア神話の恋愛の神）,>>Amoro,>>Kupido
+Esperant/o-tip/ar/o:【情】エスペラント・フォント
+Etruri/o:【地名】エトルリア地方（イタリア）
+Etrusk/i/o:【地名】=Etrurio
+Eu^be/o:【地名】エボイア島（＝エウボイア島，ギリシア）
+Eu^frat/o:【地名】ユーフラテス川（西アジア）
+Eu^klid/o:【人名】ユークリッド（古代ギリシアの数学者）
+Eu^rop/a bizon/o:【動】ヨーロッパバイソン,ヨーロッパヤギュウ
+Eu^rop/a larik/o:【植】ヨーロッパカラマツ（種）
+Eu^rot/o:【地名】エウロタス川（ギリシア）
+Eu^sk/i/o:【地名】バスク地方（スペイン・フランス）
+Ezop/o:【人名】イソップ（古代ギリシアの寓話作家）
+Fenic/i/o:【史】フェニキア（現レバノンの海岸地方）
+Fig^i/oj:【国名】フィジー（大洋州）
+Filadelfi/o:【地名】フィラデルフィア（米国）
+Filipin/oj:【国名】フィリピン（アジア）
+Filipin/oj:【地名】フィリピン諸島（東南アジア）
+Finn/land/o:【国名】フィンランド（欧州）
+Firenc/o:【地名】フィレンツェ（イタリア）
+Flandr/i/o:【地名】フランドル地方（フランス・ベルギー）
+Flav/a Mar/o:【地名】黄海（朝鮮半島西方）
+Florenc/o:【地名】=Firenco
+Florid/o:【地名】フロリダ半島（米国）
+Florid/o:【地名】フロリダ州（米国）
+Focid/o:【古地名】フォキス（古代ギリシア，デルファイの神託所があった）
+Frankfurt/o:【地名】フランクフルト（ドイツ）
+Friul/o:【地名】フリウリ地方（イタリア）
+G^akart/o:【地名】ジャカルタ（インドネシアの首都）
+G^enev/o:【地名】ジュネーブ（スイス）
+G^ibraltar/o:【地名】ジブラルタル（スペイン南端，英軍基地がある）
+G^ibuti/o:【国名】ジブチ（アフリカ）
+G^ibuti/o:【地名】ジブチ（ジブチの首都）
+Gabon/o:【国名】ガボン（アフリカ）
+Galeg/i/o:【地名】ガリシア地方（スペイン）
+Galici/o:【地名】ガリシア（ポーランド南東部からウクライナ西部にまたがる地域）
+Galile/o:【地名】ガリラヤ地方（イスラエル）
+Gambi/o:【国名】ガンビア（アフリカ）
+Gambi/o:【地名】ガンビア川（西アフリカ）
+Gana/o:【国名】ガーナ（アフリカ）
+Gang/o:【地名】ガンジス川（インド）
+Ganimed/o:【神】ガニュメデス（ギリシア神話の美少年）;【天】ガニメデ（木星の第三衛星）
+Gau^l/i/o:【史】ガリア（古代ローマ，現フランス）
+Gdansk/o:【地名】グダニスク（ポーランド）
+Gordi/a nod/o:（la 〜）ゴルディオスの結び目;《転》難問,難題
+Grand/aj Antil/oj:【地名】大アンティル諸島（中部アメリカ）
+Gregori/a c^ant/o:【楽】グレゴリオ聖歌
+Gregori/a kalendar/o:（la 〜）グレゴリオ暦（現行の太陽暦）
+Gregori/o:【人名】グレゴリウス（歴代ローマ教皇など）
+Grek/i/o:【国名】ギリシア（欧州）
+Grek/uj/o:【国名】=Grekio（ギリシア）
+Grenad/o:【国名】グレナダ（北アメリカ）
+Grenvic^/a meridian/o:（la 〜）【天】グリニッジ子午線,本初子午線
+Grizon/o:【地名】グラウビュンデン州（スイス）
+Gronland/o:【地名】グリーンランド（北大西洋）
+Gu^angdong/o:【地名】コワントン省（広東省，中国）,=Gvandungo
+Gujan/o:【国名】ガイアナ（南アメリカ）
+Gvadelup/o:【地名】グアドループ（小アンティル諸島の一島群）
+Gvandung/o:【地名】コワントン省（広東省，中国）,=Gu^angdongo
+Gvine/a Golf/o:【地名】ギニア湾（アフリカ中西部）
+Gvine/o-Bisau^/o:【国名】ギニアビサウ（アフリカ）
+H^alde/i/o:【史】カルデア（バビロニア南部の呼称）
+H^arkiv/o:【地名】ハルキウ（ウクライナ）,=H^arkovo
+H^arkov/o:【地名】ハリコフ（ウクライナ）,=H^arkivo
+H^i/o:【地名】キオス島（ギリシア）
+Hades/o:【神】ハデス（ギリシア神話の冥界の王）;冥界;【聖】陰府（よみ）,黄泉（よみ）
+Hag/o:【地名】ハーグ（オランダ）
+Haiti/o:【国名】ハイチ（北アメリカ）
+Halej/a komet/o:（la 〜）【天】ハレー彗星
+Hamburg/o:【地名】ハンブルク（ドイツ）
+Hanoj/o:【地名】ハノイ（ベトナムの首都）
+Havaj/o:【地名】ハワイ州（米国）
+Havan/o:【地名】ハバナ（キューバの首都）
+Hefest/o:【神】ヘファイトス（ギリシア神話の火と鍛冶の神）,>>Vulkano
+Helas/o:【古地名】ヘラス（古代ギリシアの呼称）,=Helenio
+Helen/i/o:【古地名】古代ギリシア
+Helikon/o:【地名】ヘリコーン山（＝エリコン山，ギリシア）
+Helsink/o:【地名】ヘルシンキ（フィンランドの首都）
+Herakl/o:【神】ヘラクレス（ギリシア神話の英雄）,=Herkulo
+Heraklit/o:【人名】ヘラクレイトス（古代ギリシアの哲学者）
+Hercegovin/o:【地名】ヘルツェゴビナ地方（ボスニア・ヘルツェゴビナ）
+Herkul/o:【神】ヘルクレス（ギリシア神話の英雄のラテン名）,=Heraklo
+Hermes/o:【神】ヘルメス（ギリシア神話で商人と旅人の守護神）
+Herodot/o:【人名】ヘロドトス（古代ギリシアの歴史家）
+Hesperi/o:【古地名】ヘスペリア（古代ギリシアではイタリアを，古代ローマではスペインを指す）
+Heziod/o:【人名】ヘシオドス（古代ギリシアの詩人）
+Himalaj/o:【地名】ヒマラヤ山脈（中央アジア）
+Hind/a Duon/insul/o:【地名】インド半島（南アジア）
+Hind/a Ocean/o:【地名】インド洋
+Hind/i/o:【国名】インド（アジア）,=Barato
+Hind/i/o:【地名】インド亜大陸
+Hind/uj/o:【国名】=Barato（インド）
+Hindoc^in/a Duon/insul/o:【地名】インドシナ半島（東南アジア）
+Hindoc^in/i/o:【地名】インドシナ
+Hipokrat/o:【人名】ヒポクラテス（古代ギリシアの医学者）
+Hiros^im/o:【地名】広島
+Hispan/i/o:【国名】スペイン（欧州）
+Hispan/uj/o:【国名】=Hispanio（スペイン）
+Homer/o:【人名】ホメロス（古代ギリシアの詩人）
+Hondur/o:【国名】ホンジュラス（北アメリカ）
+Hongkong/o:【地名】ホンコン（香港，中国）,=Honkongo
+Honkong/o:【地名】ホンコン（香港，中国）,=Hongkongo
+Hons^u/o:【地名】本州
+Hungar/i/o:【国名】ハンガリー（欧州）
+Hungar/uj/o:【国名】=Hungario（ハンガリー）
+Iber/a Duon/insul/o:【地名】イベリア半島（西ヨーロッパ）
+Iber/i/o:【史】イベリア（スペインの古称）
+Ikari/o:【地名】イカリア島（ギリシア）
+Imperi/estr/a Palac/o:（la 〜 de Tokio）（日本の）皇居；（la 〜 de Pekino）（北京の）故宮
+Indoc^in/a Duon/insul/o:【地名】=Hindoc^ina Duoninsulo
+Indonezi/o:【国名】インドネシア（アジア）
+Indus/o:【地名】インダス川（パキスタン）
+Inka/a civilizaci/o:【史】インカ文明
+Inka/a imperi/o:【史】インカ帝国
+Ioni/a Mar/o:【地名】イオニア海（ギリシア西方）
+Islam/a Kred/komun/um/o en Au^stri/o:オーストリア・イスラム信仰共同体【私家版】
+Istanbul/o:【地名】イスタンブール（トルコ）
+Itak/o:【地名】イターキ島（ギリシア）
+Ital/i/o:【国名】イタリア（欧州）
+Ital/uj/o:【国名】=Italio（イタリア）
+Jamaik/o:=>Jamajko（ジャマイカ）
+Jamajk/o:【国名】ジャマイカ（北アメリカ）
+Jamal/a Duon/insul/o:【地名】ヤマル半島（シベリア）
+Japan-Brit/a alianc/o:【史】日英同盟
+Japan/a Mar/o:【地名】日本海
+Japan/a larik/o:【植】カラマツ（種）
+Japan/i/o:【国名】日本（アジア）
+Japan/uj/o:【国名】=Japanio（日本）
+Jav/o:【地名】ジャワ島（インドネシア）
+Jemen/o:【国名】イエメン（アジア）
+Jener/a vakcin/o:ジェンナー・ワクチン,天然痘ワクチン,>>variolo
+Jerusalem/o:【地名】エルサレム（イスラエルの首都）
+Jez/a pice/o:【植】トウヒ（唐檜）（種）
+Jokoham/o:【地名】横浜
+Jordan/o:【地名】ヨルダン川（中東）
+Jordani/o:【国名】ヨルダン（アジア）
+Jork/o:【地名】ヨーク（イギリス）
+Jugoslav/i/o:【国名】ユーゴスラビア（欧州）
+Jugoslav/uj/o:【国名】=Jugoslavio（ユーゴスラビア）
+Juli/o:{Ｏ}（男子名）ユリウス,ジュリアス,フリオ;（女子名）ユリア,ジュリア
+Kaboverd/o:【国名】カーボベルデ（アフリカ）
+Kair/o:【地名】カイロ（エジプトの首都）
+Kalcid/o:【地名】カルキス（ギリシア）
+Kalcidik/o:【地名】カルキディキ半島（ギリシア）
+Kaliforni/a Duon/insul/o:【地名】カリフォルニア半島（メキシコ）
+Kaliforni/o:【地名】カリフォルニア州（米国）
+Kambog^/o:【国名】カンボジア（アジア）
+Kamerun/o:【国名】カメルーン（アフリカ）
+Kandi/o:【地名】カンディア島（＝クレタ島，ギリシア）,=Kreto
+Kanton/o:【地名】カントン（広東，コワンチョウ(広州)の旧称，中国）
+Karac^i/o:【地名】カラチ（パキスタン）
+Karib/a Mar/o:【地名】カリブ海（大西洋西部）
+Karon/o:【神】カロン（ギリシア神話で冥界の川の渡し守）,>>Ah^erono;【天】カロン（冥王星の衛星）
+Karpat/oj:【地名】カルパチア山脈（バルカン半島）
+Kartvel/i/o:【国名】グルジア（アジア）
+Kartvel/uj/o:【国名】=Kartvelio（グルジア）
+Kas^mir/o:【地名】カシミール地方（インド北端，パキスタンとの係争地）
+Kaspi/a Mar/o:【地名】カスピ海,=Kaspio
+Kaspi/o:【地名】カスピ海（中央アジア）
+Katalun/i/o:【地名】カタロニア,カタルーニャ（スペイン）
+Katar/o:【国名】カタール（アジア）
+Katmandu/o:【地名】カトマンズ（ネパールの首都）
+Kau^kaz/oj:【地名】カフカス（コーカサス）山脈（ロシア・グルジア）
+Kazah^/i/o:【国名】カザフスタン（アジア）
+Kazah^/uj/o:【国名】=Kazah^io（カザフスタン）
+Kazah^stan/o:【国名】カザフスタン（アジア）,=Kazah^io
+Kebek/i/o:【地名】ケベック州（カナダ）
+Kebek/o:【地名】ケベック（カナダ）
+Kembrig^/o:【地名】ケンブリッジ（イギリス）
+Kenj/o:【国名】ケニア（アフリカ）
+Kenj/o:【地名】ケニア山（ケニア）
+Kerone/o:【古地名】カイロネイア（古代ギリシアの都市，〜の戦い）
+Kiev/o:【地名】キエフ（ウクライナの首都）
+Kimr/i/o:【地名】ウェールズ（イギリス）
+Kimr/uj/o:【地名】=Kimrio（ウェールズ）
+Kins^as/o:【地名】キンシャサ（コンゴ民主共和国の首都）
+Kiot/o:【地名】京都
+Kipr/o:【国名】キプロス（アジア）
+Kirgiz/i/o:【国名】キルギス（アジア）
+Kirgiz/uj/o:【国名】=Kirgizio（キルギス）
+Kirgizistan/o:=>Kirgizio（キルギス）
+Kiribat/o:【国名】キリバス（大洋州）
+Kol/a Duon/insul/o:【地名】コラ半島（ロシア）
+Kolkat/o:【地名】コルカタ（インド）（旧称：カルカッタ）
+Kolombi/o:【国名】コロンビア（南アメリカ）
+Kolonj/o:【地名】ケルン（ドイツ）
+Kolorad/o:【地名】コロラド川（北米）
+Koloradi/o:【地名】コロラド州（米国）
+Kolumb/o:【人名】コロンブス
+Komor/oj:【国名】コモロ（アフリカ）
+Komor/oj:【地名】コモロ諸島（南部アフリカ東方）
+Kong/o:【国名】コンゴ（共和国，首都ブラザビル，アフリカ）,=Respubliko Kongo
+Kong/o:【国名】コンゴ（民主共和国，首都キンシャサ，アフリカ）,=Demokratia Respubliko Kongo
+Kong/o:【地名】コンゴ川（ザイール川の旧称）,=Zairo;【地名】コンゴ
+Konstantinopol/o:【地名】コンスタンティノープル（イスタンブールの旧称，トルコ）
+Kopenhag/o:【地名】コペンハーゲン（デンマークの首都）
+Koral/a Mar/o:【地名】珊瑚海（オーストラリア東方）
+Korcir/o:【地名】ケルキラ島（ギリシア）,=Korfuo
+Kore/a Duon/insul/o:【地名】朝鮮半島（東アジア）
+Kore/i/o:【国名】=Popola Demokratia Respubliko Koreio,=Nord-Koreio
+Kore/i/o:【国名】=Respubliko Koreio,=Sud-Koreio
+Kore/i/o:【国名】朝鮮・韓国,>>Nord-Koreio,>>Sud-Koreio
+Kore/o:【地名】=Koreio
+Kore/uj/o:【国名】=Koreio（朝鮮・韓国）
+Korfu/o:【地名】ケルキラ島（ギリシア）,=Korciro
+Korint/o:【地名】コリントス（ギリシア）
+Kornval/o:【地名】コーンウォール州（イギリス）
+Korsik/o:【地名】コルシカ島（地中海西部）
+Kosov/o:【地名】コソボ（欧州）
+Krakov/o:【地名】クラクフ（ポーランド）
+Kret/o:【地名】クレタ島（ギリシア）
+Krime/o:【地名】クリミア半島（ウクライナ）
+Kristofor/o:（男子名）クリストファー
+Kroat/i/a:クロアチア（国）の
+Kroat/i/o:【国名】クロアチア（欧州）
+Kroat/uj/o:【国名】=Kroatio（クロアチア）
+Kron/o:【神】クロノス（ギリシア神話でゼウスの父）
+Kurd/i/o:【地名】クルディスタン（トルコ・イラク・イランにまたがるクルド族の居住地域）
+Kuvajt/o:【国名】クウェート（アジア）
+Kuvajt/o:【地名】クウェート（クウェートの首都）
+Lagos/o:【地名】ラゴス（ナイジェリアの旧首都）,>>Abug^o
+Lakon/i/o:【史】ラコニア（古代ギリシア，スパルタを中心とする地方）
+Laos/o:【国名】ラオス（アジア）
+Latv/i/o:【国名】ラトビア（欧州）
+Latv/uj/o:【国名】=Latvio（ラトビア）
+Lau^zi/o:老子【私家版】
+Lesb/o:【地名】レスボス島（＝ミティリーニ島，ギリシア）
+Lesot/o:【国名】レソト（アフリカ）
+Leton/i/o:【国名】=Latvio
+Leton/uj/o:【国名】=Latvio（ラトビア）
+Lih^tens^tejn/o:【国名】リヒテンシュタイン（欧州）
+Lisbon/o:【地名】リスボン（ポルトガルの首都）
+Litov/i/o:【国名】リトアニア（欧州）
+Litov/uj/o:【国名】=Litovio（リトアニア）
+London/a:ロンドンの
+Loren/o:【地名】ロレーヌ地方（フランス）
+Los-Ang^eles/o:【地名】ロサンゼルス（米国）
+Lucern/o:【地名】ルツェルン（スイス）
+Luksemburg/o:【国名】ルクセンブルク（欧州）
+Luksemburg/o:【地名】ルクセンブルク（ルクセンブルクの首都）
+Lvov/o:【地名】リボフ（ウクライナ）
+Madagaskar/a vink/o:【植】ニチニチソウ（日々草）（種）
+Madagaskar/o:【国名】マダガスカル（アフリカ）
+Madagaskar/o:【地名】マダガスカル島（アフリカ南東部）
+Madrid/o:【地名】マドリード（スペインの首都）
+Majenc/o:【地名】マインツ（ドイツ）
+Majn/o:【地名】マイン川（ドイツ）
+Makedon/i/o:【国名】マケドニア（欧州）
+Makedon/uj/o:【国名】=Makedonio（マケドニア）
+Mal/grand/aj Antil/oj:【地名】小アンティル諸島（中部アメリカ）
+Mal/grand/azi/o:【地理】小アジア
+Malaj/a Duon/insul/o:【地名】マレー半島（東南アジア）
+Malajzi/o:【国名】マレーシア（アジア）
+Malavi/o:【国名】マラウイ（アフリカ）
+Maldiv/oj:【国名】モルジブ,モルディブ（アジア）
+Mali/o:【国名】マリ（アフリカ）
+Malt/o:【国名】マルタ（欧州）
+Malt/o:【地名】マルタ島（地中海中部）
+Manil/o:【地名】マニラ（フィリピンの首都）
+Mari/a kard/o:【植】マリアアザミ,オオアザミ,=Maria silibo
+Marmor/a Mar/o:【地名】マルマラ海（トルコ北西部）
+Mars^al/oj:【国名】マーシャル諸島（大洋州）
+Marsejl/o:【地名】マルセイユ（フランス）
+Martinik/o:【地名】マルティニーク島（中央アメリカ，フランスの海外県）
+Mau^rici/o:【国名】モーリシャス（アフリカ）
+Mau^ritani/o:【国名】モーリタニア（アフリカ）
+Mediterane/a:地中海の
+Meduz/o:【神】メドゥーサ（ギリシア神話の怪物、頭髪が蛇）
+Meger/o:【神】メガイラ（ギリシア神話の復讐の女神たちの一人）
+Meksik/a Golf/o:【地名】メキシコ湾（メキシコ東方）
+Melanezi/o:【地名】メラネシア（太平洋南西部の島々）
+Menzi/o:孟子【私家版】
+Mez/amerik/o:【地名】中央アメリカ
+Mez/eu^rop/o:【地名】中央ヨーロッパ,中欧
+Mezopotami/o:【史】メソポタミア
+Micen/o:【史】ミケーネ,ミュケナイ（古代ギリシアの都市）
+Midas/o:【神】ミダス（ギリシア神話でフリギアの王。触れるものすべてが黄金になるよう望んだ。）
+Mikronezi/o:【国名】ミクロネシア連邦（大洋州）
+Mikronezi/o:【地名】ミクロネシア（太平洋北西部の島々）
+Milan/o:【地名】ミラノ（イタリア）
+Mino/o:【神】ミノス（ギリシア神話でクレタの王）
+Mino/tau^r/o:【神】ミノタウロス（ギリシア神話で人身牛頭の怪物）
+Mitilen/o:【地名】ミティリーニ（ギリシア）
+Mnemozin/o:【神】ムネモシュネ（ギリシア神話で記憶の女神）
+Moldav/i/o:【国名】モルドバ（欧州）
+Moldav/uj/o:【国名】=Moldavio（モルドバ）
+Monak/o:【国名】モナコ（欧州）
+Monak/o:【地名】モナコ（モナコの首都）
+Mongol/i/o:【国名】モンゴル（アジア）
+Mongol/uj/o:【国名】=Mongolio（モンゴル）
+Mont/o Blank/a:【地名】モンブラン山（スイス・フランス）
+Montenegr/o:【国名】モンテネグロ（欧州）
+Montevide/o:【地名】モンテビデオ（ウルグアイの首都）
+Montpelier/o:【地名】モンペリエ（フランス）
+Montreal/o:【地名】モントリオール（カナダ）
+Morav/i/o:【地名】モラバ地方（＝モラビア，チェコ）
+Mort/a Mar/o:【地名】死海（ヨルダン）
+Moskv/o:【地名】モスクワ（ロシアの首都）
+Mozambik/o:【国名】モザンビーク（アフリカ）
+Mozi/o:墨子【私家版】
+Mumbaj/o:【地名】ムンバイ（インド）（旧称：ボンベイ）
+Munken/o:【地名】ミュンヘン（ドイツ）
+Nagasak/o:【地名】長崎
+Naks/o:【地名】ナクソス島（ギリシア，キクラデス諸島）
+Namibi/o:【国名】ナミビア（アフリカ）
+Nant/a edikt/o:（la 〜）【史】ナントの勅令（1958）
+Napol/o:【地名】ナポリ（イタリア）
+Narcis/o:【神】ナルキッソス（ギリシア神話の美青年）
+Nau^sika/o:【神】ナウシカア（ギリシア神話でオデュッセウスに出会う娘）
+Naur/o:【国名】ナウル（大洋州）
+Naur/o:【地名】ナウル（ナウルの首都）
+Nepal/o:【国名】ネパール（アジア）
+Nig^er/o:【国名】ニジェール（アフリカ）
+Nig^er/o:【地名】ニジェール川（アフリカ中部）
+Nig^eri/o:【国名】ナイジェリア（アフリカ）
+Nigr/a Mar/o:【地名】黒海（トルコ北方）
+Nigr/a/mar/a:黒海の
+Nil/o Blank/a:【地名】白ナイル（ナイル川の支流）
+Nil/o Blu/a:【地名】青ナイル（ナイル川の支流）
+Nil/o:【地名】ナイル川（アフリカ北部）
+Nizni-Novgorod/o:【地名】ニジニ・ノヴゴロド（旧ゴーリキー，ロシア）
+Nord-Kore/i/o:【国名】北朝鮮（アジア）
+Nord-Kore/uj/o:【国名】=Nord-Koreio（北朝鮮）
+Nord/a Mar/o:【地名】北海（イギリス東方）
+Nord/amerik/o:【地名】北アメリカ
+Notos/o:【神】ノトス（ギリシア神話で南風の神）
+Nov-Delhi/o:【地名】ニューデリー（インドの首都）
+Nov-Gvine/o:【地名】ニューギニア島（イリアン島）,=Iriano
+Nov-Jork/o:{Ｏ}【地名】ニューヨーク（米国）
+Nov-Jorki/o:【地名】ニューヨーク州（米国）
+Nov-Zeland/o:【国名】ニュージーランド（大洋州）
+Novjork/o:【地名】=Nov-Jorko（ニューヨーク）
+Nurenberg/o:【地名】ニュルンベルク（ドイツ）
+Ocean/o:【神】オケアノス（ギリシア神話で大洋の神）
+Oceani/o:【地名】オセアニア
+Odes/o:【地名】オデッサ（ウクライナ）
+Odise/o:【神】オデュッセウス（ギリシア神話の英雄）
+Odr/o:【地名】オーデル川（ドイツ・ポーランド国境）
+Ojt/o:【地名】オイテ山（ギリシア，伝説ではヘラクレスの没地）
+Okinav/o:【地名】沖縄
+Oksford/o:【地名】オックスフォード（イギリス）
+Olimp/o:【地名】オリンポス山
+Olimpi/o:【地名】オリンピア（ギリシア，古代の聖地）
+Olimpik/a fajr/o:（オリンピック会場の）聖火
+Olimpik/a torc^/o:（オリンピックでリレーされる）聖火
+Olimpik/o:【運】オリンピック大会,=olimpiaj ludoj
+Oman/o:【国名】オマーン（アジア）
+Or/a S^af/fel/o:【神】（ギリシア神話の）金羊皮
+Orfe/o:【神】オルフェウス（ギリシア神話の詩人・音楽家）
+Orient-C^in/a Mar/o:【地名】東シナ海
+Orient/a Azi/o:【地理】東アジア
+Orient/a Timor/o:【国名】東チモール（アジア）
+Orion/o:【神】オリオン（ギリシア神話の猟師）;【天】オリオン座
+Osak/o:【地名】大阪
+Osl/o:【地名】オスロ（ノルウェーの首都）
+Oss/o:【地名】オッサ山（ギリシア）
+PEJV:【Ｅ】［略］=Praktika Esperanto-Japana Vortareto,実用エスペラント小辞典（この辞典 Ver 1.81）
+Pajn/o:【神】パン（ギリシア神話の牧畜の神）
+Palau^/o:【国名】パラオ（大洋州）
+Palestin/o:【地名】パレスチナ（西アジアの地中海沿岸地方）
+Papuo-Nov-Gvine/o:【国名】パプアニューギニア（大洋州）
+Paris/o:【神】パリス（ギリシア神話でトロイアの王子）
+Parnas/o:【地名】パルナッソス山（ギリシア）
+Paros/o:【地名】パロス島（ギリシア）
+Partenon/o:【史】パルテノン（古代ギリシアの神殿）
+Patm/o:【地名】パトモス島（ギリシア）
+Pegaz/o:【神】ペガソス（ギリシア神話の有翼の天馬）;【天】ペガスス座
+Pekin/o:【地名】ペキン（北京，中国の首都）
+Pelion/o:【地名】ピリオン山（＝ペリオン山，ギリシア）
+Peloponez/o:【地名】ペロポネソス半島（ギリシア）
+Penelop/o:【神】ペネロペ（ギリシア神話でオデュッセウスの妻）
+Pensilvani/o:【地名】ペンシルバニア州（米国）
+Pers/a Golf/o:【地名】ペルシャ湾（アラビア半島東方）
+Pers/i/o:【史】ペルシア（イランの古称）
+Perse/o:【神】ペルセウス（ギリシア神話の英雄）;【天】ペルセウス座
+Persefon/o:【神】ペルセフォネ（ギリシア神話で冥界の王ハデスの妻）,>>Prozerpino
+Peterburg/a:ペテルブルグの
+Peterburg/o:【地名】ペテルブルグ（ロシアの都市，旧Leningrado）
+Pigmalion/o:【神】ピグマリオン（ギリシア神話でキプロスの王）
+Pind/oj:【地名】ピンドス山脈（ギリシア）
+Pire/o:【地名】ピレウス（ギリシア，古代アテネの外港として栄えた）
+Pirene/oj:【地名】ピレネー山脈（フランス・スペイン）
+Pitagor/o:【人名】ピタゴラス（古代ギリシアの哲学者・数学者）
+Platon/o:【人名】プラトン（古代ギリシアの哲学者，前427-前347）
+Plejad/o:【天】プレアデス星団,すばる（昴）;【神】プレイアデス（ギリシア神話でアトラスの七人の娘）;《転》（p〜）優れた七人組（七賢人、七詩聖など）
+Plut/o:【神】プルートス（ギリシア神話の富の神）
+Plutark/o:【人名】プルタルコス,プルターク（古代ギリシアの哲学者・伝記作者、46頃-125頃）
+Portland/a cement/o:ポルトランドセメント
+Portugal/i/o:【国名】ポルトガル（欧州）
+Portugal/uj/o:【国名】=Portugalio（ポルトガル）
+Pozidon/o:【神】ポセイドン（ギリシア神話の海神）,>>Neptuno
+Prag/o:【地名】プラハ（チェコの首都）
+Prokrust/a lit/o:プロクルステスの寝台;《転》強引な画一化
+Prokrust/o:【神】プロクルステス（ギリシア神話に出てくる強盗）
+Promete/o:【神】プロメテウス（ギリシア神話でティタン族の英雄）
+Protagor/o:【人名】プロタゴラス（古代ギリシアの代表的なソフィスト）
+Prus/i/o:【史】プロイセン王国（＝プロシア王国，1701-1871）
+Psih^/o:【神】プシュケー（ギリシア神話でエロスに愛された美女）
+Rau^m/o:【地名】ラウマ（フィンランド）
+Rejkjavik/o:【地名】レイキャビク（アイスランドの首都）
+Rejn/o:【地名】ライン川（中欧）
+Reuni/o:【地名】レユニオン島（インド洋南西部）
+Rio-de-J^anejr/o:【地名】リオデジャネイロ（ブラジル）
+Rokmontar/o:【地名】ロッキー山脈（北アメリカ）
+Rom/a kamomil/o:【植】ローマカミルレ（_Anthemis nobilis_）
+Rom/o:【地名】ローマ（イタリアの首都）
+Romi/a Imperi/o:【史】ローマ帝国
+Romi/o:【史】ローマ帝国
+Roterdam/o:【地名】ロッテルダム（オランダ）
+Ruand/o:【国名】ルワンダ（アフリカ）
+Rug^/a Mar/o:【地名】紅海（アラビア半島西方）
+S^anhaj/o:【地名】シャンハイ（上海，中国）
+S^em/o:【聖】セム（ノアの第一子）,>>semidoj
+S^etland/oj:【地名】シェトランド諸島（イギリス）
+Sahar/o:【地名】サハラ砂漠（アフリカ北部）
+Saks/i/o:【地名】ザクセン地方（ドイツ）
+Salomon/oj:【国名】ソロモン諸島（大洋州）
+Salonik/o:【地名】テッサロニキ（＝サロニカ，ギリシア）,=Tesaloniko
+Salvador/o:【国名】エルサルバドル（北アメリカ）
+Samarkand/o:【地名】サマルカンド（ウズベキスタン）
+Samo/o:【国名】サモア（大洋州）
+Samotrac/o:【地名】サモトラキ島（ギリシア）
+San-Francisk/o:【地名】サンフランシスコ（米国）
+San-Pau^l/o:【地名】サンパウロ（ブラジル）
+Sankt-Peterburg/o:【地名】サンクト・ペテルブルク（旧レニングラード，ロシア）,>>Leningrado
+Sankt/a Kristofor/o kaj Nevis/o:【国名】セントクリストファー・ネイビス（北アメリカ）
+Sankt/a Luci/o:【国名】セントルシア（北アメリカ）
+Sankt/a Vincent/o kaj Grenadin/oj:【国名】セントビンセントおよびグレナディーン諸島（北アメリカ）
+Sanmarin/o:【国名】サンマリノ（欧州）
+Sanmarin/o:【地名】サンマリノ（サンマリノの首都）
+Santiag/o:【地名】サンチアゴ（チリの首都、スペインの町など）
+Santome/o kaj Principe/o:【国名】サントメ・プリンシペ（アフリカ）
+Santome/o:【地名】サントメ（サントメ・プリンシペの首都）
+Sapf/o:【人名】サッフォー（古代ギリシアの女性詩人）
+Sarajev/o:【地名】サラエボ（ボスニア・ヘルツェゴビナの首都）
+Sargas/mar/o:【地名】サルガッソー海（北大西洋の海域）
+Satan/a:サタンの
+Saud-Arabi/o:=Sauda Arabio（サウジアラビア）
+Saud/a Arab/i/o:【国名】サウジアラビア（アジア）
+Saud/a Arab/uj/o:【国名】=Sauda Arabio（サウジアラビア）
+Saudi-Arabi/o:=>Sauda Arabio（サウジアラビア）
+Savoj/a brasik/o:【植】チリメンキャベツ
+Sejs^el/oj:【国名】セーシェル（アフリカ）
+Selen/o:【神】セレネ（ギリシア神話で月の女神）
+Senegal/o:【国名】セネガル（アフリカ）
+Senegal/o:【地名】セネガル川（アフリカ西部）
+Serb/i/o:【国名】セルビア（欧州）
+Serb/uj/o:【国名】=Serbio（セルビア）
+Seul/a:ソウルの
+Seul/o:【地名】ソウル（韓国の首都）
+Siberi/o:【地名】シベリア
+Sicili/o:【地名】シチリア島（イタリア南部）
+Siera-Nevad/o:【地名】シエラネバダ山脈（スペイン）
+Siera-Nevad/o:【地名】シエラネバダ山脈（米国）
+Sieraleon/o:【国名】シエラレオネ（アフリカ）
+Silezi/o:【地名】シロンスク地方（＝シュレジエン，ポーランド）
+Silvestr/a vesper/o:（la 〜）【キ】大晦日の晩
+Sinaj/a kodeks/o:【聖】シナイ写本
+Singapur/o:【国名】シンガポール（アジア）
+Singapur/o:【地名】シンガポール（シンガポールの首都）
+Sizif/a labor/o:シジフォスの岩（報われない努力の例え、「賽の河原の石積み」）
+Sizif/o:【神】シシュフォス,シジフォス（ギリシア神話でコリントの王）
+Skandinav/a Duon/insul/o:【地名】スカンジナビア半島（北ヨーロッパ）
+Skandinav/i/o:【地名】スカンジナビア（ノルウェー・スウェーデン・デンマーク）
+Slovak/i/o:【国名】スロバキア（欧州）
+Slovak/uj/o:【国名】=Slovakio（スロバキア）
+Sloven/i/o:【国名】スロベニア（欧州）
+Sloven/uj/o:【国名】=Slovenio（スロベニア）
+Sofi/o:【地名】ソフィア（ブルガリアの首都）
+Sofokl/o:【人名】ソフォクレス（古代ギリシア三大悲劇詩人の一人）
+Sokrat/a ironi/o:ソクラテス的アイロニー
+Sokrat/o:【人名】ソクラテス（古代ギリシアの哲学者）
+Somal/i/a Duon/insul/o:【地名】ソマリア半島（アフリカ東部）
+Somal/i/o:【国名】ソマリア（アフリカ）
+Somal/uj/o:【国名】=Somalio（ソマリア）
+Sovet-Uni/o:【史】ソビエト連邦,ソ連,=Sovetio
+Sovet/uj/o:【史】=>Sovetio（ソ連）
+Sovet/uni/o:【史】=>Sovet-Unio（ソビエト連邦）
+Soveti/o:【史】ソビエト連邦,ソ連,=Sovet-Unio
+Spart/o:【史】スパルタ（古代ギリシアの都市）
+Srilank/o:【国名】スリランカ（アジア）
+Stokholm/o:【地名】ストックホルム（スウェーデンの首都）
+Strabon/o:【人名】ストラボン（ギリシアの地理学者・歴史学者）
+Strasburg/o:【地名】ストラスブール（フランス）
+Sud-Afrik/o:【国名】南アフリカ（共和国，アフリカ）
+Sud-C^in/a Mar/o:【地名】南シナ海（中国南方）
+Sud-Kore/i/o:【国名】韓国（アジア）
+Sud-Kore/uj/o:【国名】=Sud-Koreio（韓国）
+Sud/amerik/o:【地名】南アメリカ
+Sudan/a:スーダンの
+Sumatr/o:【地名】スマトラ島（インドネシア）
+Sumer/o:【史】シュメール（古代メソポタミアの地方名）
+Sun/a cikl/o:【天】太陽周期
+Sunzi/o:孫子【私家版】
+Surinam/o:【国名】スリナム（南アメリカ）
+Svazi/land/o:【国名】スワジランド（アフリカ）
+Tag^ik/i/o:【国名】タジキスタン（アジア）
+Tag^ik/uj/o:【国名】=Tag^ikio（タジキスタン）
+Tag^ikistan/o:=>Tag^ikio（タジキスタン）
+Taj/land/o:【国名】タイ（アジア）
+Tajmir/a Duon/insul/o:【地名】タイミル半島（シベリア）
+Tajvan/o:【地名】台湾,>>Formozo
+Tales/o:【人名】タレス（古代ギリシアの哲学者）
+Tamil-Nad/o:【地名】タミール・ナドゥ州（インド）
+Tamiz/o:【地名】テムズ川（イギリス）
+Tampere/o:【地名】タンペレ（フィンランド）
+Tanagr/o:【地名】タナグラ（ギリシア）
+Tanzani/o:【国名】タンザニア（アフリカ）
+Tasmani/o:【地名】タスマニア島（オーストラリア）
+Tasmani/o:【地名】タスマニア州（オーストラリア）
+Teb/o:【地名】テーベ（ギリシア）
+Teheran/o:【地名】テヘラン（イランの首都）
+Teksas/o:【地名】テキサス州（米国）
+Tel-Aviv/o:【地名】テルアビブ（イスラエル）
+Tesali/o:【地名】テッサリア地方（ギリシア）
+Tesalonik/o:【地名】テッサロニキ（ギリシア）,=Saloniko
+Teze/o:【神】テセウス（ギリシア神話でアテネの英雄）
+Tibet/o:【地名】チベット,チベット自治区（中国）
+Tigris/o:【地名】チグリス川（西アジア）
+Timor/o:【地名】チモール島（インドネシア）
+Titan/o:{Ｏ}【神】ティタン（ギリシア神話で巨人族の神）;《転》（小文字で）巨人
+Togoland/o:【国名】トーゴ（アフリカ）
+Toki/o:【地名】東京（日本の首都）
+Tong/o:【国名】トンガ（大洋州）
+Torin/o:【地名】トリノ（イタリア）
+Toront/o:【地名】トロント（カナダ）
+Trac/i/o:【史】トラキア（バルカン半島北東部の地域の古称）
+Trajan/a kolon/o:（la 〜）【建】トラヤヌスの円柱（古代ローマの記念柱）
+Trak/i/o:【史】=Tracio（トラキア）
+Trinidad/o kaj Tobag/o:【国名】トリニダード・トバゴ（北アメリカ）
+Trinidad/o:【地名】トリニダード島（西インド諸島）
+Troj/a c^eval/o:トロイの木馬
+Troj/a milit/o:トロイア戦争
+Turing/a au^tomat/o:【情】チューリングマシン
+Turing/a test/o:【情】チューリングテスト
+Turkmen/i/o:【国名】トルクメニスタン（アジア）
+Turkmen/uj/o:【国名】=Turkmenio（トルクメニスタン）
+Turkmenistan/o:=>Turkmenio（トルクメニスタン）
+Tuval/o:【国名】ツバル（大洋州）
+Ugand/o:【国名】ウガンダ（アフリカ）
+Ujgur/i/o:【地名】ウイグル（中国の自治区）
+Ukrain/i/o:【国名】ウクライナ（欧州）
+Ukrain/uj/o:【国名】ウクライナ（欧州）
+Ukrajn/o:【国名】=>Ukrainio（ウクライナ）
+Ulanbator/o:【地名】ウランバートル（モンゴルの首都）
+Unu/ig^/int/aj Arab/aj Emir/land/oj:【国名】アラブ首長国連邦（アジア）
+Upsal/o:【地名】ウプサラ（スウェーデン）
+Ural/o:【地名】ウラル山脈（ロシア）
+Ural/o:【地名】ウラル川（ロシア）
+Uran/o:【神】ウラノス（ギリシア神話の天空神）;【天】天王星
+Uzbek/i/o:【国名】ウズベキスタン（アジア）
+Uzbek/uj/o:【国名】=Uzbekio（ウズベキスタン）
+Uzbekistan/o:=>Uzbekio（ウズベキスタン）
+Valenci/o:【地名】バレンシア（スペイン）
+Valenci/o:【地名】バレンシア（ベネズエラ）
+Valon/i/o:【地名】ワロン地方（ベルギーのフランス語圏）
+Vankuver/o:【地名】バンクーバー（カナダ）
+Vanuatu/o:【国名】バヌアツ（大洋州）
+Varn/o:【地名】バルナ（ブルガリア）
+Vatikan/o:【国名】バチカン（欧州）
+Vatikan/urb/o:【地名】バチカン市（バチカンの首都）
+Veneci/o:【地名】ベネチア（＝ベニス，イタリア）
+Vien/a:ウィーンの
+Vien/o:【地名】ウィーン（オーストリアの首都）
+Vjetnam/i/o:【国名】ベトナム（アジア）
+Vjetnam/uj/o:【国名】=Vjetnamio（ベトナム）
+Vogez/oj:【地名】ボージュ山脈（フランス）
+Volg/o:【地名】ボルガ川（ロシア）
+Zagreb/a:ザグレブの
+Zagreb/o:【地名】ザグレブ（クロアチアの首都）
+Zairi/a:ザイールの
+Zakint/o:【地名】ザキントス島（ギリシア，イオニア諸島）
+Zambi/o:【国名】ザンビア（アフリカ）
+Zamenhof/a fest/o:【Ｅ】ザメンホフ祭（12月15日）
+Zamenhof/a:ザメンホフの
+Zanzibar/o:【地名】ザンジバル島（タンザニア）
+Zefir/o:【神】ゼフィロス（ギリシア神話の西風の神）
+Zeland/o:【地名】ゼーラント州（オランダ）
+Zenon/o:【人名】ゼノン（古代ギリシアの哲学者）
+Zeu^s/o:【神】ゼウス（ギリシア神話の最高神）
+Zimbabv/o:【国名】ジンバブエ（アフリカ）
+Zurik/o:【地名】チューリッヒ（スイス）
+a.K.:［略］=antau^ Kristo,（西暦）紀元前
+abdik/i:{Ｏ}［他］【政】（国王などが）退位する,譲位する,（高位者が）退任する,辞職する,>>demisii,>>eksig^i
+abdik/o:【政】退位,退任,辞任,辞職
+abi/pice/o:【植】ドイツトウヒ（種）,=ordinara piceo
+abort/aj^/o:流産児,=abortito;《転》できそこない
+afgan/o:アフガニスタン人
+agreg/i:［他］=kunigi（集める）【私家版】
+agronom/o:{Ｏ}農学者,=kultivosciencisto【私家版】
+agronomi/o:{Ｏ}農学,=kultivoscienco【私家版】
+akcesor/a palac/o:【日】添屋敷（そえやしき）【私家版】
+alfa:［文字名］アルファ（ギリシア文字の第１字，Αα）
+antau^ Krist/o:紀元前（ａ．Ｋ．）
+ardez/plat/o:スレート板【私家版】
+atik/a:（古代ギリシアの）アッティカの,アテネの;洗練された,典雅な
+atik/ism/o:（ギリシア語の）アッティカ風の表現
+au^str/a:オーストリアの
+au^str/o:オーストリア人
+azerbajg^an/an/o:アゼルバイジャン人
+balt/a:バルト人の
+balt/o:【史】バルト人（バルト海沿岸地方）
+bavar/o:バイエルン人,ババリア人（ドイツ）
+belorus/a:ベラルーシ（人）の;（la 〜）ベラルーシ語の
+belorus/o:ベラルーシ人
+beot/o:【史】ボイオティア人（古代ギリシア）
+beta:［文字名］ベータ（ギリシア文字の第２字，Ββ）
+bit/ar/a dosier/o:【情】バイナリファイル
+bohem/o:ボヘミア人
+bosni/an/o:ボスニア人
+breton/o:ブルターニュ人（＝ブルトン人，フランス）
+c^e/est/o:出席
+c^ec^en/o:チェチェン人
+c^ef/episkop/o:{Ｏ}【キ】（カトリックの）大司教,（ギリシア正教・英国国教会の）大主教,（プロテスタントの）大監督
+c^ef/inspekt/ist/o:【日】大目付（おおめつけ）【私家版】
+c^eh^/a:チェコ（人）の
+c^eh^/o:チェコ人
+c^uvas^/o:チュバシ人
+citr/o:{Ｏ}【楽】チター;【楽】キタラ（古代ギリシアの弦楽器）
+dej^or/a ministr/o:【日】用番老中（ようばんろうじゅう）【私家版】
+delt/o:{Ｏ}【地理】三角洲;デルタ（ギリシア文字Δ，δ）
+dipter/oj:【虫】双翅類（そうしるい）
+dirt/a:=malpura（F. de Diego）【私家版】
+dis/lok/i:［他］配置する,分散して置く
+dis/met/o:【海】（船の）排水量
+divid/o:分割,区切り,分配;【数】割り算
+dori/an/o:【史】ドリス人（＝ドーリア人，古代ギリシア人の一派）
+drakm/o:{Ｏ}【貨】ドラクマ（ギリシアの貨幣単位）;【史】ドラクマ（古代ギリシアの銀貨，＝6 oboloj）
+dravid/o:ドラビダ人（南インド）
+du/on/oktav/o:【印】十六折版
+duon/sek/a:半乾きの,半乾燥の
+ebol/o:【菌】エボラウイルス
+egipt/o:エジプト人
+ekran/pord/o:【建】（日本建築の）ふすま（襖）,=husumo;障子（しょうじ）,=s^oj^io【私家版】
+el/bug^et/ig/i:［他］【経】予算に組入れる
+el/tond/o kaj al/glu/o:【情】カット＆ペースト
+emir/land/o:【イ】（イスラムの）首長国
+emir/o:【イ】アミール（イスラム教国の首長の称号）;【史】アミール（イスラムの地方総督・軍司令官の称号、預言者ムハンマドの子孫の尊称）
+en/bug^et/ig/i:［他］【経】予算から削除する
+en/pag^/ig/i:［他］組み付ける,ページに組む
+en/pag^/ig/o:【印】組み付け,（ページの）レイアウト
+eparki/o:【キ】（ギリシア正教で）主教管区,>>diocezo
+episkop/o:{Ｏ}【キ】（カトリックの）司教,（ギリシア正教・英国国教会の）主教,（プロテスタントの）監督
+era/o:紀元;時代;【地質】代,>>periodo（紀）
+etrusk/o:【史】エトルリア人（古代ローマの先住民）
+eu^sk/o:バスク人
+falang/o:{Ｏ}【軍】（古代ギリシアの）密集方陣,ファランクス;【解】指節骨（しせっこつ）
+fals/a flag/o:偽旗作戦（にせはたさくせん）【私家版】
+fals/flag/a atak/o:偽旗攻撃（にせはたこうげき）【私家版】
+famili/a templ/o:菩提寺（ぼだいじ）【私家版】
+federaci/a land/o:【政】（ドイツ連邦共和国の）州（ラント）
+fenic/o:【史】フェニキア人
+fer/industri/o:鉄鋼産業,=s^talindustrio【私家版】
+fer/produkt/ad/o:鉄鋼生産,=s^talproduktado【私家版】
+filipin/an/o:フィリピン人
+filis^t/o:【史】フィリスティア人（＝ペリシテ人，古代パレスチナ西海岸地方）
+finn/a:フィンランド（人）の
+finn/o:フィンランド人
+flandr/a:フランドル（人）の
+flandr/o:フランドル人
+flank/pord/o:通用門【私家版】
+forming/o:【楽】フォルミンクス（古代ギリシアの弦楽器）
+fortik/e konstru/it/a:筋骨たくましい【私家版】
+fratri/o:【史】フラトリア（古代ギリシアで部族と氏族の中間に位置する集団）
+futbal/teren/o:サッカー場,=piedpilkejo【私家版】
+g^erman/o:【史】ゲルマン人
+gael/o:【史】ゲール人（ケルト人の一派）
+gain/o:【服】シース（体にぴったりしたドレス・スカートなど）;【機】（配線を通す筒状の）被覆材,シ－ス
+galeg/o:ガリシア人（スペイン，ケルト系民族）
+gama:［文字名］ガンマ（ギリシア文字の第３字，Γγ）
+ginece/o:（古代ギリシアの）婦人部屋;【植】雌ずい（群）,=pistilo
+glav/et/o:【日】脇差（わきざし）【私家版】
+grek/a lingv/o:（la 〜）ギリシア語,ギリシャ語
+grek/a ortodoks/a eklezi/o:【キ】ギリシア正教会
+grek/a:ギリシアの
+grek/o:{Ｏ}ギリシア人
+grek/stil/a:ギリシア様式の
+h^alde/o:【史】カルデア人（バビロニア南部に建国したセム系民族）
+h^or/o:{Ｂ}合唱団,合唱隊;合唱,合唱曲,=koruso;【劇】コロス（古代ギリシア演劇でそろって歌い踊る一群）
+hanifit/a skol/o:【イ】ハナフィー法学派【私家版】
+havaj/a:ハワイの;（la 〜）ハワイ語の
+helen/a:古代ギリシアの
+helen/ism/o:【哲】ヘレニズム,><hebreismo;【語】ギリシア語風の表現
+helen/ist/o:古代ギリシア研究者;【聖】ギリシア語を話すユダヤ人
+helen/o:【史】古代ギリシア人,>>greko
+hemipter/a:【虫】半翅類の
+hemipter/oj:【虫】半翅（はんし）類（半翅目の昆虫の総称）
+herb/o/gril/o:【虫】クサヒバリ（草雲雀，_Paratrigonidium bifasciatum_）【私家版】
+hero/o:{Ｂ}英雄,勇士;（物語の）主人公;【神】（ギリシア神話の）半神,神人
+hetajr/o:【史】（古代ギリシアの）ヘタイラ,高級娼婦
+himenopter/oj:【動】膜翅類（ハチやアリなど）
+hind/a:インド（人）の
+hind/i/a lingv/o:（la 〜）ヒンディー語
+hind/o:インド人
+hindu/ism/o:【宗】ヒンドゥー教,ヒンズー教
+hindu/o:ヒンドゥー教徒,ヒンズー教徒
+hun/o:【史】フン族（中央アジアの遊牧騎馬民族）
+hungr/i:［自］=malsati（F. de Diego）【私家版】
+iber/o:【史】イベリア人（西ヨーロッパに住んでいた古代民族）
+ikon/o:【キ】（ギリシア正教の）聖画像,イコン,=sanktfiguro
+indonezi/an/o:インドネシア人
+inka/a:インカの
+inka/o:【史】インカの王族（の一員）,>>kec^uo
+inocent/a:=senkulpa（KK,War,F. de Diego）【私家版】
+inspekt/ist/o:【日】目付（めつけ）【私家版】
+intendant/o:【日】家老（かろう）【私家版】
+interes/konflikt/o:利害の対立,利害の衝突
+internau^t/o:インターネット利用者,=retuzanto【私家版】
+intest/a mikrob/ar/o:【生】腸内細菌叢,腸内常在微生物叢【私家版】
+inuit/o:イヌイット,>>eskimo
+ioni/an/o:【史】イオニア人（古代ギリシア人の一派）
+ipsilon/o:{Ｏ}ワイ（ラテン文字Ｙ，ｙ）;ユプシロン（ギリシア文字Υ，υ）
+islam/a:イスラム教の,回教の
+islam/an/o:イスラム教徒,ムスリム,回教徒
+islam/o:【宗】イスラム教,回教
+japan/i/an/o:日本国民
+japan/o:{Ｏ}日本人
+jota:［文字名］イオタ（ギリシア文字の第９字，Ιι）
+jugoslav/o:ユーゴスラビア人
+kajman/o:【動】カイマン（中南米産のワニ）,>>aligatoro
+kancional/o:【キ】=liturgia kantaro（典礼聖歌集？？？）【私家版】
+kantil/o:【服】カンティーユ（らせん状に撚った刺しゅう用の金銀糸）【私家版】
+kanton/o:【日】郡（こおり）【私家版】
+kartvel/o:グルジア人
+katalun/a lingv/o:（la 〜）カタロニア語,カタルーニャ語
+katalun/a:カタロニア（人）の,カタルーニャ（人）の
+katalun/o:カタロニア人,カタルーニャ人
+kazah^/o:カザフ人
+kelt/a:ケルト（人）の
+kelt/o:【史】ケルト人（古代ヨーロッパの一民族）
+kimr/a:ウェールズ（人）の;（la 〜）ウェールズ語の
+kimr/o:ウェールズ人
+kinu/o:【植】キヌア,キノア（アカザ属の一種、アンデス地方原産の穀物）,=kvinoo【私家版】
+kirgiz/o:キルギス人
+klasik/a lingv/o:古典語（特に古代ギリシア語・ラテン語）
+kofr/o:【日】葛籠（つづら）【私家版】
+koleopter/oj:【虫】鞘翅目（しょうしもく）,甲虫類
+kolor/a:色のついた
+komand/o:【軍】指揮,命令;指令,号令;【機】操作,制御【情】コマンド,指令
+kompromit/i:{Ｂ}［他］危険にさらす,危うくする;巻き添えにする
+kompromit/ig^/i:［自］危険にさらされる;巻き添えをくう
+komunik/o:沙汰（さた）,通達【私家版】
+konflikt/o de interes/oj:利害の衝突
+kore/a:朝鮮・韓国（人）の
+kore/o:朝鮮人,韓国人
+korife/o:{Ｏ}（古代ギリシア劇の）合唱隊長;【劇】コリフェ（小群舞の主導者）;《転》唱道者,統率者
+kornval/a:コーンウォールの;（la 〜）コーンウォール語の
+korp/o/mas/a indic/o:【医】ボディマス指数（BMI）
+korsik/an/o:コルシカ人（フランス，コルシカ島）
+kotorn/o:【劇】（古代ギリシア悲劇の俳優が履いた）厚底の半長靴
+krak/butik/o:コンビニエンス・ストア
+krev/o:破裂;【車】パンク
+kroat/a:クロアチア（人）の
+kroat/o:クロアチア人
+kultiv/o/scienc/ist/o:農学者,=agronomo【私家版】
+kultiv/o/scienc/o:農学,=agronomio【私家版】
+kurd/oj:クルド族
+kus^/kusen/o:【日】布団,=hutono,>>litaj^o【私家版】
+kvar/on/format/o:【印】四つ折り判
+kvart/o:{Ｏ}【楽】四度音程;【印】四つ折判;【運】（フェンシング）カルト（第四の構え）;《古》クォート（約１リットル）
+kvino/o:【植】キヌア,キノア（アカザ属の一種、アンデス地方原産の穀物）,=kinuo【私家版】
+lami/o:【植】オドリコソウ（属）;【神】ラミア（ギリシア神話の魔女，人を食い子供の血を吸う）
+lang/et/o:小さい舌;【機】（はかりの）指針;【楽】（楽器の）リード;【植】（舌状花の）舌片
+langvor/o:【詩】=malviglo（無気力）
+latin/a lingv/o:（la 〜）ラテン語,=latino
+latin/a:ラテン語の;ラテンの
+latin/id/aj lingv/oj:【語】ロマンス諸語,ロマン諸語
+latin/o:ラテン語
+latv/o:ラトビア人,=letono
+lepidopter/oj:【虫】鱗翅類（りんしるい）,>>papilioj
+litov/a:リトアニア（人）の
+litov/o:リトアニア人
+maja/o:マヤ人,マヤ族（中南米の先住民）
+makedon/o:マケドニア人
+mal/nov/grek/a lingv/o:古代ギリシア語
+mal/nov/grek/a:古代ギリシアの
+mal/supr/a palac/o:【日】下屋敷（しもやしき）【私家版】
+malaj/o:マレー人
+maldiv/an/o:モルジブ人
+maraton/o:【運】マラソン
+marmor/gril/o:【虫】マツムシ（松虫，Xenogryllus marmoratus）【私家版】
+mau^r/o:ムーア人（北西アフリカのイスラム教徒）
+mau^rici/an/o:モーリシャス人
+mez/a palac/o:【日】中屋敷（なかやしき）【私家版】
+minus/sign/o:【数】【情】マイナス記号（－）
+mokr/a:=malseka（F. de Diego）【私家版】
+moldav/o:モルドバ人
+mongol/a:モンゴル（人）の
+mongol/o:モンゴル人
+montenegr/an/o:モンテネグロ人
+mu:［文字名］ミュー（ギリシア文字の第12字，Μμ）
+nepal/an/o:ネパール人
+neu^ropter/oj:【虫】脈翅類（みゃくしるい）
+nevropter/oj:《廃》=neu^ropteroj（脈翅類）
+nimf/o:{Ｏ}【神】ニンフ（ギリシア神話の水の精）;【虫】若虫（わかむし）;【解】小陰唇,=vulva lipeto
+norm/a:基準の,標準の,規格の;規格に準処した
+nov/grek/a lingv/o:現代ギリシア語
+nov/grek/a:現代ギリシアの
+nov/liberal/ism/o:新自由主義
+obol/o:{Ｏ}【史】オボロス（古代ギリシアの小貨幣）,>>drakmo
+ok/on/format/o:【印】八つ折り判
+okcitan/a:オクシタン語の
+okcitan/e:オクシタン語で
+oktav/o:{Ｏ}【楽】オクターブ;【印】八つ折版
+okul/inflam//o:【病】眼炎
+olimpi/aj lud/oj:【運】オリンピック大会;【史】（古代ギリシアの）オリンピック競技
+omega:［文字名］オメガ（ギリシア文字の最終字，Ωω）
+ordinar/a pice/o:【植】ドイツトウヒ（種）,=abipiceo
+ortopter/oj:【虫】直翅類,バッタ目,>>lokusto,>>manto
+ostracism/o:{Ｏ}【史】（古代ギリシアの）陶片追放,オストラシズム
+otoman/o:【史】オスマントルコ人,トルコ人,>>turko
+p.K.:［略］=post Kristo,（西暦）紀元後
+pankrac/o:パンクラチオン（古代ギリシアの格闘競技）
+paper/pord/o:【建】障子（しょうじ）【私家版】
+papili/o:{Ｂ}【虫】チョウ（蝶）,ガ（蛾）（鱗翅目の総称）,>>noktopapilio
+patriark/o:【聖】（古代イスラエルの）族長;【キ】総大司教（カトリック）,総大主教（ギリシア正教）;《転》長老
+pens/o/komision/o:シンク・タンク,頭脳集団【私家版】
+pers/o:ペルシア人（イラン系諸族の一）
+petol/skrib/o:いたずら書き,落書き【私家版】
+pigme/o:{Ｏ}ピグミー（低身長の黒人種族の総称）;【神】ピュグマイオイ（ギリシア伝説の矮人族）;《転》こびと,>>nano
+polic/a komisar/o:【日】与力（よりき）【私家版】
+polus/ec/o:【理】極性（＋，－）
+pop/o:【キ】（ギリシア正教の）司祭,>>pastro
+popol/kred/o:俗信
+popular/ig/i:［他］大衆化する,通俗化する,大衆向きにする
+portugal/a:ポルトガル（人）の
+portugal/o:ポルトガル人
+post Krist/o:（キリスト）紀元（ｐ．Ｋ．）
+posthum/a:《Ｎ》=postmorta（死後の）【私家版】
+profesi/i:［他］職業とする,本職とする
+prus/o:プロイセン人（＝プロシア人）
+pun/pag/o:償い,罪滅ぼし;《稀》=monpuno（罰金刑）
+rapsod/o:【文】（古代ギリシアの）吟遊詩人
+rapsodi/o:【楽】狂詩曲,ラプソディー;【文】（古代ギリシアの）吟唱叙事詩
+rar/a speci/o:【環】希少種
+retor/o:{Ｏ}【史】（古代ギリシアの）雄弁術教師,修辞学教師;《転》美辞麗句を並べる雄弁家,演説屋
+riz/mal/san/o:【医】白米病;《般》脚気（かっけ）,=berbero【私家版】
+romanc^/o:ロマンシュ人（スイス）
+romi/a kod/o:【法】ローマ法
+romi/an/o:【史】ローマ帝国民
+s^au^r/o:=pluvdus^o（にわか雨）【私家版】
+s^ovinist/o:{Ｏ}排他的愛国者,拝外主義者,ショービニスト
+s^tal/produkt/ad/o:鉄鋼生産,=ferproduktado【私家版】
+saks/o:【史】ザクセン人（＝サクソン人，ゲルマン人の一派）
+salm/o/kavier/o:【料】すじこ（筋子）,イクラ
+sanskrit/o:【語】サンスクリット
+seks/sklav/in/o:性奴隷【私家版】
+semid/oj:セム族（セム語系諸族，ときにユダヤ人を指す）
+serb/o:セルビア人
+serpent/o:{Ｂ}【動】ヘビ（蛇）;《転》陰険な人;【楽】セルパン（古い木管楽器）
+siderurgi/o:鉄鋼工業,=s^talindustrio,=s^talproduktado【私家版】
+skandinav/o:スカンジナビア人
+skot/a:スコットランド（人）の;（la 〜）スコットランド語の
+skot/o:スコットランド人
+slav/a:スラブの,スラブ風の
+slav/o:スラブ人（スラブ語系諸民族の総称）
+slovak/a:スロバキア（人）の
+slovak/o:スロバキア人
+sloven/a:スロベニア（人）の
+sloven/o:スロベニア人
+somal/i/an/o:ソマリア人,ソマリア国民
+somal/o:ソマリ人
+sovet/a:ソビエトの
+sovet/an/o:ソビエト評議員
+sovet/o:【史】ソビエト,労農評議会
+soveti/a:ソ連の
+soveti/an/o:ソ連人
+spekt/em/ul/o:やじ馬【私家版】
+star/lamp/o:行灯（あんどん）,=andono【私家版】
+status/o:【法】（法的）身分,地位
+sub/inspekt/ist/o:【日】徒目付（かちめつけ）【私家版】
+sub/kontinent/o:亜大陸
+supr/a palac/o:【日】上屋敷（かみやしき）【私家版】
+suveren/o:【法】主権者;元首,君主;【貨】ソブリン（昔の英国の１ポンド金貨）
+svazi/o:スワジ人
+tag^ik/o:タジク人
+taj/o:タイ人
+talant/o:【史】タラント（古代ギリシア・ローマの重量・貨幣単位）
+tamil/o:タミル人（インド）
+templ/o:{Ｏ}【史】（古代ギリシア・ローマなどの）神殿;【宗】寺院,聖堂,礼拝堂,教会堂;《転》殿堂
+tibet/an/o:チベット人
+tint/il/gril/o:【虫】スズムシ（鈴虫，_Homoeogryllus japonicus_）【私家版】
+tiran/o:{Ｏ}専制君主,暴君;【史】（古代ギリシアの）僭主（せんしゅ）;《転》圧制者
+tjurk/o:【史】チュルク（チュルク諸語を話すトルコ系諸族の人）,>>turko
+togoland/a:トーゴの
+togoland/an/o:トーゴ人
+tong/a:トンガ（人）の;（la 〜）トンガ語の
+tong/an/o:トンガ人
+trac/o:【史】トラキア人
+trak/o:【史】=traco（トラキア人）
+trilogi/o:【文】（古代ギリシアの）悲劇三部作;（一般に）三部作
+triton/o:【神】トリトン（ギリシア神話で半人半魚の海神）
+turkmen/o:トルクメン人（トルクメニスタン）
+ujgur/o:ウイグル人（トルコ系民族の一）
+ukrain/a:ウクライナの
+ukrain/o:ウクライナ人
+unu/flank/e:一面では
+urb/a magistrat/o:【日】町奉行（まちぶぎょう）【私家版】
+uzbek/o:ウズベク人
+valon/a:ワロン（人）の;（la 〜）ワロン語の
+valon/o:ワロン人（ベルギーのケルト系民族）
+vandal/ism/o:（文化財の）破壊行為,蛮行,=vandaleco
+vandal/o:【史】バンダル族（ゲルマン人の一派）;《転》文化財の破壊者
+vjetnam/o:ベトナム人
+zelot/o:《転》熱心なファン,（サッカーの）サポーター【私家版】

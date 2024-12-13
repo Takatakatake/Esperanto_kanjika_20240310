@@ -1,0 +1,462 @@
+##tem/er/i:［自］テンペラ技法で描く##偽分解  as,os,is等を追加するまでもない
+AbuDabi/o:【地名】=Abudabio（アブダビ）
+Alask/a Du/on/insul/o:【地名】アラスカ半島（米国）
+Antarkt/a Du/on/insul/o:【地名】南極半島（南極大陸）
+Arab/a Du/on/insul/o:【地名】アラビア半島（西アジア）
+Balkan/a Du/on/insul/o:【地名】バルカン半島（南ヨーロッパ）
+Bon/esper/o:【地名】ゴットホープ（グリーンランドの主都）##偽分解?
+Bors/o de Nov/jork/o:（la 〜）ニューヨーク証券取引所 ##偽分解
+Brit/a Brod/kast/a Korporaci/o:イギリス放送協会（BBC）##偽分解
+Brit/a Kolumb/i/o:【地名】ブリティッシュ・コロンビア州（カナダ）
+C^ukot/a Du/on/insul/o:【地名】チュコト半島（シベリア）
+Distrikt/o Kolumb/i/o:【地名】コロンビア特別区（＝ワシントンＤＣ，米国）
+Egea Mar/o egeo:【地名】エーゲ海（ギリシア）##偽分解
+Esperant/o-mov/ad/o:【Ｅ】エスペラント運動
+Event/oj:【Ｅ】エベントイ（ハンガリーのエスペラント通信社）##偽分解
+Far/ad/o:【人名】ファラデー（イギリスの物理学者、1791-1867）##偽分解
+Fero/a Insul/ar/o Fero/o:【地名】フェロー諸島（北大西洋北東部）##Fero/oの追加
+G^is baldau^/!:［間］また近いうちに！
+G^is morgau^/!:［間］またあした！
+Graf/o de Mont/e-Krist/o:（la 〜）【文】『モンテクリスト伯』（大デュマ作）##偽分解
+Har/ar/o:【地名】=Harareo（ハラレ）##偽分解 毛髪の意味でもhararoが存在するので
+Hind/a Du/on/insul/o:【地名】インド半島（南アジア）
+Hindoc^in/a Du/on/insul/o:【地名】インドシナ半島（東南アジア）
+Iber/a Du/on/insul/o:【地名】イベリア半島（西ヨーロッパ）
+Indoc^in/a Du/on/insul/o:【地名】=Hindoc^ina Duoninsulo
+Islam/a Kred/komun/um/o en Au^str/i/o:オーストリア・イスラム信仰共同体【私家版】
+Jamal/a Du/on/insul/o:【地名】ヤマル半島（シベリア）
+Kab/o-Verd/o:=>Kaboverdo（カーボベルデ）
+Kab/o/verd/o:【国名】カーボベルデ（アフリカ）
+Kaliforni/a Du/on/insul/o:【地名】カリフォルニア半島（メキシコ）
+Kial ne/!:［間］（相手の発言に答えて）どうしていけないか,いいじゃないか,もちろん！
+Kol/a Du/on/insul/o:【地名】コラ半島（ロシア）
+Kolomb/in/o:【劇】コロンビーナ（イタリア仮面劇の登場人物、快活な若い女中）
+Kolorad/i/o:【地名】コロラド州（米国）##偽分解
+Komun/ism/a Mont/o/krest/o:【地名】コミュニズム峰（タジキスタン）
+Kore/a Du/on/insul/o:【地名】朝鮮半島（東アジア）
+KunLun/o:【地名】=Kunluno（クンルン山脈）##便宜上の変更
+La/Val/et/o:【地名】バレッタ（マルタの首都）##偽分解
+MONAT/O:【Ｅ】FEL発行の月刊総合誌##偽分解
+Malaj/a Du/on/insul/o:【地名】マレー半島（東南アジア）
+Medi/o:【史】メディア（イラン北西部の古王国）##偽分解
+Mikro/nezi/o:【国名】ミクロネシア連邦（大洋州）
+Mikro/nezi/o:【地名】ミクロネシア（太平洋北西部の島々）
+Mikro/skop/o:【天】けんびきょう座
+Mont/a/jn/o:【人名】=Montanjo（モンテーニュ）##偽分解
+Mont/a/nj/o:【人名】モンテーニュ（フランスの思想家、1533-1592）##偽分解
+Mont/an/o:【地名】モンタナ州（米国）##偽分解
+Mont/e/krist/o:【地名】モンテクリスト島（イタリア西方）
+Nov/a Sud-Kimr/i/o:【地名】ニューサウスウェールズ州（オーストラリア）
+Nov/jork/o:【地名】=Nov-Jorko（ニューヨーク）##偽分解
+Pak/tol/o:【地名】パクトロス川（トルコ，ミダス王の伝説で知られる）##便宜上の変更
+Parti/o:【史】パルティア（イランの古代王国）""偽分解
+Port/Luis/o:【地名】ポートルイス,=Portluiso##便宜上の変更
+Port/luis/o:【地名】ポートルイス（モーリシャスの首都）##便宜上の変更
+Port/o/Princ/o:【地名】ポルトープランス（ハイチの首都）##便宜上の変更
+Port/o/princ/o:【地名】ポルトープランス,=Porto-Princo##便宜上の変更
+Rus/a-Japan/a Milit/o:（la 〜）【史】日露戦争
+S^i/a Reg^/in/a Mos^t/o:（三人称）女王陛下
+SanMarin/o:【国名】=>Sanmarino（サンマリノ）
+SanMarin/o:【地名】=>Sanmarino（サンマリノ）
+SanTome/o k Principeo:=>Santomeo kaj Principeo（サントメ・プリンシペ）##偽分解
+Santome/o kaj Principeo:【国名】サントメ・プリンシペ（アフリカ）##偽分解
+SaoTome/o kaj Principeo:=>Santomeo kaj Principeo（サントメ・プリンシペ）##偽分解
+SaoTome/o:【地名】=>Santomeo（サントメ）
+Senegali/o:【国名】=>Senegalo（セネガル）
+Senegalo:【国名】セネガル（アフリカ）
+Senegalo:【地名】セネガル川（アフリカ西部）
+Senegaluj/o:【国名】=>Senegalo（セネガル）
+SieraLeon/o:=>Sieraleono（シエラレオネ）
+SieraNevad/o:【地名】シエラネバダ山脈（スペイン）
+SieraNevad/o:【地名】シエラネバダ山脈（米国）
+Skandinav/a Du/on/insul/o:【地名】スカンジナビア半島（北ヨーロッパ）
+Somal/i/a Du/on/insul/o:【地名】ソマリア半島（アフリカ東部）
+SriLank/o:=>Srilanko（スリランカ）
+Tajmir/a Du/on/insul/o:【地名】タイミル半島（シベリア）
+Tele/skop/o:【天】ぼうえんきょう座
+Val/et/o:【地名】バレッタ（マルタの首都）##偽分解
+al/ten/ig^/i:［自］くっつく,しがみつく##al/ten/iはそもそも存在しない気がする。
+alteno:【声】（調音の）入りわたり##偽分解
+astronomi/a tele/skop/o:【天】天体望遠鏡
+bar/o/skop/o:【医】気圧計;【理】検圧器
+bas/bal/ej/o:野球場
+bas/bal/o:【運】野球,=bazopilko
+blank/et/o:白紙委任状
+blok/ad/i:［他］【軍】封鎖する
+blok/ad/o:{Ｏ}【軍】封鎖
+boleto:【菌】イグチ（アミタケ科のキノコの総称）,=tubofungo　##偽分解
+cifer/ec/a televid/o:デジタルテレビ放送
+dat/um/as dat/um/is dat/um/os dat/um/us dat/um/at dat/um/it dat/um/ot dat/um/ad dat/um/igx dat/um/ig dat/um/ant dat/um/int dat/um/ont:［自］=datig^i（〜に始まる）##偽分解
+debat/i:［他］たたき落とす##偽分解
+decid/a sin/ten/o:断固とした態度
+dens/ig/it/a lakt/o:練乳
+dent/a kalkul/us/o:歯石,=tartro ##偽分解
+di/klor/id/o:【化】二塩化物
+di/oksin/o:【化】ダイオキシン
+diplomat/i/a agent/o:外交官##偽分解
+diplomat/i/a imun/ec/o:【法】外交特権（免除）##偽分解
+diplomat/i/a karier/o:外交官の道,外交官の職##偽分解
+diplomat/i/a rilat/o:外交関係##偽分解
+diplomat/i/a:外交上の##偽分解
+diplomat/i/o:{Ｏ}【政】外交##偽分解
+dis/kred/it/i:［他］【商】=senkreditigi（信用を失わせる）##偽分解
+dis/tord/o:【写】（像の）ゆがみ,歪曲収差;【電】ひずみ
+domin/ant/o:【楽】ドミナント,属音;;##偽分解
+eksterm/i mal/bon/an kutim/on:悪習を一掃する
+elektr/o/dinamism/o:【理】動電現象;=elektrodinamiko（電気力学）
+elektr/o/for/o:【電】電気盆
+elektr/o/lit/a solv/aj^/o:【電】電解質溶液,電解液
+elektr/o/lit/o:【電】電解質
+elektr/o/liz/a aparat/o:【電】電解装置
+elektr/o/liz/i:［他］【電】電気分解する,電解する
+elektr/o/liz/il/o:【電】電解装置;電解槽
+elektr/o/liz/o:【電】電気分解,電解
+elektr/o/metr/o:【電】電位計
+elektr/o/skop/o:【電】検電器
+elektr/o/tip/i:［他］【印】電気製版する
+elektr/o/tip/o:【印】電気版
+elektr/o/tipi/o:【印】電気製版術
+elektr/on/a fask/o:【理】電子線
+elektr/on/a fornel/o:【料】電子レンジ,=mikroonda forno
+elektr/on/a mikro/skop/o:【理】電子顕微鏡
+elektr/on/a s^el/o:【理】電子殻
+elektr/on/a tub/o:【理】電子管,真空管
+elektr/on/a:電子の
+elektr/on/kanon/o:【理】（ブラウン管などの）電子銃
+elektr/on/o:【理】電子
+elektr/on/tub/o:【理】電子管,真空管
+elektr/on/volt/o:【理】電子ボルト（エネルギーの単位，eV）
+endo/skop/o:【医】内視鏡
+endo/smoz/o:【生】内方浸透
+endo/term/a reakci/o:【化】吸熱反応
+endo/term/a:【化】吸熱の,><ekzoterma
+esperant/e:希望して,期待して##偽分解
+esperant/o:希望する人##偽分解
+estr/ad/o:{Ｏ}=podio（演壇）##偽分解?
+far/ad/iz/i:［他］【医】感応通電法で治療する##偽分解
+far/ad/iz/o:【医】感応通電法##偽分解
+far/ad/o:【理】ファラド（電気容量の単位、Ｆ）##偽分解
+faring/o/skop/o:【医】咽頭鏡
+fek/ul/o:【料】=amelfaruno（でんぷん）##偽分解
+fibr/o/m/o:【病】線維腫（しゅ）
+fibr/o/skop/o:【機】ファイバースコープ
+film/kas/et/o:【写】フィルム取枠（とりわく）,>>kaseto  ##偽分解
+fin/o:［略］=frau^lino,〜さん（未婚女性への敬称）##偽分解
+flav/a boleto:【菌】ヌメリイグチ,=buterfungo ##偽分解
+foli/o-elektr/o/skop/o:【理】はく検電器
+fono/skop/o:【理】フォノスコープ
+format/o format/a:{Ｏ}【印】（本や紙の）判
+fot/o/c^el/o:【理】光電池,=lumelektra c^elo
+fot/o/gliptik/o:写真彫刻版法
+fot/o/graf/a dens/ec/o:【写】写真濃度
+fot/o/graf/a plak/o:【写】写真乾板
+fot/o/graf/ad/o:=fotado（写真撮影）
+fot/o/graf/aj^/o:=foto（写真）
+fot/o/graf/art/o:写真撮影技術
+fot/o/graf/i:{Ｂ}［他］写真にとる,撮影する,=foti
+fot/o/graf/il/o:=fotilo（写真機）
+fot/o/graf/ist/o:写真家,=fotisto
+fot/o/graf/o:=fotografado,=fotado（写真撮影）
+fot/o/grafi/o:{Ｏ}写真術（撮影・現像・焼付けなど）
+fot/o/gravur/i:［他］【印】写真製版する,グラビア印刷にする
+fot/o/gravur/o:【印】写真製版術,写真凹版術,グラビア印刷
+fot/o/kemi/a fum/nebul/o:【環】光化学スモッグ
+fot/o/kemi/a oksid/ant/o:【環】光化学オキシダント
+fot/o/kemi/o:光化学
+fot/o/kromi/o:【写】天然色写真術##偽分解
+fot/o/lit/o/grafi/o:【印】写真石版術,写真平版術##偽分解
+fot/o/metr/o:【理】測光器,光度計;【写】露光計##偽分解
+fot/o/metri/i:［他］【理】測光する##偽分解
+fot/o/metri/o:【理】測光##偽分解
+fot/o/munt/aj^/o:【写】モンタージュ写真##偽分解
+fot/o/plac^/a:写真うつりのよい##偽分解
+fot/o/sfer/o:【天】（太陽の）光球##偽分解
+fot/o/sintez/o:【植】光合成##偽分解
+fot/o/stat/o:【機】フォトスタット（商標名）,写真複写機,=fotokopiilo##偽分解
+fot/o/telegraf/i:［他］【通】写真電送する,>>faksi##偽分解
+fot/o/tipi/o:【印】写真凸版術,フォトタイプ術##偽分解
+fot/on/o:【理】光子##偽分解
+galvan/o/metr/o:【電】検流計
+galvan/o/plastik/o:【機】電気メッキ法
+galvan/o/skop/o:【電】検流器
+galvan/o/terapi/o:【医】直流電気療法
+gangli/o/n/o:【解】=limfonodo（リンパ節）
+gastr/o/kamer/o:【医】胃カメラ
+gastr/o/nom/o:食通,美食家
+gastr/o/nomi/a:料理法の,美食学の
+gastr/o/nomi/o:料理法,美食学
+gastr/o/pod/oj:【動】腹足綱,腹足類
+gastr/o/skop/i/o:【医】胃鏡検査
+gastr/o/skop/o:【医】胃鏡,胃内視鏡,>>gastrokamero
+gastr/o/spasm/o:【医】胃痙攣（けいれん）,=stomaka kramfo
+gastr/o/stomi/o:【医】胃瘻（ろう）造設術
+gastr/o/tomi/o:【医】胃切開術
+german/i/o:【化】ゲルマニウム（原子番号32の金属元素）,=germaniumo##偽分解
+german/ium/o:【化】ゲルマニウム（原子番号32の金属元素）,=germanio##偽分解
+giga/elektr/on/volt/o:【理】ギガ電子ボルト（エネルギーの単位，GeV）
+giro/skop/a kompas/o:【理】ジャイロコンパス
+giro/skop/o:【機】ジャイロスコープ
+grenad/il/o:【植】パッションフルーツ（の実）,クダモノトケイソウ##偽分解 grenad/o で手榴弾という意味
+hidrogen/a klor/id/o:【化】塩化水素
+higr/o/metr/o:{Ｏ}【気】湿度計
+higr/o/skop/o:【気】検湿器
+hipotek/a kred/it/o:【経】モーゲージ,抵当貸し,（特に）住宅ローン##偽分解
+histerez/a cikl/o/kurb/o:【理】ヒステリシス曲線
+hom/deven/a karbon/di/oksid/o:【環】人間の発生させた二酸化炭素
+indiga:藍色の##偽分解
+indigo/blu/a:藍色の##偽分解
+indigo/fer/o:【植】コマツナギ（属，インドアイを含む）##偽分解
+indigo/kolor/a:=indiga（藍色の）##偽分解
+indigo/plant/o:【植】インジゴ（通称）,キアイ（木藍）,インドアイ,>>indigofero##偽分解
+indigo:{Ｏ}【化】インジゴ（染料）,藍（あい）,>>indigoplanto,>>indigofero##偽分解
+inter/fac/o:【情】インタフェース##偽分解？
+inter/stel/a polv/o:【天】星間塵（せいかんじん）
+intest/a mikro/b/ar/o:【生】腸内細菌叢,腸内常在微生物叢【私家版】
+invari/ant/o:【理】不変量##偽分解
+izol/i mikro/b/on:【生】細菌を分離する
+japan/esk/o:日本趣味;【文】（短歌・俳句などの形式をまねた）日本風の作品
+kalci/a klor/id/o:【化】塩化カルシウム
+karbon/a di/oksid/o:【化】二酸化炭素
+karbon/a mono/oksid/o:【化】一酸化炭素
+karbon/di/oksid/o:【化】二酸化炭素
+kas/et/o:【写】取枠（とりわく）（撮影時に乾板やフィルムを入れる遮光ケース）##偽分解
+kaze/i/n/o:【化】カゼイン##偽分解
+kin/o/skop/o:【映】シネマスコープ
+klimat/iz/i:［他］空気調節を施す
+klimat/iz/il/o:空調機,エアコン
+klimat/iz/it/a:空調された
+klimat/iz/o:空調
+klor/id/a acid/o:【化】塩酸
+klor/id/o:【化】塩化物
+komand/it/ant/o:【商】（合資会社の）有限責任社員##偽分解
+komand/it/i:［他］【商】（合資会社へ）出資する##偽分解
+komand/it/o:{Ｏ}【商】合資会社;（合資会社への）出資金##偽分解
+komun/a plat/form/o:【政】共同綱領 ##偽分解
+kondukt/a elektr/on/o:【理】伝導電子
+konjug/it/aj du/obl/aj lig/oj:【化】共役二重結合
+kontent/ig/a rezult/at/o:満足すべき結果
+kred/it/a sald/o:【商】貸方残高;貸越額##偽分解
+kred/it/e:【商】掛けで,信用貸しで##偽分解
+kred/it/i:［他］【商】貸方に記入する,><debeti;掛売りする##偽分解
+kred/it/ig/i:［他］【商】信用させる##偽分解
+kred/it/kart/o:クレジットカード##偽分解
+kred/it/leter/o:【商】信用状##偽分解
+kred/it/o/r/o:{Ｏ}【商】債権者,><debitoro##偽分解
+kred/it/o:{Ｂ}【商】信用;掛け,信用貸;（簿記の）貸方,><debeto##偽分解
+krom/o/fot/o/grafi/o:【写】天然色写真術 ##偽分解
+krom/o/lit/o/grafi/o:【印】着色石版術　##偽分解
+kultiv/i mikro/b/ojn:細菌を培養する
+liber/a elektr/on/o:【理】自由電子
+lit/o/graf/aj^/o:【印】=litografo（石版印刷物）
+lit/o/graf/i:{Ｏ}［他］【印】石版印刷する,石版刷りにする
+lit/o/graf/ist/o:【印】石版工,石版師
+lit/o/graf/o:【印】石版印刷物;石版画,リトグラフ
+lit/o/grafi/o:{Ｏ}【印】石版印刷（術）,リトグラフィー
+lit/o/rin/o:【貝】タマキビガイ（属）（玉黍貝）
+lum/mikro/skop/o:【かり,輝き;光源,灯火,ライト;《転》指導的な人物
+magnet/it/o:【鉱】磁鉄鉱###偽分解
+magnet/o/fon/i:［他］テープレコーダーで録音する,=surbendigi
+magnet/o/fon/o:{Ｏ}【電】テープレコーダー,=sonbendilo
+magnet/o/metr/o:【理】磁力計
+magnet/o/string/o:【理】磁歪（わい）,=magnetodeformo
+magnet/on/o:【理】磁子
+major/an/o:【植】マヨラナ（種）,マージョラム,ハナハッカ（花薄荷）##偽分解
+makro/kosm/o:大宇宙,><mikrokosmo
+makro/skop/a:【理】巨視的な;=okulvidebla（肉眼で見える）
+mal/kred/it/ig/i:［他］=senkreditigi（信用を失わせる）##偽分解
+mega/elektr/on/volt/o:【理】メガ電子ボルト（MeV）
+metil/klor/id/o:【化】塩化メチル
+mikro/amper/o:【電】マイクロアンペア（μA）
+mikro/b/o:{Ｏ}【生】微生物,>>bakterio,>>protozoo,>>viruso
+mikro/biologi/o:微生物学
+mikro/farad/o:【理】マイクロファラド（μＦ）
+mikro/film/i:［他］【写】マイクロフィルムに撮影する
+mikro/film/o:【写】マイクロフィルム
+mikro/fon/o:{Ｏ}マイクロフォン
+mikro/kanel/a disk/o:【楽】ＬＰレコード,=longeluda disko
+mikro/kanel/a:【楽】ＬＰレコードの,=longeluda
+mikro/kanel/o:（ＬＰレコードの）微細溝;【楽】ＬＰレコード
+mikro/kok/o:【生】球菌,ミクロコッカス（属）
+mikro/kosm/o:小宇宙;（宇宙の縮図として）人間,><makrokosmo
+mikro/kred/it/o:《Ｎ》【経】マイクロクレジット,小規模金融##偽分解
+mikro/metr/o:{Ｏ}【理】マイクロメーター
+mikro/n/o:【理】ミクロン（長さの単位，μ，百万分の一メートル）;ミクロン（微粒子）
+mikro/nezi/an/o:ミクロネシア人
+mikro/ond/a forn/o:【料】電子レンジ
+mikro/organism/o:【生】微生物
+mikro/sivert/o:【理】マイクロシーベルト（線量当量のSI単位，μSv）
+mikro/skop/a:顕微鏡の,顕微鏡を使った;【理】微視的な,微細な
+mikro/skop/o:{Ｏ}【理】顕微鏡
+mikro/tom/o:【理】ミクロトーム
+mis/kred/it/ig/i:［他］評判を悪くする##偽分解
+mis/kred/it/o:不評,信用低下##偽分解
+nobl/a boleto:【菌】ヤマドリタケ（アミタケ科の食用キノコ）##偽分解
+nomad/o:命名##偽分解
+nov/jork/a:ニューヨークの##偽分解
+nov/jork/an/o:ニューヨーク市民##偽分解
+nukle/a konvert/or/o:【理】転換炉  ##偽分解
+om/o/metr/o:【理】オーム計
+opal/esk/i:［自］【理】乳光を放つ,タンパク光を放つ##便宜上の変更
+ordinat/o ordinat/a:【数】縦座標,><absciso
+oscil/o/graf/o:【理】オシログラフ
+oscil/o/skop/o:【理】オシロスコープ
+papili/o/n/ed/oj:【虫】アゲハチョウ科
+papili/o/n/o:【虫】アゲハチョウ（揚羽蝶）（属）
+paralel/a inter/fac/o:【情】パラレルインタフェース ##偽分解？
+peri/skop/o:{Ｏ}潜望鏡,展望鏡,ペリスコープ
+perkol/at/i:=perkoli##偽分解
+pist/il/o:{Ｏ}【植】めしべ,雌蘂（しずい）,><stameno##便宜上の変更
+platano:{Ｂ}【植】プラタナス,スズカケノキ（篠懸の木）（属）##偽分解
+plateno:{Ｏ}【化】白金;プラチナ##偽分解
+pli/grand/ig/it/a fot/o:【写】引伸し写真
+polariz/a mikro/skop/o:【理】偏光顕微鏡
+postul/at/o:【論】要請;【数】公準,>>aksiomo
+pra/tip/o de kilogram/o:【理】キログラム原器,>>etalono
+predikat/iv/a:属詞の,叙述の##偽分解
+predikat/iv/o:【Ｇ】属詞,叙述補語##偽分解
+prezid/ant/a balot/o:大統領選挙,=prezidanta elekto
+prezid/ant/a elekt/o:大統領選挙
+profesi/a bas/bal/ist/o:プロ野球選手
+protest/ant/a:プロテスタントの,新教の##便宜上の変更
+protest/ant/ism/o:【キ】プロテスタンティズム,新教##便宜上の変更
+protest/ant/o:【キ】プロテスタント,新教徒##便宜上の変更
+pulvor/ig/it/a lakt/o:粉乳
+radar/o:【機】=radoaro（歯車装置）##偽分解  radoaroとすべきはず
+radi/o/skop/i/o de stomak/o:胃の透視
+radi/o/skop/i/o:【医】透視,Ｘ線透視
+radi/o/tele/skop/o:【天】電波望遠鏡
+radio/fot/o/grafi/o:=radiografio（Ｘ線写真術）
+re/nom/a:名の通った,評判のよい##便宜上の変更
+re/nom/ig^/i:［自］名声を博す,有名になる##便宜上の変更
+re/nom/o:名声,有名,評判,>>famo,>>reputacio##便宜上の変更
+re/tus^/i:［他］【写】修整する;【情】（画像を）レタッチする##便宜上の変更
+refer/at/o:=referaj^o（研究報告書）##偽分解
+reflekt/a tele/skop/o:【天】反射望遠鏡
+refrakt/a tele/skop/o:【天】屈折望遠鏡
+reg/ist/ar/a c^ef/o:政府首脳
+rektumo/skop/i/o:【医】直腸鏡検査
+rektumo/skop/o:【医】直腸鏡
+reprezent/i:［他］再提出する;再現する##便宜上の変更
+resum/i:［他］合計し直す##便宜上の変更
+rezult/at/i:［自］=rezulti（結果になる）
+rezult/at/ig/i:［他］=rezultigi（結果をもたらす）
+rezult/at/o:{Ｏ}=rezulto（結果）
+roman/a cifer/o:=>roma cifero（ローマ数字）##偽分解
+roman/a:ローマ人の##偽分解
+roman/o:【史】ローマ人;ローマ市民##偽分解
+s^uld/i al la membr/oj detal/an klar/ig/on:会員に詳しく説明しなければならない
+satan/a boleto:【菌】ウラベニイグチ（毒キノコ）##偽分解
+se neces/e:［間］（もし）必要なら
+sekv/ant/a jar/o:翌年
+sekv/ant/a tag/o:翌日
+sen/dat/a sen/dat/o:日付のない##偽分解　偽単語
+sen/komfort/a lit/o:寝心地の悪いベッド
+sen/kred/it/ig/i:［他］【商】信用を失わせる##偽分解
+sen/krem/a lakt/o:脱脂乳
+sen/rezult/at/a:=senrezulta（成果のない）
+seri/a inter/fac/o:【情】シリアルインタフェース##偽分解
+serioz/a mal/san/o:重い病気
+sin/akuz/o:自首
+sin/am/o:自愛,自己愛,=memamo
+sin/anonc/int/o:自己申告者,応募者
+sin/anonc/o:自分から申し出ること,応募
+sin/de/ten/em/o:=sindeteno（自制）
+sin/de/ten/o:自制,遠慮;棄権
+sin/dedic^/a:献身的な,ひたむきな,>>sindona
+sin/dedic^/o:献身,専念
+sin/defend/ant/o:【法】（民事訴訟の）被告,><postulanto
+sin/defend/o:自己防衛
+sin/dev/ig/e:（気の進まないことを）無理に;窮屈そうに,気兼ねして
+sin/dev/ig/o:（気の進まないことを）無理にすること;遠慮,気兼ね
+sin/don/a:{Ｂ}献身的な,>>sindedic^a
+sin/don/em/a:=sindona（献身的な）
+sin/don/em/o:献身的であること,>>sindono
+sin/don/o:献身,>>sindonemo
+sin/dron/ig/i:［自］身投げする
+sin/esplor/em/a:内省的な
+sin/esplor/o:内省（ないせい）
+sin/esprim/o:自己表現
+sin/forges/o:無私;忘我
+sin/g^en/a:内気な,遠慮がちの
+sin/g^en/i:［自］気をつかう,気兼ねする,遠慮する,困る,=g^eni sin
+sin/gard/a:用心深い,慎重な
+sin/gard/e:用心深く,慎重に
+sin/gard/ec/o:用心深さ,慎重さ
+sin/gard/em/a:=singarda（用心深い）
+sin/gard/em/o:用心,警戒心
+sin/gard/o:=singardemo（用心）
+sin/klin/o:（上体をかがめる）お辞儀
+sin/koncentr/ad/o:（精神の）集中
+sin/masturb/ad/o:自慰,マスターベーション,オナニー
+sin/mok/e:自嘲気味に
+sin/montr/em/a:目立ちたがりの
+sin/mort/ig/int/o:自殺者
+sin/mort/ig/o:自殺,=memmortigo
+sin/ofer/o:献身,自己犠牲
+sin/prezent/o:自己紹介
+sin/propon/o:申し出,自薦
+sin/reg/ad/o:自制,自制心
+sin/sekv/a:次々の,相次ぐ,連続する,一連の
+sin/sekv/e:次々に,相次いで
+sin/sekv/o:連続,ひと続き
+sin/ten/ad/o:ふるまい,態度
+sin/ten/o:{Ｂ}態度
+sin/tromp/o:自己欺瞞
+spektr/o/skop/i/a analiz/o:【理】分光分析
+spektr/o/skop/i/o:【理】分光学
+spektr/o/skop/o:【理】分光器
+stereo/skop/i/o:【理】立体視法
+stereo/skop/o:【理】立体鏡,実体鏡,ステレオスコープ
+steto/skop/i:［他］聴診する,=au^skultumi
+steto/skop/o:【医】聴診器
+strobo/skop/a fot/o:【理】ストロボ写真
+strobo/skop/o:【理】ストロボスコープ
+sublim/at/o:{Ｏ}【化】昇コウ;=sublimaj^o（昇華物）##偽分解
+sudan/o:=sudulo（南部の人）##偽分解
+sulfur/di/oksid/o:【化】二酸化硫黄
+sumer/o:（予算表・帳簿などの）項目,=termo##偽
+tajd/pov/a elektr/o/produkt/o:【環】潮力発電
+tele/fot/o/graf/i:［他］望遠で写真撮影する
+tele/komunik/a satelit/o:通信衛星
+tele/kopi/o:=fakso
+tele/skop/a stel/o:望遠鏡でしか見えない（肉眼では見えない）星
+tele/skop/a tri/pied/o:伸縮式三脚
+tele/skop/a:望遠鏡の,望遠鏡による;（多段式望遠鏡のように）伸縮式の
+tele/skop/o:{Ｏ}望遠鏡,天体望遠鏡
+temp/er/e:テンペラ技法で##偽分解
+temp/er/o:【美】テンペラ（絵画技法の一つ）##偽分解
+tensi/o/metr/o:【理】張力計
+termo/dinamik/o:【理】熱力学
+termo/elektr/a kurent/o:【理】熱電流
+termo/elektr/a:【理】熱電の
+termo/elektr/o/mov/a fort/o:【理】熱起電力
+termo/elektr/o/mov/a:【理】熱起電の
+termo/elektr/o:【理】熱電気
+termo/elektr/on/o:【理】熱電子
+termo/kupl/o:【理】熱電対,=termoparo
+termo/logi/o:【理】熱学
+termo/nukle/a reakci/o:【理】熱核反応
+termo/nukle/a:【理】熱核の
+termo/par/a termometr/o:【理】熱電対温度計,熱電温度計
+termo/par/o:【理】熱電対,=termoelektra paro
+termo/s/o:魔法びん,=varmbotelo
+termo/sifon/o:【理】熱サイホン
+termo/skop/o:【理】測温器
+termo/stat/o:【理】サーモスタット
+termo/statik/o:【理】熱静力学
+termometr/i/o:【理】温度測定
+tip/o/metr/o:【印】活字尺
+tra/met/as tra/met/is tra/met/os tra/met/us tra/met/at tra/met/it tra/met/ot tra/met/ad tra/met/igx tra/met/ig tra/met/ant tra/met/int tra/met/ont:［他］（穴に）通す,つき通す,=tredi##偽分解  tram/et/i ,tram/et/uなどについては置換コード本文で追加する。
+trem/o/metr/o:【地質】微震計
+ultra/mikro/skop/o:【理】限外顕微鏡
+unu foj/on por c^iam:一度限り
+vaku/metr/o:【理】真空計
+vapor/metr/o:【理】蒸気圧計,>>manometro
+vari/ant/o:{Ｏ}【文】異文,異本##偽分解
+vat/hor/o/metr/o:【理】積算電力量計,>>vatmetro
+vat/metr/o:【理】電力計
+vel/ar/o:【声】=velsono（軟口蓋音）##偽分解
+vibr/o/metr/o:【理】振動計
+viskoz/o/metr/o:【理】粘度計
+volt/metr/o:【理】電圧計,>>tensio
+volumen/o/metr/o:【理】容積計

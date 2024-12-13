@@ -1,0 +1,463 @@
+Abu-Dabi/o:【地名】=Abudabio（アブダビ）
+Alask/a Duon/insul/o:【地名】アラスカ半島（米国）
+Antarkt/a Duon/insul/o:【地名】南極半島（南極大陸）
+Arab/a Duon/insul/o:【地名】アラビア半島（西アジア）
+Balkan/a Duon/insul/o:【地名】バルカン半島（南ヨーロッパ）
+Bonesper/o:【地名】ゴットホープ（グリーンランドの主都）
+Bors/o de Novjork/o:（la 〜）ニューヨーク証券取引所
+Brit/a Brodkast/a Korporaci/o:イギリス放送協会（BBC）
+Brit/a Kolumbi/o:【地名】ブリティッシュ・コロンビア州（カナダ）
+C^ukot/a Duon/insul/o:【地名】チュコト半島（シベリア）
+Distrikt/o Kolumbi/o:【地名】コロンビア特別区（＝ワシントンＤＣ，米国）
+Ege/a Mar/o:【地名】エーゲ海（ギリシア）
+Esperant/o-movad/o:【Ｅ】エスペラント運動
+Eventoj:【Ｅ】エベントイ（ハンガリーのエスペラント通信社）
+Farad/o:【人名】ファラデー（イギリスの物理学者、1791-1867）
+Fero/a Insul/ar/o:【地名】フェロー諸島（北大西洋北東部）
+G^is baldau^!:［間］また近いうちに！
+G^is morgau^!:［間］またあした！
+Graf/o de Monte-Krist/o:（la 〜）【文】『モンテクリスト伯』（大デュマ作）
+Harar/o:【地名】=Harareo（ハラレ）
+Hind/a Duon/insul/o:【地名】インド半島（南アジア）
+Hindoc^in/a Duon/insul/o:【地名】インドシナ半島（東南アジア）
+Iber/a Duon/insul/o:【地名】イベリア半島（西ヨーロッパ）
+Indoc^in/a Duon/insul/o:【地名】=Hindoc^ina Duoninsulo
+Islam/a Kred/komun/um/o en Au^stri/o:オーストリア・イスラム信仰共同体【私家版】
+Jamal/a Duon/insul/o:【地名】ヤマル半島（シベリア）
+Kabo-Verd/o:=>Kaboverdo（カーボベルデ）
+Kaboverd/o:【国名】カーボベルデ（アフリカ）
+Kaliforni/a Duon/insul/o:【地名】カリフォルニア半島（メキシコ）
+Kial ne!:［間］（相手の発言に答えて）どうしていけないか,いいじゃないか,もちろん！
+Kol/a Duon/insul/o:【地名】コラ半島（ロシア）
+Kolombin/o:【劇】コロンビーナ（イタリア仮面劇の登場人物、快活な若い女中）
+Koloradi/o:【地名】コロラド州（米国）
+Komunism/a Mont/o/krest/o:【地名】コミュニズム峰（タジキスタン）
+Kore/a Duon/insul/o:【地名】朝鮮半島（東アジア）
+Kun-Lun/o:【地名】=Kunluno（クンルン山脈）
+La-Valet/o:【地名】バレッタ（マルタの首都）
+MONATO:【Ｅ】FEL発行の月刊総合誌
+Malaj/a Duon/insul/o:【地名】マレー半島（東南アジア）
+Med/i/o:【史】メディア（イラン北西部の古王国）
+Mikronezi/o:【国名】ミクロネシア連邦（大洋州）
+Mikronezi/o:【地名】ミクロネシア（太平洋北西部の島々）
+Mikroskop/o:【天】けんびきょう座
+Montajn/o:【人名】=Montanjo（モンテーニュ）
+Montan/o:【地名】モンタナ州（米国）
+Montanj/o:【人名】モンテーニュ（フランスの思想家、1533-1592）
+Montekrist/o:【地名】モンテクリスト島（イタリア西方）
+Nov/a Sud-Kimri/o:【地名】ニューサウスウェールズ州（オーストラリア）
+Novjork/o:【地名】=Nov-Jorko（ニューヨーク）
+Paktol/o:【地名】パクトロス川（トルコ，ミダス王の伝説で知られる）
+Part/i/o:【史】パルティア（イランの古代王国）
+Port-Luis/o:【地名】ポートルイス,=Portluiso
+Portluis/o:【地名】ポートルイス（モーリシャスの首都）
+Porto-Princ/o:【地名】ポルトープランス（ハイチの首都）
+Portoprinc/o:【地名】ポルトープランス,=Porto-Princo
+Rus/a-Japan/a Milito:（la 〜）【史】日露戦争
+S^i/a Reg^in/a Mos^t/o:（三人称）女王陛下
+San-Marin/o:【国名】=>Sanmarino（サンマリノ）
+San-Marin/o:【地名】=>Sanmarino（サンマリノ）
+San-Tome/o k Principe/o:=>Santomeo kaj Principeo（サントメ・プリンシペ）
+Santome/o kaj Principe/o:【国名】サントメ・プリンシペ（アフリカ）
+Sao-Tome/o kaj Principe/o:=>Santomeo kaj Principeo（サントメ・プリンシペ）
+Sao-Tome/o:【地名】=>Santomeo（サントメ）
+Senegal/i/o:【国名】=>Senegalo（セネガル）
+Senegal/o:【国名】セネガル（アフリカ）
+Senegal/o:【地名】セネガル川（アフリカ西部）
+Senegal/uj/o:【国名】=>Senegalo（セネガル）
+Siera-Leon/o:=>Sieraleono（シエラレオネ）
+Siera-Nevad/o:【地名】シエラネバダ山脈（スペイン）
+Siera-Nevad/o:【地名】シエラネバダ山脈（米国）
+Skandinav/a Duon/insul/o:【地名】スカンジナビア半島（北ヨーロッパ）
+Somal/i/a Duon/insul/o:【地名】ソマリア半島（アフリカ東部）
+Sri-Lank/o:=>Srilanko（スリランカ）
+Tajmir/a Duon/insul/o:【地名】タイミル半島（シベリア）
+Teleskop/o:【天】ぼうえんきょう座
+Valet/o:【地名】バレッタ（マルタの首都）
+al/ten/ig^/i:［自］くっつく,しがみつく
+al/ten/o:【声】（調音の）入りわたり
+astronomi/a teleskop/o:【天】天体望遠鏡
+baroskop/o:【医】気圧計;【理】検圧器
+basbal/ej/o:野球場
+basbal/o:【運】野球,=bazopilko
+blanket/o:白紙委任状
+blokad/i:［他］【軍】封鎖する
+blokad/o:{Ｏ}【軍】封鎖
+bolet/o:【菌】イグチ（アミタケ科のキノコの総称）,=tubofungo
+ciferec/a televid/o:デジタルテレビ放送
+dat/um/i:［自］=datig^i（〜に始まる）
+de/bat/i:［他］たたき落とす
+decid/a si/n/ten/o:断固とした態度
+dens/ig/it/a lakto:練乳
+dent/a kalkulus/o:歯石,=tartro
+diklorid/o:【化】二塩化物
+dioksin/o:【化】ダイオキシン
+diplomati/a agent/o:外交官
+diplomati/a imun/ec/o:【法】外交特権（免除）
+diplomati/a karier/o:外交官の道,外交官の職
+diplomati/a rilat/o:外交関係
+diplomati/a:外交上の
+diplomati/o:{Ｏ}【政】外交
+diskredit/i:［他］【商】=senkreditigi（信用を失わせる）
+distord/o:【写】（像の）ゆがみ,歪曲収差;【電】ひずみ
+dominant/o:【楽】ドミナント,属音;;
+eksterm/i malbon/an kutim/on:悪習を一掃する
+elektrodinamism/o:【理】動電現象;=elektrodinamiko（電気力学）
+elektrofor/o:【電】電気盆
+elektrolit/a solv/aj^/o:【電】電解質溶液,電解液
+elektrolit/o:【電】電解質
+elektroliz/a aparat/o:【電】電解装置
+elektroliz/i:［他］【電】電気分解する,電解する
+elektroliz/il/o:【電】電解装置;電解槽
+elektroliz/o:【電】電気分解,電解
+elektrometr/o:【電】電位計
+elektron/a fask/o:【理】電子線
+elektron/a fornel/o:【料】電子レンジ,=mikroonda forno
+elektron/a mikroskop/o:【理】電子顕微鏡
+elektron/a s^el/o:【理】電子殻
+elektron/a tub/o:【理】電子管,真空管
+elektron/a:電子の
+elektron/kanon/o:【理】（ブラウン管などの）電子銃
+elektron/o:【理】電子
+elektron/tub/o:【理】電子管,真空管
+elektron/volt/o:【理】電子ボルト（エネルギーの単位，eV）
+elektroskop/o:【電】検電器
+elektrotip/i:［他］【印】電気製版する
+elektrotip/o:【印】電気版
+elektrotipi/o:【印】電気製版術
+endoskop/o:【医】内視鏡
+endosmoz/o:【生】内方浸透
+endoterm/a reakci/o:【化】吸熱反応
+endoterm/a:【化】吸熱の,><ekzoterma
+esper/ant/e:希望して,期待して
+esper/ant/o:希望する人
+estrad/o:{Ｏ}=podio（演壇）
+f-in/o:［略］=frau^lino,〜さん（未婚女性への敬称）
+farad/o:【理】ファラド（電気容量の単位、Ｆ）
+faradiz/i:［他］【医】感応通電法で治療する
+faradiz/o:【医】感応通電法
+faringoskop/o:【医】咽頭鏡
+fekul/o:【料】=amelfaruno（でんぷん）
+fibrom/o:【病】線維腫（しゅ）
+fibroskop/o:【機】ファイバースコープ
+film/kaset/o:【写】フィルム取枠（とりわく）,>>kaseto
+flav/a bolet/o:【菌】ヌメリイグチ,=buterfungo
+foli/o-elektroskop/o:【理】はく検電器
+fonoskop/o:【理】フォノスコープ
+format/o:{Ｏ}【印】（本や紙の）判
+fot/o/munt/aj^/o:【写】モンタージュ写真
+fot/o/plac^/a:写真うつりのよい
+fotoc^el/o:【理】光電池,=lumelektra c^elo
+fotogliptik/o:写真彫刻版法
+fotograf/a dens/ec/o:【写】写真濃度
+fotograf/a plak/o:【写】写真乾板
+fotograf/ad/o:=fotado（写真撮影）
+fotograf/aj^/o:=foto（写真）
+fotograf/art/o:写真撮影技術
+fotograf/i:{Ｂ}［他］写真にとる,撮影する,=foti
+fotograf/il/o:=fotilo（写真機）
+fotograf/ist/o:写真家,=fotisto
+fotograf/o:=fotografado,=fotado（写真撮影）
+fotografi/o:{Ｏ}写真術（撮影・現像・焼付けなど）
+fotogravur/i:［他］【印】写真製版する,グラビア印刷にする
+fotogravur/o:【印】写真製版術,写真凹版術,グラビア印刷
+fotokemi/a fum/nebul/o:【環】光化学スモッグ
+fotokemi/a oksid/ant/o:【環】光化学オキシダント
+fotokemi/o:光化学
+fotokromi/o:【写】天然色写真術
+fotolitografi/o:【印】写真石版術,写真平版術
+fotometr/o:【理】測光器,光度計;【写】露光計
+fotometri/i:［他］【理】測光する
+fotometri/o:【理】測光
+foton/o:【理】光子
+fotosfer/o:【天】（太陽の）光球
+fotosintez/o:【植】光合成
+fotostat/o:【機】フォトスタット（商標名）,写真複写機,=fotokopiilo
+fototelegraf/i:［他］【通】写真電送する,>>faksi
+fototipi/o:【印】写真凸版術,フォトタイプ術
+galvanometr/o:【電】検流計
+galvanoplastik/o:【機】電気メッキ法
+galvanoskop/o:【電】検流器
+galvanoterapi/o:【医】直流電気療法
+ganglion/o:【解】=limfonodo（リンパ節）
+gastrokamer/o:【医】胃カメラ
+gastronom/o:食通,美食家
+gastronomi/a:料理法の,美食学の
+gastronomi/o:料理法,美食学
+gastropod/oj:【動】腹足綱,腹足類
+gastroskop/o:【医】胃鏡,胃内視鏡,>>gastrokamero
+gastroskopi/o:【医】胃鏡検査
+gastrospasm/o:【医】胃痙攣（けいれん）,=stomaka kramfo
+gastrostomi/o:【医】胃瘻（ろう）造設術
+gastrotomi/o:【医】胃切開術
+germani/o:【化】ゲルマニウム（原子番号32の金属元素）,=germaniumo
+germanium/o:【化】ゲルマニウム（原子番号32の金属元素）,=germanio
+giga/elektron/volt/o:【理】ギガ電子ボルト（エネルギーの単位，GeV）
+giroskop/a kompas/o:【理】ジャイロコンパス
+giroskop/o:【機】ジャイロスコープ
+grenadil/o:【植】パッションフルーツ（の実）,クダモノトケイソウ
+hidrogen/a klorid/o:【化】塩化水素
+higrometr/o:{Ｏ}【気】湿度計
+higroskop/o:【気】検湿器
+hipotek/a kredit/o:【経】モーゲージ,抵当貸し,（特に）住宅ローン
+histerez/a ciklo/kurb/o:【理】ヒステリシス曲線
+hom/deven/a karbon/dioksid/o:【環】人間の発生させた二酸化炭素
+indig/a:藍色の
+indig/o/blu/a:藍色の
+indig/o/kolor/a:=indiga（藍色の）
+indig/o/plant/o:【植】インジゴ（通称）,キアイ（木藍）,インドアイ,>>indigofero
+indig/o:{Ｏ}【化】インジゴ（染料）,藍（あい）,>>indigoplanto,>>indigofero
+indigofer/o:【植】コマツナギ（属，インドアイを含む）
+interfac/o:【情】インタフェース
+interstel/a polv/o:【天】星間塵（せいかんじん）
+intest/a mikrob/ar/o:【生】腸内細菌叢,腸内常在微生物叢【私家版】
+invariant/o:【理】不変量
+izol/i mikrob/on:【生】細菌を分離する
+japanesk/o:日本趣味;【文】（短歌・俳句などの形式をまねた）日本風の作品
+kalci/a klorid/o:【化】塩化カルシウム
+karbon/a dioksid/o:【化】二酸化炭素
+karbon/a monooksid/o:【化】一酸化炭素
+karbon/dioksid/o:【化】二酸化炭素
+kaset/o:【写】取枠（とりわく）（撮影時に乾板やフィルムを入れる遮光ケース）
+kazein/o:【化】カゼイン
+kinoskop/o:【映】シネマスコープ
+klimatiz/i:［他］空気調節を施す
+klimatiz/il/o:空調機,エアコン
+klimatiz/it/a:空調された
+klimatiz/o:空調
+klorid/a acid/o:【化】塩酸
+klorid/o:【化】塩化物
+komandit/ant/o:【商】（合資会社の）有限責任社員
+komandit/i:［他］【商】（合資会社へ）出資する
+komandit/o:{Ｏ}【商】合資会社;（合資会社への）出資金
+komun/a platform/o:【政】共同綱領
+kondukt/a elektron/o:【理】伝導電子
+konjug/it/aj duobl/aj lig/oj:【化】共役二重結合
+kontent/ig/a rezultat/o:満足すべき結果
+kredit/a sald/o:【商】貸方残高;貸越額
+kredit/e:【商】掛けで,信用貸しで
+kredit/i:［他］【商】貸方に記入する,><debeti;掛売りする
+kredit/ig/i:［他］【商】信用させる
+kredit/kart/o:クレジットカード
+kredit/leter/o:【商】信用状
+kredit/o:{Ｂ}【商】信用;掛け,信用貸;（簿記の）貸方,><debeto
+kreditor/o:{Ｏ}【商】債権者,><debitoro
+kromofotografi/o:【写】天然色写真術
+kromolitografi/o:【印】着色石版術
+kultiv/i mikrob/ojn:細菌を培養する
+liber/a elektron/o:【理】自由電子
+litograf/aj^/o:【印】=litografo（石版印刷物）
+litograf/i:{Ｏ}［他］【印】石版印刷する,石版刷りにする
+litograf/ist/o:【印】石版工,石版師
+litograf/o:【印】石版印刷物;石版画,リトグラフ
+litografi/o:{Ｏ}【印】石版印刷（術）,リトグラフィー
+litorin/o:【貝】タマキビガイ（属）（玉黍貝）
+lum/mikroskop/o:【理】光学顕微鏡
+lum/o:光,日光;明かり,輝き;光源,灯火,ライト;《転》指導的な人物
+magnetit/o:【鉱】磁鉄鉱
+magnetofon/i:［他］テープレコーダーで録音する,=surbendigi
+magnetofon/o:{Ｏ}【電】テープレコーダー,=sonbendilo
+magnetometr/o:【理】磁力計
+magneton/o:【理】磁子
+magnetostring/o:【理】磁歪（わい）,=magnetodeformo
+majoran/o:【植】マヨラナ（種）,マージョラム,ハナハッカ（花薄荷）
+makrokosm/o:大宇宙,><mikrokosmo
+makroskop/a:【理】巨視的な;=okulvidebla（肉眼で見える）
+mal/kredit/ig/i:［他］=senkreditigi（信用を失わせる）
+mega/elektron/volt/o:【理】メガ電子ボルト（MeV）
+metil/klorid/o:【化】塩化メチル
+mikroamper/o:【電】マイクロアンペア（μA）
+mikrob/o:{Ｏ}【生】微生物,>>bakterio,>>protozoo,>>viruso
+mikrobiologi/o:微生物学
+mikrofarad/o:【理】マイクロファラド（μＦ）
+mikrofilm/i:［他］【写】マイクロフィルムに撮影する
+mikrofilm/o:【写】マイクロフィルム
+mikrofon/o:{Ｏ}マイクロフォン
+mikrokanel/a disk/o:【楽】ＬＰレコード,=longeluda disko
+mikrokanel/a:【楽】ＬＰレコードの,=longeluda
+mikrokanel/o:（ＬＰレコードの）微細溝;【楽】ＬＰレコード
+mikrokok/o:【生】球菌,ミクロコッカス（属）
+mikrokosm/o:小宇宙;（宇宙の縮図として）人間,><makrokosmo
+mikrokredit/o:《Ｎ》【経】マイクロクレジット,小規模金融
+mikrometr/o:{Ｏ}【理】マイクロメーター
+mikron/o:【理】ミクロン（長さの単位，μ，百万分の一メートル）;ミクロン（微粒子）
+mikronezi/an/o:ミクロネシア人
+mikroond/a forn/o:【料】電子レンジ
+mikroorganism/o:【生】微生物
+mikrosivert/o:【理】マイクロシーベルト（線量当量のSI単位，μSv）
+mikroskop/a:顕微鏡の,顕微鏡を使った;【理】微視的な,微細な
+mikroskop/o:{Ｏ}【理】顕微鏡
+mikrotom/o:【理】ミクロトーム
+mis/kredit/ig/i:［他］評判を悪くする
+mis/kredit/o:不評,信用低下
+nobl/a bolet/o:【菌】ヤマドリタケ（アミタケ科の食用キノコ）
+nom/ad/o:命名
+novjork/a:ニューヨークの
+novjork/an/o:ニューヨーク市民
+nukle/a konvertor/o:【理】転換炉
+omometr/o:【理】オーム計
+opalesk/i:［自］【理】乳光を放つ,タンパク光を放つ
+ordinat/o:【数】縦座標,><absciso
+oscilograf/o:【理】オシログラフ
+osciloskop/o:【理】オシロスコープ
+papilion/o:【虫】アゲハチョウ（揚羽蝶）（属）
+papilioned/oj:【虫】アゲハチョウ科
+paralel/a interfac/o:【情】パラレルインタフェース
+periskop/o:{Ｏ}潜望鏡,展望鏡,ペリスコープ
+perkolat/i:=perkoli
+pistil/o:{Ｏ}【植】めしべ,雌蘂（しずい）,><stameno
+platan/o:{Ｂ}【植】プラタナス,スズカケノキ（篠懸の木）（属）
+platen/o:{Ｏ}【化】白金;プラチナ
+pli/grand/ig/it/a foto:【写】引伸し写真
+polariz/a mikroskop/o:【理】偏光顕微鏡
+postulat/o:【論】要請;【数】公準,>>aksiomo
+pra/tip/o de kilo/gram/o:【理】キログラム原器,>>etalono
+predikativ/a:属詞の,叙述の
+predikativ/o:【Ｇ】属詞,叙述補語
+prezidant/a balot/o:大統領選挙,=prezidanta elekto
+prezidant/a elekt/o:大統領選挙
+profesi/a basbal/ist/o:プロ野球選手
+protestant/a:プロテスタントの,新教の
+protestant/ism/o:【キ】プロテスタンティズム,新教
+protestant/o:【キ】プロテスタント,新教徒
+pulvor/ig/it/a lakto:粉乳
+rad/ar/o:【機】=radoaro（歯車装置）
+radi/o/teleskop/o:【天】電波望遠鏡
+radiofotografi/o:=radiografio（Ｘ線写真術）
+radioskopi/o de stomak/o:胃の透視
+radioskopi/o:【医】透視,Ｘ線透視
+re/prezent/i:［他］再提出する;再現する
+re/sum/i:［他］合計し直す
+referat/o:=referaj^o（研究報告書）
+reflekt/a teleskop/o:【天】反射望遠鏡
+refrakt/a teleskop/o:【天】屈折望遠鏡
+registar/a c^ef/o:政府首脳
+rektumoskop/o:【医】直腸鏡
+rektumoskopi/o:【医】直腸鏡検査
+renom/a:名の通った,評判のよい
+renom/ig^/i:［自］名声を博す,有名になる
+renom/o:名声,有名,評判,>>famo,>>reputacio
+retus^/i:［他］【写】修整する;【情】（画像を）レタッチする
+rezultat/i:［自］=rezulti（結果になる）
+rezultat/ig/i:［他］=rezultigi（結果をもたらす）
+rezultat/o:{Ｏ}=rezulto（結果）
+rom/an/a cifer/o:=>roma cifero（ローマ数字）
+rom/an/a:ローマ人の
+rom/an/o:【史】ローマ人;ローマ市民
+s^uld/i al la membroj detal/an klar/ig/on:会員に詳しく説明しなければならない
+satan/a bolet/o:【菌】ウラベニイグチ（毒キノコ）
+se necese:［間］（もし）必要なら
+sekvant/a jar/o:翌年
+sekvant/a tag/o:翌日
+sen/dat/a:日付のない
+sen/komfort/a lito:寝心地の悪いベッド
+sen/kredit/ig/i:［他］【商】信用を失わせる
+sen/krem/a lakto:脱脂乳
+sen/rezultat/a:=senrezulta（成果のない）
+seri/a interfac/o:【情】シリアルインタフェース
+serioz/a mla/san/o:重い病気
+si/n/akuz/o:自首
+si/n/am/o:自愛,自己愛,=memamo
+si/n/anonc/int/o:自己申告者,応募者
+si/n/anonc/o:自分から申し出ること,応募
+si/n/de/ten/em/o:=sindeteno（自制）
+si/n/de/ten/o:自制,遠慮;棄権
+si/n/dedic^/a:献身的な,ひたむきな,>>sindona
+si/n/dedic^/o:献身,専念
+si/n/defend/ant/o:【法】（民事訴訟の）被告,><postulanto
+si/n/defend/o:自己防衛
+si/n/dev/ig/e:（気の進まないことを）無理に;窮屈そうに,気兼ねして
+si/n/dev/ig/o:（気の進まないことを）無理にすること;遠慮,気兼ね
+si/n/don/a:{Ｂ}献身的な,>>sindedic^a
+si/n/don/em/a:=sindona（献身的な）
+si/n/don/em/o:献身的であること,>>sindono
+si/n/don/o:献身,>>sindonemo
+si/n/dron/ig/i:［自］身投げする
+si/n/esplor/em/a:内省的な
+si/n/esplor/o:内省（ないせい）
+si/n/esprim/o:自己表現
+si/n/forges/o:無私;忘我
+si/n/g^en/a:内気な,遠慮がちの
+si/n/g^en/i:［自］気をつかう,気兼ねする,遠慮する,困る,=g^eni sin
+si/n/gard/a:用心深い,慎重な
+si/n/gard/e:用心深く,慎重に
+si/n/gard/ec/o:用心深さ,慎重さ
+si/n/gard/em/a:=singarda（用心深い）
+si/n/gard/em/o:用心,警戒心
+si/n/gard/o:=singardemo（用心）
+si/n/klin/o:（上体をかがめる）お辞儀
+si/n/koncentr/ad/o:（精神の）集中
+si/n/masturb/ad/o:自慰,マスターベーション,オナニー
+si/n/mok/e:自嘲気味に
+si/n/montr/em/a:目立ちたがりの
+si/n/mort/ig/int/o:自殺者
+si/n/mort/ig/o:自殺,=memmortigo
+si/n/ofer/o:献身,自己犠牲
+si/n/prezent/o:自己紹介
+si/n/propon/o:申し出,自薦
+si/n/reg/ad/o:自制,自制心
+si/n/sekv/a:次々の,相次ぐ,連続する,一連の
+si/n/sekv/e:次々に,相次いで
+si/n/sekv/o:連続,ひと続き
+si/n/ten/ad/o:ふるまい,態度
+si/n/ten/o:{Ｂ}態度
+si/n/tromp/o:自己欺瞞
+spektroskop/o:【理】分光器
+spektroskopi/a analiz/o:【理】分光分析
+spektroskopi/o:【理】分光学
+stereoskop/o:【理】立体鏡,実体鏡,ステレオスコープ
+stereoskopi/o:【理】立体視法
+stetoskop/i:［他］聴診する,=au^skultumi
+stetoskop/o:【医】聴診器
+stroboskop/a fot/o:【理】ストロボ写真
+stroboskop/o:【理】ストロボスコープ
+sublimat/o:{Ｏ}【化】昇コウ;=sublimaj^o（昇華物）
+sud/an/o:=sudulo（南部の人）
+sulfur/dioksid/o:【化】二酸化硫黄
+sum/er/o:（予算表・帳簿などの）項目,=termo
+tajd/pov/a elektroprodukto:【環】潮力発電
+telefotograf/i:［他］望遠で写真撮影する
+telekomunik/a satelit/o:通信衛星
+telekopi/o:=fakso
+teleskop/a stel/o:望遠鏡でしか見えない（肉眼では見えない）星
+teleskop/a tri/pied/o:伸縮式三脚
+teleskop/a:望遠鏡の,望遠鏡による;（多段式望遠鏡のように）伸縮式の
+teleskop/o:{Ｏ}望遠鏡,天体望遠鏡
+temper/e:テンペラ技法で
+temper/i:［自］テンペラ技法で描く
+temper/o:【美】テンペラ（絵画技法の一つ）
+tensiometr/o:【理】張力計
+termodinamik/o:【理】熱力学
+termoelektr/a kurent/o:【理】熱電流
+termoelektr/a:【理】熱電の
+termoelektr/o/mov/a fort/o:【理】熱起電力
+termoelektr/o/mov/a:【理】熱起電の
+termoelektr/o:【理】熱電気
+termoelektron/o:【理】熱電子
+termokupl/o:【理】熱電対,=termoparo
+termologi/o:【理】熱学
+termometri/o:【理】温度測定
+termonukle/a reakci/o:【理】熱核反応
+termonukle/a:【理】熱核の
+termopar/a termometr/o:【理】熱電対温度計,熱電温度計
+termopar/o:【理】熱電対,=termoelektra paro
+termos/o:魔法びん,=varmbotelo
+termosifon/o:【理】熱サイホン
+termoskop/o:【理】測温器
+termostat/o:【理】サーモスタット
+termostatik/o:【理】熱静力学
+tipometr/o:【印】活字尺
+tra/met/i:［他］（穴に）通す,つき通す,=tredi
+tremometr/o:【地質】微震計
+ultra/mikroskop/o:【理】限外顕微鏡
+unu fojon por c^iam:一度限り
+vakumetr/o:【理】真空計
+vapormetr/o:【理】蒸気圧計,>>manometro
+variant/o:{Ｏ}【文】異文,異本
+vathorometr/o:【理】積算電力量計,>>vatmetro
+vatmetr/o:【理】電力計
+velar/o:【声】=velsono（軟口蓋音）
+vibrometr/o:【理】振動計
+viskozometr/o:【理】粘度計
+voltmetr/o:【理】電圧計,>>tensio
+volumenometr/o:【理】容積計
