@@ -132,45 +132,12 @@ placeholders = load_placeholders('./files_needed_to_get_replacements_list_json_f
 
 
 
-st.title("世界语汉字化")
-st.caption('这是一个将世界语文本转换成汉字符号的网络应用程序。')
+st.title("在世界语词根上输出HTML格式的中文翻译标注")
 
 
-# サンプルファイルのパス
-file_path4 = './files_needed_to_get_replacements_list_json_format/replacements_list_ruby_html_format_中文_対応ruby尺寸更改.txt'
-# ファイルを読み込む
-with open(file_path4, "rb") as file:
-    btn = st.download_button(
-            label="下载示例文件4(Ruby_中文_対応ruby尺寸更改)",
-            data=file,
-            file_name="replacements_list_ruby_html_format_中文_対応ruby尺寸更改.txt",
-            mime="text/plain"
-        )
-    
-# サンプルファイルのパス
-file_path5 = './files_needed_to_get_replacements_list_json_format/replacements_list_ruby_html_format_日本語_ルビサイズ変更対応.txt'
-# ファイルを読み込む
-with open(file_path5, "rb") as file:
-    btn = st.download_button(
-            label="下载示例文件5(Ruby_日本語_ルビサイズ変更対応)",
-            data=file,
-            file_name="replacements_list_ruby_html_format_日本語_ルビサイズ変更対応.txt",
-            mime="text/plain"
-        )
-
-
-uploaded_file = st.file_uploader("上传你的'replacements_list_<html,parentheses,onlyhanzi,ruby>_format.txt'", type=['txt'])
-if uploaded_file is not None:
-    replacements3 = []
-    for line in uploaded_file:
-        decoded_line = line.decode('utf-8').rstrip()##strip()では駄目
-        parts = decoded_line.split(',')
-        if len(parts) == 3:
-            replacements3.append((parts[0], parts[1], parts[2]))
-else:
-    replacements3 = []
-    with open("./files_needed_to_get_replacements_list_json_format/最終的な置換用のリスト(replacements_final_list)_Chinese.json", 'r', encoding='utf-8') as g:
-        replacements_final_list_2 = json.load(g)
+replacements3 = []
+with open("./files_needed_to_get_replacements_list_json_format/最終的な置換用のリスト(replacements_final_list)_Chinese.json", 'r', encoding='utf-8') as g:
+    replacements_final_list_2 = json.load(g)
 text3=""
 with st.form(key='profile_form'):
     letter_type = st.radio('输出字符格式', ('上标字符', 'x形式', '^形式'))
@@ -223,65 +190,6 @@ if text3:
 # comments = st.sidebar.text_area("ご意見・ご感想をお聞かせください")
 
 
-# 操作方法の説明
-st.title("操作方法(下に日本語訳が有ります。)")
-st.markdown("""
-如果您想在世界语文本的汉字转换中使用自制的世界语词根-汉字对照表,
-首先,请下载并参考'make replacement file'中附带的'下载示例文件',
-并创建如下附图所示格式的csv文件。(请使用X形式的世界语词根。)""")
-                               
-# エスペラント語根と対応する漢字の例画像を表示
-image2 = Image.open('エスペラント語根-漢字対応表(csv形式)の作り方.png')
-st.image(image2, caption='世界语词根-汉字对照表(csv格式)的创建方法', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整          
-st.markdown("""
-接下来,请将创建的csv文件上传到'make replacement file'
-并创建和下载'replacements_list_<html,parentheses,onlyhanzi>_format.txt'。
-(在此过程中,请从'html格式(HTML Format)'、'括号格式(Parentheses Format)'、'仅汉字格式(Only Hanzi)'中选择汉字转换格式。)
-上传csv文件后,'replacements_list_<html,parentheses,onlyhanzi>_format.txt'的创建将自动开始。创建完成大约需要20秒。
-最后,将创建的'replacements_list_<html,parentheses,onlyhanzi>_format.txt'上传到'main',
-选择'输出字符格式',在'世界语句子'中粘贴要转换为汉字的世界语句子,按下'发送'按钮,
-转换为汉字的世界语句子将作为预览输出,按'下载文本'按钮,可以将转换为汉字的世界语句子作为文本文件下载并保存。
-(如果是html格式,可以在Google Chrome等网络浏览器中打开,就能看到干净整洁的注音(注音字母)。)                                                        
-""")
-
-
-# 操作方法の説明
-st.title("操作方法")
-st.markdown("""
-自作のエスペラント語根-漢字対応表をエスペラント文の漢字変換に用いたい場合、
-まず、'make replacement file'に添付されている'下载示例文件'をダウンロード・参照し、
-以下の添付画像ような形式のcsvファイルを作成してください。(エスペラント語根はX形式でお願いします。)""")
-                               
-# エスペラント語根と対応する漢字の例画像を表示
-image2 = Image.open('エスペラント語根-漢字対応表(csv形式)の作り方.png')
-st.image(image2, caption='エスペラント語根-漢字対応表(csv形式)の作り方', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整                
-
-st.markdown("""
-次に、作成したcsvファイルを'make replacement file'にアップロードし、
-'replacements_list_<html,parentheses,onlyhanzi>_format.txt'を作成、ダウンロードします。(このときに、
-漢字変換の形式を、'html形式(HTML Format)','括弧形式(Parentheses Format)','漢字のみの形式(Only Hanzi)'
-から選択してください。)
-csvファイルをアップロードした段階で自動的に'replacements_list_<html,parentheses,onlyhanzi>_format.txt'
-の作成が始まります。作成完了まで20秒程かかります。
-最後に作成された'replacements_list_<html,parentheses,onlyhanzi>_format.txt'を'main'にアップロードし、
-'出力文字形式'を選択、'世界语句子'に漢字変換したいエスペラント文を貼り付け、
-'发送' ボタンを押せば、漢字変換されたエスペラント文がプレビューとして
-出力され、'下载文本'ボタンを押すと、 漢字変換されたエスペラント文を
-テキストファイルとしてダウンロード保存することが出来ます。
-(html形式であれば、google chromeなどのウェブブラウザで開くと綺麗にふりがな
-(ふりアルファベット)がついているのを見ることが出来ます。)                                                        
-""")
-
-
-
-
-
-
-
-# 画像をページの下部に配置
-st.markdown("---")  # 水平線を追加して区切りを作成
-image = Image.open('エスペラントの漢字化の理想図.png')
-st.image(image, caption='世界语汉字化的理想图', use_column_width=False, width=450)  # 画像にキャプションを追加し、サイズを調整
 
 # 連絡先の追加
 st.title("应用程序的github仓库")
