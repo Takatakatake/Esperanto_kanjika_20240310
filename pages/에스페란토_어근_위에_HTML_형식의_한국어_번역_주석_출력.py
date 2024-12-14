@@ -161,9 +161,9 @@ with st.form(key='profile_form'):
         for original, place_holder_ in sorted_replacements_list_for_intact_parts:
             text3 = text3.replace(place_holder_, original.replace("%%",""))
         # ⇓出力文字形式の変換
-        if letter_type == '上标字符':
+        if letter_type == '위첨자 문자':
             text3 = replace_esperanto_chars(text3, x_to_jijofu)
-        elif letter_type == '^形式':
+        elif letter_type == '^ 형식':
             text3 = replace_esperanto_chars(text3, x_to_hat)
         
         # 改行を <br> に変換
