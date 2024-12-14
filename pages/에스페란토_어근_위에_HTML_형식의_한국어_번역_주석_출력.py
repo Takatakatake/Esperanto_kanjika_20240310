@@ -179,7 +179,7 @@ if text3:
     to_download = io.BytesIO(text3.encode('utf-8'))
     to_download.seek(0)
     st.download_button(
-        label="下载文本",
+        label="텍스트 다운로드",
         data=to_download,
         file_name="processed_text.html",
         mime="text/plain"
