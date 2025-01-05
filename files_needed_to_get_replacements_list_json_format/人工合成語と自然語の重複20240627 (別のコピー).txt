@@ -1,2 +1,0 @@
-83   ['kalkan', '踵(kalkan)', '石灰(kalk)an'],  ['fazan', 'キジ(fazan)', '位相(faz)an'], ['nordan', '北(nord)会員(an)', '北(nord)an'], ['paran', 'paran', '一対(par)an'],   ['samo', 'samo', '同一の(sam)o'] ['savoj', 'savoj', '救助する(sav)oj'], ['sudan', 'sudan', '南(sud)an']
-

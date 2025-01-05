@@ -1,8 +1,0 @@
-
-dosier,lv1,ファイル,65001
-brasil,lv1,ブラジル,65001
-rektangul,lv1,长方形,95001
-malm,lv1,malm,40001
-abes,lv1,abes,40001
-
-

@@ -1,3 +1,0 @@
-streamlit
-pandas
-openpyxl==3.1.2

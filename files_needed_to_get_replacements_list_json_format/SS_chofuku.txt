@@ -1,6 +1,0 @@
-teren,<ruby>teren<rt>地所</rt></ruby>,名詞
-ter/e/n,<ruby>ter<rt>土地</rt></ruby>/e/n,無詞
-dom/e/n,<ruby>dom<rt>家</rt></ruby>/e/n,無詞
-domen,<ruby>domen<rt>ドミノ</rt></ruby>,名詞
-post/e/n,<ruby>post<rt>後で</rt></ruby>/e/n,無詞
-posten,<ruby>posten<rt>部署</rt></ruby>,動詞, 名詞
