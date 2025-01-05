@@ -17,6 +17,16 @@ with open(file_path0, "rb") as file:
             file_name="한국어 번역 루비 리스트_202501.csv",
             mime="text/csv"
         )
+# サンプルエクセルファイルのダウンロードボタン
+st.write("번역 루비를 추가할 에스페란토 어근의 난이도를 사용자 설정할 수 있는 샘플 엑셀 파일입니다. 이를 활용하여 위의 샘플 형식과 같은 CSV 파일을 만들어 주세요.")
+with open('./files_needed_to_get_replacements_list_json_format/E-Korea vortolisto kun lernado-nivelo.xlsx', "rb") as file:
+    st.download_button(
+        label="샘플 엑셀 파일 다운로드: E-Korea vortolisto kun lernado-nivelo",
+        data=file,
+        file_name="E-Korea_vortolisto_kun_lernado-nivelo.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+
 
 def capitalize_rt_tag(match):
     rt_start, rt_word, rt_end = match.groups()
