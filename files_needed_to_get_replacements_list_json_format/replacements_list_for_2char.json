@@ -1,1217 +1,1217 @@
 [
   [
     " al ",
-    " al(~으로) ",
+    " <ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19142$ "
   ],
   [
     " AL ",
-    " al(~으로) ",
+    " <ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19142up$ "
   ],
   [
     " Al ",
-    " al(~으로) ",
+    " <ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19142cap$ "
   ],
   [
     " ci ",
-    " ci(너) ",
+    " <ruby>ci<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19143$ "
   ],
   [
     " CI ",
-    " ci(너) ",
+    " <ruby>ci<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19143up$ "
   ],
   [
     " Ci ",
-    " ci(너) ",
+    " <ruby>ci<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19143cap$ "
   ],
   [
     " da ",
-    " da(의) ",
+    " <ruby>da<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19144$ "
   ],
   [
     " DA ",
-    " da(의) ",
+    " <ruby>da<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19144up$ "
   ],
   [
     " Da ",
-    " da(의) ",
+    " <ruby>da<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19144cap$ "
   ],
   [
     " de ",
-    " de(\"로부터) ",
+    " <ruby>de<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19145$ "
   ],
   [
     " DE ",
-    " de(\"로부터) ",
+    " <ruby>de<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19145up$ "
   ],
   [
     " De ",
-    " de(\"로부터) ",
+    " <ruby>de<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19145cap$ "
   ],
   [
     " di ",
-    " di(신) ",
+    " <ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19146$ "
   ],
   [
     " DI ",
-    " di(신) ",
+    " <ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19146up$ "
   ],
   [
     " Di ",
-    " di(신) ",
+    " <ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19146cap$ "
   ],
   [
     " do ",
-    " do(그래서) ",
+    " <ruby>do<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19147$ "
   ],
   [
     " DO ",
-    " do(그래서) ",
+    " <ruby>do<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19147up$ "
   ],
   [
     " Do ",
-    " do(그래서) ",
+    " <ruby>do<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19147cap$ "
   ],
   [
     " du ",
-    " du(둘(2)) ",
+    " <ruby>du<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19148$ "
   ],
   [
     " DU ",
-    " du(둘(2)) ",
+    " <ruby>du<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19148up$ "
   ],
   [
     " Du ",
-    " du(둘(2)) ",
+    " <ruby>du<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19148cap$ "
   ],
   [
     " el ",
-    " el(~에서부터) ",
+    " <ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19149$ "
   ],
   [
     " EL ",
-    " el(~에서부터) ",
+    " <ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19149up$ "
   ],
   [
     " El ",
-    " el(~에서부터) ",
+    " <ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19149cap$ "
   ],
   [
     " en ",
-    " en(안에) ",
+    " <ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19150$ "
   ],
   [
     " EN ",
-    " en(안에) ",
+    " <ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19150up$ "
   ],
   [
     " En ",
-    " en(안에) ",
+    " <ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19150cap$ "
   ],
   [
     " fi ",
-    " fi(비열한) ",
+    " <ruby>fi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19151$ "
   ],
   [
     " FI ",
-    " fi(비열한) ",
+    " <ruby>fi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19151up$ "
   ],
   [
     " Fi ",
-    " fi(비열한) ",
+    " <ruby>fi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19151cap$ "
   ],
   [
     " he ",
-    " he(이봐!) ",
+    " <ruby>he<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19152$ "
   ],
   [
     " HE ",
-    " he(이봐!) ",
+    " <ruby>he<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19152up$ "
   ],
   [
     " He ",
-    " he(이봐!) ",
+    " <ruby>he<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19152cap$ "
   ],
   [
     " ho ",
-    " ho(오!) ",
+    " <ruby>ho<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19153$ "
   ],
   [
     " HO ",
-    " ho(오!) ",
+    " <ruby>ho<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19153up$ "
   ],
   [
     " Ho ",
-    " ho(오!) ",
+    " <ruby>ho<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19153cap$ "
   ],
   [
     " je ",
-    " je((~)에) ",
+    " <ruby>je<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19154$ "
   ],
   [
     " JE ",
-    " je((~)에) ",
+    " <ruby>je<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19154up$ "
   ],
   [
     " Je ",
-    " je((~)에) ",
+    " <ruby>je<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19154cap$ "
   ],
   [
     " ju ",
-    " ju(더욱) ",
+    " <ruby>ju<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19155$ "
   ],
   [
     " JU ",
-    " ju(더욱) ",
+    " <ruby>ju<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19155up$ "
   ],
   [
     " Ju ",
-    " ju(더욱) ",
+    " <ruby>ju<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19155cap$ "
   ],
   [
     " la ",
-    " la(정관사) ",
+    " <ruby>la<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19156$ "
   ],
   [
     " LA ",
-    " la(정관사) ",
+    " <ruby>la<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19156up$ "
   ],
   [
     " La ",
-    " la(정관사) ",
+    " <ruby>la<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19156cap$ "
   ],
   [
     " li ",
-    " li(그) ",
+    " <ruby>li<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19157$ "
   ],
   [
     " LI ",
-    " li(그) ",
+    " <ruby>li<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19157up$ "
   ],
   [
     " Li ",
-    " li(그) ",
+    " <ruby>li<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19157cap$ "
   ],
   [
     " mi ",
-    " mi(나) ",
+    " <ruby>mi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19158$ "
   ],
   [
     " MI ",
-    " mi(나) ",
+    " <ruby>mi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19158up$ "
   ],
   [
     " Mi ",
-    " mi(나) ",
+    " <ruby>mi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19158cap$ "
   ],
   [
     " ne ",
-    " ne(아니) ",
+    " <ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19159$ "
   ],
   [
     " NE ",
-    " ne(아니) ",
+    " <ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19159up$ "
   ],
   [
     " Ne ",
-    " ne(아니) ",
+    " <ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19159cap$ "
   ],
   [
     " ni ",
-    " ni(우리) ",
+    " <ruby>ni<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19160$ "
   ],
   [
     " NI ",
-    " ni(우리) ",
+    " <ruby>ni<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19160up$ "
   ],
   [
     " Ni ",
-    " ni(우리) ",
+    " <ruby>ni<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19160cap$ "
   ],
   [
     " nu ",
-    " nu(자;) ",
+    " <ruby>nu<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19161$ "
   ],
   [
     " NU ",
-    " nu(자;) ",
+    " <ruby>nu<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19161up$ "
   ],
   [
     " Nu ",
-    " nu(자;) ",
+    " <ruby>nu<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19161cap$ "
   ],
   [
     " ok ",
-    " ok(여덟(8)) ",
+    " <ruby>ok<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19162$ "
   ],
   [
     " OK ",
-    " ok(여덟(8)) ",
+    " <ruby>ok<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19162up$ "
   ],
   [
     " Ok ",
-    " ok(여덟(8)) ",
+    " <ruby>ok<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19162cap$ "
   ],
   [
     " ol ",
-    " ol(보다) ",
+    " <ruby>ol<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19163$ "
   ],
   [
     " OL ",
-    " ol(보다) ",
+    " <ruby>ol<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19163up$ "
   ],
   [
     " Ol ",
-    " ol(보다) ",
+    " <ruby>ol<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19163cap$ "
   ],
   [
     " pi ",
-    " pi(경건한) ",
+    " <ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19164$ "
   ],
   [
     " PI ",
-    " pi(경건한) ",
+    " <ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19164up$ "
   ],
   [
     " Pi ",
-    " pi(경건한) ",
+    " <ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19164cap$ "
   ],
   [
     " po ",
-    " po(씩) ",
+    " <ruby>po<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19165$ "
   ],
   [
     " PO ",
-    " po(씩) ",
+    " <ruby>po<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19165up$ "
   ],
   [
     " Po ",
-    " po(씩) ",
+    " <ruby>po<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19165cap$ "
   ],
   [
     " se ",
-    " se(만약) ",
+    " <ruby>se<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19166$ "
   ],
   [
     " SE ",
-    " se(만약) ",
+    " <ruby>se<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19166up$ "
   ],
   [
     " Se ",
-    " se(만약) ",
+    " <ruby>se<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19166cap$ "
   ],
   [
     " si ",
-    " si(자기) ",
+    " <ruby>si<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19167$ "
   ],
   [
     " SI ",
-    " si(자기) ",
+    " <ruby>si<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19167up$ "
   ],
   [
     " Si ",
-    " si(자기) ",
+    " <ruby>si<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19167cap$ "
   ],
   [
     " ve ",
-    " ve(아아!) ",
+    " <ruby>ve<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19168$ "
   ],
   [
     " VE ",
-    " ve(아아!) ",
+    " <ruby>ve<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19168up$ "
   ],
   [
     " Ve ",
-    " ve(아아!) ",
+    " <ruby>ve<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19168cap$ "
   ],
   [
     " vi ",
-    " vi(당신) ",
+    " <ruby>vi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19169$ "
   ],
   [
     " VI ",
-    " vi(당신) ",
+    " <ruby>vi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19169up$ "
   ],
   [
     " Vi ",
-    " vi(당신) ",
+    " <ruby>vi<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19169cap$ "
   ],
   [
     " ke ",
-    " ke(~라는 것) ",
+    " <ruby>ke<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19170$ "
   ],
   [
     " KE ",
-    " ke(~라는 것) ",
+    " <ruby>ke<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19170up$ "
   ],
   [
     " Ke ",
-    " ke(~라는 것) ",
+    " <ruby>ke<rt class=\"ruby-X_X_X\"> </rt></ruby> ",
     " $19170cap$ "
   ],
   [
     "$ad",
-    "$ad(계속행위)",
+    "$<ruby>ad<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18542$"
   ],
   [
     "$AD",
-    "$ad(계속행위)",
+    "$<ruby>ad<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18542up$"
   ],
   [
     "$Ad",
-    "$ad(계속행위)",
+    "$<ruby>ad<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18542cap$"
   ],
   [
     "$ag",
-    "$ag(행동하다)",
+    "$<ruby>ag<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18543$"
   ],
   [
     "$AG",
-    "$ag(행동하다)",
+    "$<ruby>ag<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18543up$"
   ],
   [
     "$Ag",
-    "$ag(행동하다)",
+    "$<ruby>ag<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18543cap$"
   ],
   [
     "$am",
-    "$am(사랑하다)",
+    "$<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18544$"
   ],
   [
     "$AM",
-    "$am(사랑하다)",
+    "$<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18544up$"
   ],
   [
     "$Am",
-    "$am(사랑하다)",
+    "$<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18544cap$"
   ],
   [
     "$ar",
-    "$ar(무리)",
+    "$<ruby>ar<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18545$"
   ],
   [
     "$AR",
-    "$ar(무리)",
+    "$<ruby>ar<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18545up$"
   ],
   [
     "$Ar",
-    "$ar(무리)",
+    "$<ruby>ar<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18545cap$"
   ],
   [
     "$as",
-    "$as(현재형)",
+    "$<ruby>as<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18546$"
   ],
   [
     "$AS",
-    "$as(현재형)",
+    "$<ruby>as<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18546up$"
   ],
   [
     "$As",
-    "$as(현재형)",
+    "$<ruby>as<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18546cap$"
   ],
   [
     "$at",
-    "$at(수동현재)",
+    "$<ruby>at<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18547$"
   ],
   [
     "$AT",
-    "$at(수동현재)",
+    "$<ruby>at<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18547up$"
   ],
   [
     "$At",
-    "$at(수동현재)",
+    "$<ruby>at<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18547cap$"
   ],
   [
     "$av",
-    "$av(조부)",
+    "$<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18548$"
   ],
   [
     "$AV",
-    "$av(조부)",
+    "$<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18548up$"
   ],
   [
     "$Av",
-    "$av(조부)",
+    "$<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18548cap$"
   ],
   [
     "$di",
-    "$di(신)",
+    "$<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18549$"
   ],
   [
     "$DI",
-    "$di(신)",
+    "$<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18549up$"
   ],
   [
     "$Di",
-    "$di(신)",
+    "$<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18549cap$"
   ],
   [
     "$ec",
-    "$ec(성질)",
+    "$<ruby>ec<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18550$"
   ],
   [
     "$EC",
-    "$ec(성질)",
+    "$<ruby>ec<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18550up$"
   ],
   [
     "$Ec",
-    "$ec(성질)",
+    "$<ruby>ec<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18550cap$"
   ],
   [
     "$eg",
-    "$eg(크고 강렬)",
+    "$<ruby>eg<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18551$"
   ],
   [
     "$EG",
-    "$eg(크고 강렬)",
+    "$<ruby>eg<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18551up$"
   ],
   [
     "$Eg",
-    "$eg(크고 강렬)",
+    "$<ruby>eg<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18551cap$"
   ],
   [
     "$ej",
-    "$ej(장소)",
+    "$<ruby>ej<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18552$"
   ],
   [
     "$EJ",
-    "$ej(장소)",
+    "$<ruby>ej<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18552up$"
   ],
   [
     "$Ej",
-    "$ej(장소)",
+    "$<ruby>ej<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18552cap$"
   ],
   [
     "$em",
-    "$em(경향)",
+    "$<ruby>em<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18553$"
   ],
   [
     "$EM",
-    "$em(경향)",
+    "$<ruby>em<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18553up$"
   ],
   [
     "$Em",
-    "$em(경향)",
+    "$<ruby>em<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18553cap$"
   ],
   [
     "$er",
-    "$er(입자)",
+    "$<ruby>er<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18554$"
   ],
   [
     "$ER",
-    "$er(입자)",
+    "$<ruby>er<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18554up$"
   ],
   [
     "$Er",
-    "$er(입자)",
+    "$<ruby>er<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18554cap$"
   ],
   [
     "$et",
-    "$et(작은)",
+    "$<ruby>et<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18555$"
   ],
   [
     "$ET",
-    "$et(작은)",
+    "$<ruby>et<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18555up$"
   ],
   [
     "$Et",
-    "$et(작은)",
+    "$<ruby>et<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18555cap$"
   ],
   [
     "$id",
-    "$id(후손)",
+    "$<ruby>id<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18556$"
   ],
   [
     "$ID",
-    "$id(후손)",
+    "$<ruby>id<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18556up$"
   ],
   [
     "$Id",
-    "$id(후손)",
+    "$<ruby>id<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18556cap$"
   ],
   [
     "$ig",
-    "$ig(하게 하다)",
+    "$<ruby>ig<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18557$"
   ],
   [
     "$IG",
-    "$ig(하게 하다)",
+    "$<ruby>ig<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18557up$"
   ],
   [
     "$Ig",
-    "$ig(하게 하다)",
+    "$<ruby>ig<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18557cap$"
   ],
   [
     "$il",
-    "$il(도구)",
+    "$<ruby>il<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18558$"
   ],
   [
     "$IL",
-    "$il(도구)",
+    "$<ruby>il<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18558up$"
   ],
   [
     "$Il",
-    "$il(도구)",
+    "$<ruby>il<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18558cap$"
   ],
   [
     "$in",
-    "$in(녀성)",
+    "$<ruby>in<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18559$"
   ],
   [
     "$IN",
-    "$in(녀성)",
+    "$<ruby>in<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18559up$"
   ],
   [
     "$In",
-    "$in(녀성)",
+    "$<ruby>in<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18559cap$"
   ],
   [
     "$ir",
-    "$ir(가다)",
+    "$<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18560$"
   ],
   [
     "$IR",
-    "$ir(가다)",
+    "$<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18560up$"
   ],
   [
     "$Ir",
-    "$ir(가다)",
+    "$<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18560cap$"
   ],
   [
     "$is",
-    "$is(과거형)",
+    "$<ruby>is<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18561$"
   ],
   [
     "$IS",
-    "$is(과거형)",
+    "$<ruby>is<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18561up$"
   ],
   [
     "$Is",
-    "$is(과거형)",
+    "$<ruby>is<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18561cap$"
   ],
   [
     "$it",
-    "$it(수동 과거)",
+    "$<ruby>it<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18562$"
   ],
   [
     "$IT",
-    "$it(수동 과거)",
+    "$<ruby>it<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18562up$"
   ],
   [
     "$It",
-    "$it(수동 과거)",
+    "$<ruby>it<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18562cap$"
   ],
   [
     "$lu",
-    "$lu(임차하다)",
+    "$<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18563$"
   ],
   [
     "$LU",
-    "$lu(임차하다)",
+    "$<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18563up$"
   ],
   [
     "$Lu",
-    "$lu(임차하다)",
+    "$<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18563cap$"
   ],
   [
     "$nj",
-    "$nj(여자애칭)",
+    "$<ruby>nj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18564$"
   ],
   [
     "$NJ",
-    "$nj(여자애칭)",
+    "$<ruby>nj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18564up$"
   ],
   [
     "$Nj",
-    "$nj(여자애칭)",
+    "$<ruby>nj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18564cap$"
   ],
   [
     "$op",
-    "$op(집합수)",
+    "$<ruby>op<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18565$"
   ],
   [
     "$OP",
-    "$op(집합수)",
+    "$<ruby>op<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18565up$"
   ],
   [
     "$Op",
-    "$op(집합수)",
+    "$<ruby>op<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18565cap$"
   ],
   [
     "$or",
-    "$or(금)",
+    "$<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18566$"
   ],
   [
     "$OR",
-    "$or(금)",
+    "$<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18566up$"
   ],
   [
     "$Or",
-    "$or(금)",
+    "$<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18566cap$"
   ],
   [
     "$os",
-    "$os(미래형)",
+    "$<ruby>os<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18567$"
   ],
   [
     "$OS",
-    "$os(미래형)",
+    "$<ruby>os<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18567up$"
   ],
   [
     "$Os",
-    "$os(미래형)",
+    "$<ruby>os<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18567cap$"
   ],
   [
     "$ot",
-    "$ot(수동미래)",
+    "$<ruby>ot<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18568$"
   ],
   [
     "$OT",
-    "$ot(수동미래)",
+    "$<ruby>ot<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18568up$"
   ],
   [
     "$Ot",
-    "$ot(수동미래)",
+    "$<ruby>ot<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18568cap$"
   ],
   [
     "$ov",
-    "$ov(알)",
+    "$<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18569$"
   ],
   [
     "$OV",
-    "$ov(알)",
+    "$<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18569up$"
   ],
   [
     "$Ov",
-    "$ov(알)",
+    "$<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18569cap$"
   ],
   [
     "$pi",
-    "$pi(경건한)",
+    "$<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18570$"
   ],
   [
     "$PI",
-    "$pi(경건한)",
+    "$<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18570up$"
   ],
   [
     "$Pi",
-    "$pi(경건한)",
+    "$<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18570cap$"
   ],
   [
     "$te",
-    "$te(차)",
+    "$<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18571$"
   ],
   [
     "$TE",
-    "$te(차)",
+    "$<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18571up$"
   ],
   [
     "$Te",
-    "$te(차)",
+    "$<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18571cap$"
   ],
   [
     "$uj",
-    "$uj(그릇)",
+    "$<ruby>uj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18572$"
   ],
   [
     "$UJ",
-    "$uj(그릇)",
+    "$<ruby>uj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18572up$"
   ],
   [
     "$Uj",
-    "$uj(그릇)",
+    "$<ruby>uj<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18572cap$"
   ],
   [
     "$ul",
-    "$ul(인)",
+    "$<ruby>ul<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18573$"
   ],
   [
     "$UL",
-    "$ul(인)",
+    "$<ruby>ul<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18573up$"
   ],
   [
     "$Ul",
-    "$ul(인)",
+    "$<ruby>ul<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18573cap$"
   ],
   [
     "$um",
-    "$um(불특정)",
+    "$<ruby>um<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18574$"
   ],
   [
     "$UM",
-    "$um(불특정)",
+    "$<ruby>um<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18574up$"
   ],
   [
     "$Um",
-    "$um(불특정)",
+    "$<ruby>um<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18574cap$"
   ],
   [
     "$us",
-    "$us(가정법)",
+    "$<ruby>us<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18575$"
   ],
   [
     "$US",
-    "$us(가정법)",
+    "$<ruby>us<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18575up$"
   ],
   [
     "$Us",
-    "$us(가정법)",
+    "$<ruby>us<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18575cap$"
   ],
   [
     "$uz",
-    "$uz(쓰다)",
+    "$<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18576$"
   ],
   [
     "$UZ",
-    "$uz(쓰다)",
+    "$<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18576up$"
   ],
   [
     "$Uz",
-    "$uz(쓰다)",
+    "$<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>",
     "$$18576cap$"
   ],
   [
     "al$",
-    "al(~으로)$",
+    "<ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18842$$"
   ],
   [
     "AL$",
-    "al(~으로)$",
+    "<ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18842up$$"
   ],
   [
     "Al$",
-    "al(~으로)$",
+    "<ruby>al<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18842cap$$"
   ],
   [
     "am$",
-    "am(사랑하다)$",
+    "<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18843$$"
   ],
   [
     "AM$",
-    "am(사랑하다)$",
+    "<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18843up$$"
   ],
   [
     "Am$",
-    "am(사랑하다)$",
+    "<ruby>am<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18843cap$$"
   ],
   [
     "av$",
-    "av(조부)$",
+    "<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18844$$"
   ],
   [
     "AV$",
-    "av(조부)$",
+    "<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18844up$$"
   ],
   [
     "Av$",
-    "av(조부)$",
+    "<ruby>av<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18844cap$$"
   ],
   [
     "bo$",
-    "bo(혼인관계)$",
+    "<ruby>bo<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18845$$"
   ],
   [
     "BO$",
-    "bo(혼인관계)$",
+    "<ruby>bo<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18845up$$"
   ],
   [
     "Bo$",
-    "bo(혼인관계)$",
+    "<ruby>bo<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18845cap$$"
   ],
   [
     "di$",
-    "di(신)$",
+    "<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18846$$"
   ],
   [
     "DI$",
-    "di(신)$",
+    "<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18846up$$"
   ],
   [
     "Di$",
-    "di(신)$",
+    "<ruby>di<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18846cap$$"
   ],
   [
     "ek$",
-    "ek(시작)$",
+    "<ruby>ek<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18847$$"
   ],
   [
     "EK$",
-    "ek(시작)$",
+    "<ruby>ek<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18847up$$"
   ],
   [
     "Ek$",
-    "ek(시작)$",
+    "<ruby>ek<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18847cap$$"
   ],
   [
     "el$",
-    "el(~에서부터)$",
+    "<ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18848$$"
   ],
   [
     "EL$",
-    "el(~에서부터)$",
+    "<ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18848up$$"
   ],
   [
     "El$",
-    "el(~에서부터)$",
+    "<ruby>el<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18848cap$$"
   ],
   [
     "en$",
-    "en(안에)$",
+    "<ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18849$$"
   ],
   [
     "EN$",
-    "en(안에)$",
+    "<ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18849up$$"
   ],
   [
     "En$",
-    "en(안에)$",
+    "<ruby>en<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18849cap$$"
   ],
   [
     "ge$",
-    "ge(남녀)$",
+    "<ruby>ge<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18850$$"
   ],
   [
     "GE$",
-    "ge(남녀)$",
+    "<ruby>ge<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18850up$$"
   ],
   [
     "Ge$",
-    "ge(남녀)$",
+    "<ruby>ge<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18850cap$$"
   ],
   [
     "ir$",
-    "ir(가다)$",
+    "<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18851$$"
   ],
   [
     "IR$",
-    "ir(가다)$",
+    "<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18851up$$"
   ],
   [
     "Ir$",
-    "ir(가다)$",
+    "<ruby>ir<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18851cap$$"
   ],
   [
     "lu$",
-    "lu(임차하다)$",
+    "<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18852$$"
   ],
   [
     "LU$",
-    "lu(임차하다)$",
+    "<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18852up$$"
   ],
   [
     "Lu$",
-    "lu(임차하다)$",
+    "<ruby>lu<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18852cap$$"
   ],
   [
     "ne$",
-    "ne(아니)$",
+    "<ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18853$$"
   ],
   [
     "NE$",
-    "ne(아니)$",
+    "<ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18853up$$"
   ],
   [
     "Ne$",
-    "ne(아니)$",
+    "<ruby>ne<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18853cap$$"
   ],
   [
     "or$",
-    "or(금)$",
+    "<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18854$$"
   ],
   [
     "OR$",
-    "or(금)$",
+    "<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18854up$$"
   ],
   [
     "Or$",
-    "or(금)$",
+    "<ruby>or<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18854cap$$"
   ],
   [
     "ov$",
-    "ov(알)$",
+    "<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18855$$"
   ],
   [
     "OV$",
-    "ov(알)$",
+    "<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18855up$$"
   ],
   [
     "Ov$",
-    "ov(알)$",
+    "<ruby>ov<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18855cap$$"
   ],
   [
     "pi$",
-    "pi(경건한)$",
+    "<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18856$$"
   ],
   [
     "PI$",
-    "pi(경건한)$",
+    "<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18856up$$"
   ],
   [
     "Pi$",
-    "pi(경건한)$",
+    "<ruby>pi<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18856cap$$"
   ],
   [
     "te$",
-    "te(차)$",
+    "<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18857$$"
   ],
   [
     "TE$",
-    "te(차)$",
+    "<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18857up$$"
   ],
   [
     "Te$",
-    "te(차)$",
+    "<ruby>te<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18857cap$$"
   ],
   [
     "uz$",
-    "uz(쓰다)$",
+    "<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18858$$"
   ],
   [
     "UZ$",
-    "uz(쓰다)$",
+    "<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18858up$$"
   ],
   [
     "Uz$",
-    "uz(쓰다)$",
+    "<ruby>uz<rt class=\"ruby-X_X_X\"> </rt></ruby>$",
     "$18858cap$$"
   ]
 ]
