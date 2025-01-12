@@ -1,3 +1,0 @@
-  teren,<ruby>teren<rt class="ruby-X_X_X">地所</rt></ruby>,名词  ||  ter/e/n,<ruby>ter<rt class="ruby-L_L_L">土地</rt></ruby>/e/n,無詞  ||
-  dom/e/n,<ruby>dom<rt class="ruby-X_X_X">家</rt></ruby>/e/n,無詞  ||  domen,<ruby>domen<rt class="ruby-L_L_L">ドミノ</rt></ruby>,名词  ||
-  post/e/n,<ruby>post<rt class="ruby-M_M_M">(~の)後で</rt></ruby>/e/n,無詞  ||  posten,<ruby>posten<rt class="ruby-X_X_X">部署</rt></ruby>,动词,名词  ||
