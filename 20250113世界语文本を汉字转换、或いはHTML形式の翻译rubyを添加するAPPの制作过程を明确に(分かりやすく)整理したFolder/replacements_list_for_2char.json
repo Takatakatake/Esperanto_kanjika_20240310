@@ -1,0 +1,1622 @@
+[
+  [
+    " al ",
+    " <ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby> ",
+    " $13846$ "
+  ],
+  [
+    " AL ",
+    " <ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby> ",
+    " $13846up$ "
+  ],
+  [
+    " Al ",
+    " <ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby> ",
+    " $13846cap$ "
+  ],
+  [
+    " ci ",
+    " <ruby>ci<rt class=\"ruby-XS_S_S\">おまえ</rt></ruby> ",
+    " $13847$ "
+  ],
+  [
+    " CI ",
+    " <ruby>ci<rt class=\"ruby-XS_S_S\">おまえ</rt></ruby> ",
+    " $13847up$ "
+  ],
+  [
+    " Ci ",
+    " <ruby>ci<rt class=\"ruby-XS_S_S\">おまえ</rt></ruby> ",
+    " $13847cap$ "
+  ],
+  [
+    " da ",
+    " <ruby>da<rt class=\"ruby-XXL_L_L\">の</rt></ruby> ",
+    " $13848$ "
+  ],
+  [
+    " DA ",
+    " <ruby>da<rt class=\"ruby-XXL_L_L\">の</rt></ruby> ",
+    " $13848up$ "
+  ],
+  [
+    " Da ",
+    " <ruby>da<rt class=\"ruby-XXL_L_L\">の</rt></ruby> ",
+    " $13848cap$ "
+  ],
+  [
+    " de ",
+    " <ruby>de<rt class=\"ruby-XS_S_S\">の;から</rt></ruby> ",
+    " $13849$ "
+  ],
+  [
+    " DE ",
+    " <ruby>de<rt class=\"ruby-XS_S_S\">の;から</rt></ruby> ",
+    " $13849up$ "
+  ],
+  [
+    " De ",
+    " <ruby>de<rt class=\"ruby-XS_S_S\">の;から</rt></ruby> ",
+    " $13849cap$ "
+  ],
+  [
+    " di ",
+    " <ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby> ",
+    " $13850$ "
+  ],
+  [
+    " DI ",
+    " <ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby> ",
+    " $13850up$ "
+  ],
+  [
+    " Di ",
+    " <ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby> ",
+    " $13850cap$ "
+  ],
+  [
+    " do ",
+    " <ruby>do<rt class=\"ruby-S_S_S\">そこで</rt></ruby> ",
+    " $13851$ "
+  ],
+  [
+    " DO ",
+    " <ruby>do<rt class=\"ruby-S_S_S\">そこで</rt></ruby> ",
+    " $13851up$ "
+  ],
+  [
+    " Do ",
+    " <ruby>do<rt class=\"ruby-S_S_S\">そこで</rt></ruby> ",
+    " $13851cap$ "
+  ],
+  [
+    " du ",
+    " <ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby> ",
+    " $13852$ "
+  ],
+  [
+    " DU ",
+    " <ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby> ",
+    " $13852up$ "
+  ],
+  [
+    " Du ",
+    " <ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby> ",
+    " $13852cap$ "
+  ],
+  [
+    " el ",
+    " <ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby> ",
+    " $13853$ "
+  ],
+  [
+    " EL ",
+    " <ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby> ",
+    " $13853up$ "
+  ],
+  [
+    " El ",
+    " <ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby> ",
+    " $13853cap$ "
+  ],
+  [
+    " en ",
+    " <ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby> ",
+    " $13854$ "
+  ],
+  [
+    " EN ",
+    " <ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby> ",
+    " $13854up$ "
+  ],
+  [
+    " En ",
+    " <ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby> ",
+    " $13854cap$ "
+  ],
+  [
+    " fi ",
+    " <ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby> ",
+    " $13855$ "
+  ],
+  [
+    " FI ",
+    " <ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby> ",
+    " $13855up$ "
+  ],
+  [
+    " Fi ",
+    " <ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby> ",
+    " $13855cap$ "
+  ],
+  [
+    " ha ",
+    " <ruby>ha<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13856$ "
+  ],
+  [
+    " HA ",
+    " <ruby>ha<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13856up$ "
+  ],
+  [
+    " Ha ",
+    " <ruby>ha<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13856cap$ "
+  ],
+  [
+    " he ",
+    " <ruby>he<rt class=\"ruby-M_M_M\">おい!</rt></ruby> ",
+    " $13857$ "
+  ],
+  [
+    " HE ",
+    " <ruby>he<rt class=\"ruby-M_M_M\">おい!</rt></ruby> ",
+    " $13857up$ "
+  ],
+  [
+    " He ",
+    " <ruby>he<rt class=\"ruby-M_M_M\">おい!</rt></ruby> ",
+    " $13857cap$ "
+  ],
+  [
+    " ho ",
+    " <ruby>ho<rt class=\"ruby-M_M_M\">まあ!</rt></ruby> ",
+    " $13858$ "
+  ],
+  [
+    " HO ",
+    " <ruby>ho<rt class=\"ruby-M_M_M\">まあ!</rt></ruby> ",
+    " $13858up$ "
+  ],
+  [
+    " Ho ",
+    " <ruby>ho<rt class=\"ruby-M_M_M\">まあ!</rt></ruby> ",
+    " $13858cap$ "
+  ],
+  [
+    " ia ",
+    " <ruby>ia<rt class=\"ruby-XS_S_S\">ある種の</rt></ruby> ",
+    " $13859$ "
+  ],
+  [
+    " IA ",
+    " <ruby>ia<rt class=\"ruby-XS_S_S\">ある種の</rt></ruby> ",
+    " $13859up$ "
+  ],
+  [
+    " Ia ",
+    " <ruby>ia<rt class=\"ruby-XS_S_S\">ある種の</rt></ruby> ",
+    " $13859cap$ "
+  ],
+  [
+    " ie ",
+    " <ruby>ie<rt class=\"ruby-XS_S_S\">どこかで</rt></ruby> ",
+    " $13860$ "
+  ],
+  [
+    " IE ",
+    " <ruby>ie<rt class=\"ruby-XS_S_S\">どこかで</rt></ruby> ",
+    " $13860up$ "
+  ],
+  [
+    " Ie ",
+    " <ruby>ie<rt class=\"ruby-XS_S_S\">どこかで</rt></ruby> ",
+    " $13860cap$ "
+  ],
+  [
+    " io ",
+    " <ruby>io<rt class=\"ruby-S_S_S\">何か</rt></ruby> ",
+    " $13861$ "
+  ],
+  [
+    " IO ",
+    " <ruby>io<rt class=\"ruby-S_S_S\">何か</rt></ruby> ",
+    " $13861up$ "
+  ],
+  [
+    " Io ",
+    " <ruby>io<rt class=\"ruby-S_S_S\">何か</rt></ruby> ",
+    " $13861cap$ "
+  ],
+  [
+    " iu ",
+    " <ruby>iu<rt class=\"ruby-XS_S_S\">ある人</rt></ruby> ",
+    " $13862$ "
+  ],
+  [
+    " IU ",
+    " <ruby>iu<rt class=\"ruby-XS_S_S\">ある人</rt></ruby> ",
+    " $13862up$ "
+  ],
+  [
+    " Iu ",
+    " <ruby>iu<rt class=\"ruby-XS_S_S\">ある人</rt></ruby> ",
+    " $13862cap$ "
+  ],
+  [
+    " ja ",
+    " <ruby>ja<rt class=\"ruby-S_S_S\">実に</rt></ruby> ",
+    " $13863$ "
+  ],
+  [
+    " JA ",
+    " <ruby>ja<rt class=\"ruby-S_S_S\">実に</rt></ruby> ",
+    " $13863up$ "
+  ],
+  [
+    " Ja ",
+    " <ruby>ja<rt class=\"ruby-S_S_S\">実に</rt></ruby> ",
+    " $13863cap$ "
+  ],
+  [
+    " je ",
+    " <ruby>je<rt class=\"ruby-XS_S_S\">(~)に</rt></ruby> ",
+    " $13864$ "
+  ],
+  [
+    " JE ",
+    " <ruby>je<rt class=\"ruby-XS_S_S\">(~)に</rt></ruby> ",
+    " $13864up$ "
+  ],
+  [
+    " Je ",
+    " <ruby>je<rt class=\"ruby-XS_S_S\">(~)に</rt></ruby> ",
+    " $13864cap$ "
+  ],
+  [
+    " ju ",
+    " <ruby>ju<rt class=\"ruby-XS_S_S\">すればするほど</rt></ruby> ",
+    " $13865$ "
+  ],
+  [
+    " JU ",
+    " <ruby>ju<rt class=\"ruby-XS_S_S\">すればするほど</rt></ruby> ",
+    " $13865up$ "
+  ],
+  [
+    " Ju ",
+    " <ruby>ju<rt class=\"ruby-XS_S_S\">すればするほど</rt></ruby> ",
+    " $13865cap$ "
+  ],
+  [
+    " ke ",
+    " <ruby>ke<rt class=\"ruby-XS_S_S\">ということ</rt></ruby> ",
+    " $13866$ "
+  ],
+  [
+    " KE ",
+    " <ruby>ke<rt class=\"ruby-XS_S_S\">ということ</rt></ruby> ",
+    " $13866up$ "
+  ],
+  [
+    " Ke ",
+    " <ruby>ke<rt class=\"ruby-XS_S_S\">ということ</rt></ruby> ",
+    " $13866cap$ "
+  ],
+  [
+    " la ",
+    " <ruby>la<rt class=\"ruby-M_M_M\">the</rt></ruby> ",
+    " $13867$ "
+  ],
+  [
+    " LA ",
+    " <ruby>la<rt class=\"ruby-M_M_M\">the</rt></ruby> ",
+    " $13867up$ "
+  ],
+  [
+    " La ",
+    " <ruby>la<rt class=\"ruby-M_M_M\">the</rt></ruby> ",
+    " $13867cap$ "
+  ],
+  [
+    " li ",
+    " <ruby>li<rt class=\"ruby-M_M_M\">彼</rt></ruby> ",
+    " $13868$ "
+  ],
+  [
+    " LI ",
+    " <ruby>li<rt class=\"ruby-M_M_M\">彼</rt></ruby> ",
+    " $13868up$ "
+  ],
+  [
+    " Li ",
+    " <ruby>li<rt class=\"ruby-M_M_M\">彼</rt></ruby> ",
+    " $13868cap$ "
+  ],
+  [
+    " mi ",
+    " <ruby>mi<rt class=\"ruby-XXL_L_L\">私</rt></ruby> ",
+    " $13869$ "
+  ],
+  [
+    " MI ",
+    " <ruby>mi<rt class=\"ruby-XXL_L_L\">私</rt></ruby> ",
+    " $13869up$ "
+  ],
+  [
+    " Mi ",
+    " <ruby>mi<rt class=\"ruby-XXL_L_L\">私</rt></ruby> ",
+    " $13869cap$ "
+  ],
+  [
+    " ne ",
+    " <ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby> ",
+    " $13870$ "
+  ],
+  [
+    " NE ",
+    " <ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby> ",
+    " $13870up$ "
+  ],
+  [
+    " Ne ",
+    " <ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby> ",
+    " $13870cap$ "
+  ],
+  [
+    " ni ",
+    " <ruby>ni<rt class=\"ruby-S_S_S\">私達</rt></ruby> ",
+    " $13871$ "
+  ],
+  [
+    " NI ",
+    " <ruby>ni<rt class=\"ruby-S_S_S\">私達</rt></ruby> ",
+    " $13871up$ "
+  ],
+  [
+    " Ni ",
+    " <ruby>ni<rt class=\"ruby-S_S_S\">私達</rt></ruby> ",
+    " $13871cap$ "
+  ],
+  [
+    " nu ",
+    " <ruby>nu<rt class=\"ruby-L_L_L\">さて</rt></ruby> ",
+    " $13872$ "
+  ],
+  [
+    " NU ",
+    " <ruby>nu<rt class=\"ruby-L_L_L\">さて</rt></ruby> ",
+    " $13872up$ "
+  ],
+  [
+    " Nu ",
+    " <ruby>nu<rt class=\"ruby-L_L_L\">さて</rt></ruby> ",
+    " $13872cap$ "
+  ],
+  [
+    " ok ",
+    " <ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby> ",
+    " $13873$ "
+  ],
+  [
+    " OK ",
+    " <ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby> ",
+    " $13873up$ "
+  ],
+  [
+    " Ok ",
+    " <ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby> ",
+    " $13873cap$ "
+  ],
+  [
+    " ol ",
+    " <ruby>ol<rt class=\"ruby-XS_S_S\">~よりも</rt></ruby> ",
+    " $13874$ "
+  ],
+  [
+    " OL ",
+    " <ruby>ol<rt class=\"ruby-XS_S_S\">~よりも</rt></ruby> ",
+    " $13874up$ "
+  ],
+  [
+    " Ol ",
+    " <ruby>ol<rt class=\"ruby-XS_S_S\">~よりも</rt></ruby> ",
+    " $13874cap$ "
+  ],
+  [
+    " po ",
+    " <ruby>po<rt class=\"ruby-S_S_S\">~ずつ</rt></ruby> ",
+    " $13875$ "
+  ],
+  [
+    " PO ",
+    " <ruby>po<rt class=\"ruby-S_S_S\">~ずつ</rt></ruby> ",
+    " $13875up$ "
+  ],
+  [
+    " Po ",
+    " <ruby>po<rt class=\"ruby-S_S_S\">~ずつ</rt></ruby> ",
+    " $13875cap$ "
+  ],
+  [
+    " se ",
+    " <ruby>se<rt class=\"ruby-XS_S_S\">もし~なら</rt></ruby> ",
+    " $13876$ "
+  ],
+  [
+    " SE ",
+    " <ruby>se<rt class=\"ruby-XS_S_S\">もし~なら</rt></ruby> ",
+    " $13876up$ "
+  ],
+  [
+    " Se ",
+    " <ruby>se<rt class=\"ruby-XS_S_S\">もし~なら</rt></ruby> ",
+    " $13876cap$ "
+  ],
+  [
+    " si ",
+    " <ruby>si<rt class=\"ruby-S_S_S\">自分</rt></ruby> ",
+    " $13877$ "
+  ],
+  [
+    " SI ",
+    " <ruby>si<rt class=\"ruby-S_S_S\">自分</rt></ruby> ",
+    " $13877up$ "
+  ],
+  [
+    " Si ",
+    " <ruby>si<rt class=\"ruby-S_S_S\">自分</rt></ruby> ",
+    " $13877cap$ "
+  ],
+  [
+    " ve ",
+    " <ruby>ve<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13878$ "
+  ],
+  [
+    " VE ",
+    " <ruby>ve<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13878up$ "
+  ],
+  [
+    " Ve ",
+    " <ruby>ve<rt class=\"ruby-M_M_M\">ああ!</rt></ruby> ",
+    " $13878cap$ "
+  ],
+  [
+    " vi ",
+    " <ruby>vi<rt class=\"ruby-XS_S_S\">あなた(達)</rt></ruby> ",
+    " $13879$ "
+  ],
+  [
+    " VI ",
+    " <ruby>vi<rt class=\"ruby-XS_S_S\">あなた(達)</rt></ruby> ",
+    " $13879up$ "
+  ],
+  [
+    " Vi ",
+    " <ruby>vi<rt class=\"ruby-XS_S_S\">あなた(達)</rt></ruby> ",
+    " $13879cap$ "
+  ],
+  [
+    " ŭa ",
+    " <ruby>ŭa<rt class=\"ruby-S_S_S\">ワァ!</rt></ruby> ",
+    " $13880$ "
+  ],
+  [
+    " ŬA ",
+    " <ruby>ŭa<rt class=\"ruby-S_S_S\">ワァ!</rt></ruby> ",
+    " $13880up$ "
+  ],
+  [
+    " Ŭa ",
+    " <ruby>ŭa<rt class=\"ruby-S_S_S\">ワァ!</rt></ruby> ",
+    " $13880cap$ "
+  ],
+  [
+    " aŭ ",
+    " <ruby>aŭ<rt class=\"ruby-XS_S_S\">または</rt></ruby> ",
+    " $13881$ "
+  ],
+  [
+    " AŬ ",
+    " <ruby>aŭ<rt class=\"ruby-XS_S_S\">または</rt></ruby> ",
+    " $13881up$ "
+  ],
+  [
+    " Aŭ ",
+    " <ruby>aŭ<rt class=\"ruby-XS_S_S\">または</rt></ruby> ",
+    " $13881cap$ "
+  ],
+  [
+    " ĉe ",
+    " <ruby>ĉe<rt class=\"ruby-XS_S_S\">ところで</rt></ruby> ",
+    " $13882$ "
+  ],
+  [
+    " ĈE ",
+    " <ruby>ĉe<rt class=\"ruby-XS_S_S\">ところで</rt></ruby> ",
+    " $13882up$ "
+  ],
+  [
+    " Ĉe ",
+    " <ruby>ĉe<rt class=\"ruby-XS_S_S\">ところで</rt></ruby> ",
+    " $13882cap$ "
+  ],
+  [
+    " ĝi ",
+    " <ruby>ĝi<rt class=\"ruby-XS_S_S\">それ</rt></ruby> ",
+    " $13883$ "
+  ],
+  [
+    " ĜI ",
+    " <ruby>ĝi<rt class=\"ruby-XS_S_S\">それ</rt></ruby> ",
+    " $13883up$ "
+  ],
+  [
+    " Ĝi ",
+    " <ruby>ĝi<rt class=\"ruby-XS_S_S\">それ</rt></ruby> ",
+    " $13883cap$ "
+  ],
+  [
+    " ŝi ",
+    " <ruby>ŝi<rt class=\"ruby-XS_S_S\">彼女</rt></ruby> ",
+    " $13884$ "
+  ],
+  [
+    " ŜI ",
+    " <ruby>ŝi<rt class=\"ruby-XS_S_S\">彼女</rt></ruby> ",
+    " $13884up$ "
+  ],
+  [
+    " Ŝi ",
+    " <ruby>ŝi<rt class=\"ruby-XS_S_S\">彼女</rt></ruby> ",
+    " $13884cap$ "
+  ],
+  [
+    " ĉu ",
+    " <ruby>ĉu<rt class=\"ruby-M_M_M\">~か?</rt></ruby> ",
+    " $13885$ "
+  ],
+  [
+    " ĈU ",
+    " <ruby>ĉu<rt class=\"ruby-M_M_M\">~か?</rt></ruby> ",
+    " $13885up$ "
+  ],
+  [
+    " Ĉu ",
+    " <ruby>ĉu<rt class=\"ruby-M_M_M\">~か?</rt></ruby> ",
+    " $13885cap$ "
+  ],
+  [
+    "$ad",
+    "$<ruby>ad<rt class=\"ruby-XS_S_S\">継続行為</rt></ruby>",
+    "$$13246$"
+  ],
+  [
+    "$AD",
+    "$<ruby>ad<rt class=\"ruby-XS_S_S\">継続行為</rt></ruby>",
+    "$$13246up$"
+  ],
+  [
+    "$Ad",
+    "$<ruby>ad<rt class=\"ruby-XS_S_S\">継続行為</rt></ruby>",
+    "$$13246cap$"
+  ],
+  [
+    "$ag",
+    "$<ruby>ag<rt class=\"ruby-XS_S_S\">行動する</rt></ruby>",
+    "$$13247$"
+  ],
+  [
+    "$AG",
+    "$<ruby>ag<rt class=\"ruby-XS_S_S\">行動する</rt></ruby>",
+    "$$13247up$"
+  ],
+  [
+    "$Ag",
+    "$<ruby>ag<rt class=\"ruby-XS_S_S\">行動する</rt></ruby>",
+    "$$13247cap$"
+  ],
+  [
+    "$am",
+    "$<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>",
+    "$$13248$"
+  ],
+  [
+    "$AM",
+    "$<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>",
+    "$$13248up$"
+  ],
+  [
+    "$Am",
+    "$<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>",
+    "$$13248cap$"
+  ],
+  [
+    "$ar",
+    "$<ruby>ar<rt class=\"ruby-S_S_S\">集団</rt></ruby>",
+    "$$13249$"
+  ],
+  [
+    "$AR",
+    "$<ruby>ar<rt class=\"ruby-S_S_S\">集団</rt></ruby>",
+    "$$13249up$"
+  ],
+  [
+    "$Ar",
+    "$<ruby>ar<rt class=\"ruby-S_S_S\">集団</rt></ruby>",
+    "$$13249cap$"
+  ],
+  [
+    "$as",
+    "$<ruby>as<rt class=\"ruby-XS_S_S\">現在形</rt></ruby>",
+    "$$13250$"
+  ],
+  [
+    "$AS",
+    "$<ruby>as<rt class=\"ruby-XS_S_S\">現在形</rt></ruby>",
+    "$$13250up$"
+  ],
+  [
+    "$As",
+    "$<ruby>as<rt class=\"ruby-XS_S_S\">現在形</rt></ruby>",
+    "$$13250cap$"
+  ],
+  [
+    "$at",
+    "$<ruby>at<rt class=\"ruby-XS_S_S\">受動継続</rt></ruby>",
+    "$$13251$"
+  ],
+  [
+    "$AT",
+    "$<ruby>at<rt class=\"ruby-XS_S_S\">受動継続</rt></ruby>",
+    "$$13251up$"
+  ],
+  [
+    "$At",
+    "$<ruby>at<rt class=\"ruby-XS_S_S\">受動継続</rt></ruby>",
+    "$$13251cap$"
+  ],
+  [
+    "$av",
+    "$<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>",
+    "$$13252$"
+  ],
+  [
+    "$AV",
+    "$<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>",
+    "$$13252up$"
+  ],
+  [
+    "$Av",
+    "$<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>",
+    "$$13252cap$"
+  ],
+  [
+    "$di",
+    "$<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>",
+    "$$13253$"
+  ],
+  [
+    "$DI",
+    "$<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>",
+    "$$13253up$"
+  ],
+  [
+    "$Di",
+    "$<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>",
+    "$$13253cap$"
+  ],
+  [
+    "$ec",
+    "$<ruby>ec<rt class=\"ruby-M_M_M\">性質</rt></ruby>",
+    "$$13254$"
+  ],
+  [
+    "$EC",
+    "$<ruby>ec<rt class=\"ruby-M_M_M\">性質</rt></ruby>",
+    "$$13254up$"
+  ],
+  [
+    "$Ec",
+    "$<ruby>ec<rt class=\"ruby-M_M_M\">性質</rt></ruby>",
+    "$$13254cap$"
+  ],
+  [
+    "$eg",
+    "$<ruby>eg<rt class=\"ruby-M_M_M\">強大</rt></ruby>",
+    "$$13255$"
+  ],
+  [
+    "$EG",
+    "$<ruby>eg<rt class=\"ruby-M_M_M\">強大</rt></ruby>",
+    "$$13255up$"
+  ],
+  [
+    "$Eg",
+    "$<ruby>eg<rt class=\"ruby-M_M_M\">強大</rt></ruby>",
+    "$$13255cap$"
+  ],
+  [
+    "$ej",
+    "$<ruby>ej<rt class=\"ruby-S_S_S\">場所</rt></ruby>",
+    "$$13256$"
+  ],
+  [
+    "$EJ",
+    "$<ruby>ej<rt class=\"ruby-S_S_S\">場所</rt></ruby>",
+    "$$13256up$"
+  ],
+  [
+    "$Ej",
+    "$<ruby>ej<rt class=\"ruby-S_S_S\">場所</rt></ruby>",
+    "$$13256cap$"
+  ],
+  [
+    "$em",
+    "$<ruby>em<rt class=\"ruby-XL_L_L\">傾向</rt></ruby>",
+    "$$13257$"
+  ],
+  [
+    "$EM",
+    "$<ruby>em<rt class=\"ruby-XL_L_L\">傾向</rt></ruby>",
+    "$$13257up$"
+  ],
+  [
+    "$Em",
+    "$<ruby>em<rt class=\"ruby-XL_L_L\">傾向</rt></ruby>",
+    "$$13257cap$"
+  ],
+  [
+    "$er",
+    "$<ruby>er<rt class=\"ruby-S_S_S\">粒子</rt></ruby>",
+    "$$13258$"
+  ],
+  [
+    "$ER",
+    "$<ruby>er<rt class=\"ruby-S_S_S\">粒子</rt></ruby>",
+    "$$13258up$"
+  ],
+  [
+    "$Er",
+    "$<ruby>er<rt class=\"ruby-S_S_S\">粒子</rt></ruby>",
+    "$$13258cap$"
+  ],
+  [
+    "$et",
+    "$<ruby>et<rt class=\"ruby-S_S_S\">弱小</rt></ruby>",
+    "$$13259$"
+  ],
+  [
+    "$ET",
+    "$<ruby>et<rt class=\"ruby-S_S_S\">弱小</rt></ruby>",
+    "$$13259up$"
+  ],
+  [
+    "$Et",
+    "$<ruby>et<rt class=\"ruby-S_S_S\">弱小</rt></ruby>",
+    "$$13259cap$"
+  ],
+  [
+    "$id",
+    "$<ruby>id<rt class=\"ruby-S_S_S\">子孫</rt></ruby>",
+    "$$13260$"
+  ],
+  [
+    "$ID",
+    "$<ruby>id<rt class=\"ruby-S_S_S\">子孫</rt></ruby>",
+    "$$13260up$"
+  ],
+  [
+    "$Id",
+    "$<ruby>id<rt class=\"ruby-S_S_S\">子孫</rt></ruby>",
+    "$$13260cap$"
+  ],
+  [
+    "$ig",
+    "$<ruby>ig<rt class=\"ruby-XS_S_S\">させる</rt></ruby>",
+    "$$13261$"
+  ],
+  [
+    "$IG",
+    "$<ruby>ig<rt class=\"ruby-XS_S_S\">させる</rt></ruby>",
+    "$$13261up$"
+  ],
+  [
+    "$Ig",
+    "$<ruby>ig<rt class=\"ruby-XS_S_S\">させる</rt></ruby>",
+    "$$13261cap$"
+  ],
+  [
+    "$il",
+    "$<ruby>il<rt class=\"ruby-XS_S_S\">道具</rt></ruby>",
+    "$$13262$"
+  ],
+  [
+    "$IL",
+    "$<ruby>il<rt class=\"ruby-XS_S_S\">道具</rt></ruby>",
+    "$$13262up$"
+  ],
+  [
+    "$Il",
+    "$<ruby>il<rt class=\"ruby-XS_S_S\">道具</rt></ruby>",
+    "$$13262cap$"
+  ],
+  [
+    "$in",
+    "$<ruby>in<rt class=\"ruby-S_S_S\">女性</rt></ruby>",
+    "$$13263$"
+  ],
+  [
+    "$IN",
+    "$<ruby>in<rt class=\"ruby-S_S_S\">女性</rt></ruby>",
+    "$$13263up$"
+  ],
+  [
+    "$In",
+    "$<ruby>in<rt class=\"ruby-S_S_S\">女性</rt></ruby>",
+    "$$13263cap$"
+  ],
+  [
+    "$ir",
+    "$<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>",
+    "$$13264$"
+  ],
+  [
+    "$IR",
+    "$<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>",
+    "$$13264up$"
+  ],
+  [
+    "$Ir",
+    "$<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>",
+    "$$13264cap$"
+  ],
+  [
+    "$is",
+    "$<ruby>is<rt class=\"ruby-XS_S_S\">過去形</rt></ruby>",
+    "$$13265$"
+  ],
+  [
+    "$IS",
+    "$<ruby>is<rt class=\"ruby-XS_S_S\">過去形</rt></ruby>",
+    "$$13265up$"
+  ],
+  [
+    "$Is",
+    "$<ruby>is<rt class=\"ruby-XS_S_S\">過去形</rt></ruby>",
+    "$$13265cap$"
+  ],
+  [
+    "$it",
+    "$<ruby>it<rt class=\"ruby-XS_S_S\">受動完了</rt></ruby>",
+    "$$13266$"
+  ],
+  [
+    "$IT",
+    "$<ruby>it<rt class=\"ruby-XS_S_S\">受動完了</rt></ruby>",
+    "$$13266up$"
+  ],
+  [
+    "$It",
+    "$<ruby>it<rt class=\"ruby-XS_S_S\">受動完了</rt></ruby>",
+    "$$13266cap$"
+  ],
+  [
+    "$lu",
+    "$<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>",
+    "$$13267$"
+  ],
+  [
+    "$LU",
+    "$<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>",
+    "$$13267up$"
+  ],
+  [
+    "$Lu",
+    "$<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>",
+    "$$13267cap$"
+  ],
+  [
+    "$nj",
+    "$<ruby>nj<rt class=\"ruby-XS_S_S\">女子愛称</rt></ruby>",
+    "$$13268$"
+  ],
+  [
+    "$NJ",
+    "$<ruby>nj<rt class=\"ruby-XS_S_S\">女子愛称</rt></ruby>",
+    "$$13268up$"
+  ],
+  [
+    "$Nj",
+    "$<ruby>nj<rt class=\"ruby-XS_S_S\">女子愛称</rt></ruby>",
+    "$$13268cap$"
+  ],
+  [
+    "$op",
+    "$<ruby>op<rt class=\"ruby-XS_S_S\">集合数</rt></ruby>",
+    "$$13269$"
+  ],
+  [
+    "$OP",
+    "$<ruby>op<rt class=\"ruby-XS_S_S\">集合数</rt></ruby>",
+    "$$13269up$"
+  ],
+  [
+    "$Op",
+    "$<ruby>op<rt class=\"ruby-XS_S_S\">集合数</rt></ruby>",
+    "$$13269cap$"
+  ],
+  [
+    "$or",
+    "$<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>",
+    "$$13270$"
+  ],
+  [
+    "$OR",
+    "$<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>",
+    "$$13270up$"
+  ],
+  [
+    "$Or",
+    "$<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>",
+    "$$13270cap$"
+  ],
+  [
+    "$os",
+    "$<ruby>os<rt class=\"ruby-XS_S_S\">未来形</rt></ruby>",
+    "$$13271$"
+  ],
+  [
+    "$OS",
+    "$<ruby>os<rt class=\"ruby-XS_S_S\">未来形</rt></ruby>",
+    "$$13271up$"
+  ],
+  [
+    "$Os",
+    "$<ruby>os<rt class=\"ruby-XS_S_S\">未来形</rt></ruby>",
+    "$$13271cap$"
+  ],
+  [
+    "$ot",
+    "$<ruby>ot<rt class=\"ruby-XS_S_S\">受動将然</rt></ruby>",
+    "$$13272$"
+  ],
+  [
+    "$OT",
+    "$<ruby>ot<rt class=\"ruby-XS_S_S\">受動将然</rt></ruby>",
+    "$$13272up$"
+  ],
+  [
+    "$Ot",
+    "$<ruby>ot<rt class=\"ruby-XS_S_S\">受動将然</rt></ruby>",
+    "$$13272cap$"
+  ],
+  [
+    "$ov",
+    "$<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>",
+    "$$13273$"
+  ],
+  [
+    "$OV",
+    "$<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>",
+    "$$13273up$"
+  ],
+  [
+    "$Ov",
+    "$<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>",
+    "$$13273cap$"
+  ],
+  [
+    "$pi",
+    "$<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>",
+    "$$13274$"
+  ],
+  [
+    "$PI",
+    "$<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>",
+    "$$13274up$"
+  ],
+  [
+    "$Pi",
+    "$<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>",
+    "$$13274cap$"
+  ],
+  [
+    "$te",
+    "$<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>",
+    "$$13275$"
+  ],
+  [
+    "$TE",
+    "$<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>",
+    "$$13275up$"
+  ],
+  [
+    "$Te",
+    "$<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>",
+    "$$13275cap$"
+  ],
+  [
+    "$uj",
+    "$<ruby>uj<rt class=\"ruby-S_S_S\">容器</rt></ruby>",
+    "$$13276$"
+  ],
+  [
+    "$UJ",
+    "$<ruby>uj<rt class=\"ruby-S_S_S\">容器</rt></ruby>",
+    "$$13276up$"
+  ],
+  [
+    "$Uj",
+    "$<ruby>uj<rt class=\"ruby-S_S_S\">容器</rt></ruby>",
+    "$$13276cap$"
+  ],
+  [
+    "$ul",
+    "$<ruby>ul<rt class=\"ruby-XXL_L_L\">人</rt></ruby>",
+    "$$13277$"
+  ],
+  [
+    "$UL",
+    "$<ruby>ul<rt class=\"ruby-XXL_L_L\">人</rt></ruby>",
+    "$$13277up$"
+  ],
+  [
+    "$Ul",
+    "$<ruby>ul<rt class=\"ruby-XXL_L_L\">人</rt></ruby>",
+    "$$13277cap$"
+  ],
+  [
+    "$um",
+    "$<ruby>um<rt class=\"ruby-XS_S_S\">不定意味</rt></ruby>",
+    "$$13278$"
+  ],
+  [
+    "$UM",
+    "$<ruby>um<rt class=\"ruby-XS_S_S\">不定意味</rt></ruby>",
+    "$$13278up$"
+  ],
+  [
+    "$Um",
+    "$<ruby>um<rt class=\"ruby-XS_S_S\">不定意味</rt></ruby>",
+    "$$13278cap$"
+  ],
+  [
+    "$us",
+    "$<ruby>us<rt class=\"ruby-XS_S_S\">条件法</rt></ruby>",
+    "$$13279$"
+  ],
+  [
+    "$US",
+    "$<ruby>us<rt class=\"ruby-XS_S_S\">条件法</rt></ruby>",
+    "$$13279up$"
+  ],
+  [
+    "$Us",
+    "$<ruby>us<rt class=\"ruby-XS_S_S\">条件法</rt></ruby>",
+    "$$13279cap$"
+  ],
+  [
+    "$uz",
+    "$<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>",
+    "$$13280$"
+  ],
+  [
+    "$UZ",
+    "$<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>",
+    "$$13280up$"
+  ],
+  [
+    "$Uz",
+    "$<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>",
+    "$$13280cap$"
+  ],
+  [
+    "$ĝu",
+    "$<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>",
+    "$$13281$"
+  ],
+  [
+    "$ĜU",
+    "$<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>",
+    "$$13281up$"
+  ],
+  [
+    "$Ĝu",
+    "$<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>",
+    "$$13281cap$"
+  ],
+  [
+    "$aĵ",
+    "$<ruby>aĵ<rt class=\"ruby-M_M_M\">事物</rt></ruby>",
+    "$$13282$"
+  ],
+  [
+    "$AĴ",
+    "$<ruby>aĵ<rt class=\"ruby-M_M_M\">事物</rt></ruby>",
+    "$$13282up$"
+  ],
+  [
+    "$Aĵ",
+    "$<ruby>aĵ<rt class=\"ruby-M_M_M\">事物</rt></ruby>",
+    "$$13282cap$"
+  ],
+  [
+    "$iĝ",
+    "$<ruby>iĝ<rt class=\"ruby-XS_S_S\">なる</rt></ruby>",
+    "$$13283$"
+  ],
+  [
+    "$IĜ",
+    "$<ruby>iĝ<rt class=\"ruby-XS_S_S\">なる</rt></ruby>",
+    "$$13283up$"
+  ],
+  [
+    "$Iĝ",
+    "$<ruby>iĝ<rt class=\"ruby-XS_S_S\">なる</rt></ruby>",
+    "$$13283cap$"
+  ],
+  [
+    "$aĉ",
+    "$<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>",
+    "$$13284$"
+  ],
+  [
+    "$AĈ",
+    "$<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>",
+    "$$13284up$"
+  ],
+  [
+    "$Aĉ",
+    "$<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>",
+    "$$13284cap$"
+  ],
+  [
+    "$aĝ",
+    "$<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>",
+    "$$13285$"
+  ],
+  [
+    "$AĜ",
+    "$<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>",
+    "$$13285up$"
+  ],
+  [
+    "$Aĝ",
+    "$<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>",
+    "$$13285cap$"
+  ],
+  [
+    "$ŝu",
+    "$<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>",
+    "$$13286$"
+  ],
+  [
+    "$ŜU",
+    "$<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>",
+    "$$13286up$"
+  ],
+  [
+    "$Ŝu",
+    "$<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>",
+    "$$13286cap$"
+  ],
+  [
+    "$eĥ",
+    "$<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>",
+    "$$13287$"
+  ],
+  [
+    "$EĤ",
+    "$<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>",
+    "$$13287up$"
+  ],
+  [
+    "$Eĥ",
+    "$<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>",
+    "$$13287cap$"
+  ],
+  [
+    "al$",
+    "<ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby>$",
+    "$13546$$"
+  ],
+  [
+    "AL$",
+    "<ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby>$",
+    "$13546up$$"
+  ],
+  [
+    "Al$",
+    "<ruby>al<rt class=\"ruby-XS_S_S\">~の方へ</rt></ruby>$",
+    "$13546cap$$"
+  ],
+  [
+    "am$",
+    "<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>$",
+    "$13547$$"
+  ],
+  [
+    "AM$",
+    "<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>$",
+    "$13547up$$"
+  ],
+  [
+    "Am$",
+    "<ruby>am<rt class=\"ruby-M_M_M\">愛する</rt></ruby>$",
+    "$13547cap$$"
+  ],
+  [
+    "av$",
+    "<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>$",
+    "$13548$$"
+  ],
+  [
+    "AV$",
+    "<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>$",
+    "$13548up$$"
+  ],
+  [
+    "Av$",
+    "<ruby>av<rt class=\"ruby-M_M_M\">祖父</rt></ruby>$",
+    "$13548cap$$"
+  ],
+  [
+    "bo$",
+    "<ruby>bo<rt class=\"ruby-L_L_L\">姻戚</rt></ruby>$",
+    "$13549$$"
+  ],
+  [
+    "BO$",
+    "<ruby>bo<rt class=\"ruby-L_L_L\">姻戚</rt></ruby>$",
+    "$13549up$$"
+  ],
+  [
+    "Bo$",
+    "<ruby>bo<rt class=\"ruby-L_L_L\">姻戚</rt></ruby>$",
+    "$13549cap$$"
+  ],
+  [
+    "di$",
+    "<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>$",
+    "$13550$$"
+  ],
+  [
+    "DI$",
+    "<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>$",
+    "$13550up$$"
+  ],
+  [
+    "Di$",
+    "<ruby>di<rt class=\"ruby-XXL_L_L\">神</rt></ruby>$",
+    "$13550cap$$"
+  ],
+  [
+    "du$",
+    "<ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby>$",
+    "$13551$$"
+  ],
+  [
+    "DU$",
+    "<ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby>$",
+    "$13551up$$"
+  ],
+  [
+    "Du$",
+    "<ruby>du<rt class=\"ruby-XXL_L_L\">二</rt></ruby>$",
+    "$13551cap$$"
+  ],
+  [
+    "ek$",
+    "<ruby>ek<rt class=\"ruby-M_M_M\">開始</rt></ruby>$",
+    "$13552$$"
+  ],
+  [
+    "EK$",
+    "<ruby>ek<rt class=\"ruby-M_M_M\">開始</rt></ruby>$",
+    "$13552up$$"
+  ],
+  [
+    "Ek$",
+    "<ruby>ek<rt class=\"ruby-M_M_M\">開始</rt></ruby>$",
+    "$13552cap$$"
+  ],
+  [
+    "el$",
+    "<ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby>$",
+    "$13553$$"
+  ],
+  [
+    "EL$",
+    "<ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby>$",
+    "$13553up$$"
+  ],
+  [
+    "El$",
+    "<ruby>el<rt class=\"ruby-XS_S_S\">中から</rt></ruby>$",
+    "$13553cap$$"
+  ],
+  [
+    "en$",
+    "<ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby>$",
+    "$13554$$"
+  ],
+  [
+    "EN$",
+    "<ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby>$",
+    "$13554up$$"
+  ],
+  [
+    "En$",
+    "<ruby>en<rt class=\"ruby-L_L_L\">中で</rt></ruby>$",
+    "$13554cap$$"
+  ],
+  [
+    "fi$",
+    "<ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby>$",
+    "$13555$$"
+  ],
+  [
+    "FI$",
+    "<ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby>$",
+    "$13555up$$"
+  ],
+  [
+    "Fi$",
+    "<ruby>fi<rt class=\"ruby-XS_S_S\">下劣な</rt></ruby>$",
+    "$13555cap$$"
+  ],
+  [
+    "ge$",
+    "<ruby>ge<rt class=\"ruby-L_L_L\">男女</rt></ruby>$",
+    "$13556$$"
+  ],
+  [
+    "GE$",
+    "<ruby>ge<rt class=\"ruby-L_L_L\">男女</rt></ruby>$",
+    "$13556up$$"
+  ],
+  [
+    "Ge$",
+    "<ruby>ge<rt class=\"ruby-L_L_L\">男女</rt></ruby>$",
+    "$13556cap$$"
+  ],
+  [
+    "ir$",
+    "<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>$",
+    "$13557$$"
+  ],
+  [
+    "IR$",
+    "<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>$",
+    "$13557up$$"
+  ],
+  [
+    "Ir$",
+    "<ruby>ir<rt class=\"ruby-XS_S_S\">行く</rt></ruby>$",
+    "$13557cap$$"
+  ],
+  [
+    "lu$",
+    "<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>$",
+    "$13558$$"
+  ],
+  [
+    "LU$",
+    "<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>$",
+    "$13558up$$"
+  ],
+  [
+    "Lu$",
+    "<ruby>lu<rt class=\"ruby-XS_S_S\">賃借する</rt></ruby>$",
+    "$13558cap$$"
+  ],
+  [
+    "ne$",
+    "<ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby>$",
+    "$13559$$"
+  ],
+  [
+    "NE$",
+    "<ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby>$",
+    "$13559up$$"
+  ],
+  [
+    "Ne$",
+    "<ruby>ne<rt class=\"ruby-L_L_L\">ない</rt></ruby>$",
+    "$13559cap$$"
+  ],
+  [
+    "ok$",
+    "<ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby>$",
+    "$13560$$"
+  ],
+  [
+    "OK$",
+    "<ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby>$",
+    "$13560up$$"
+  ],
+  [
+    "Ok$",
+    "<ruby>ok<rt class=\"ruby-XXL_L_L\">八</rt></ruby>$",
+    "$13560cap$$"
+  ],
+  [
+    "or$",
+    "<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>$",
+    "$13561$$"
+  ],
+  [
+    "OR$",
+    "<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>$",
+    "$13561up$$"
+  ],
+  [
+    "Or$",
+    "<ruby>or<rt class=\"ruby-XS_S_S\">[化]金</rt></ruby>$",
+    "$13561cap$$"
+  ],
+  [
+    "ov$",
+    "<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>$",
+    "$13562$$"
+  ],
+  [
+    "OV$",
+    "<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>$",
+    "$13562up$$"
+  ],
+  [
+    "Ov$",
+    "<ruby>ov<rt class=\"ruby-XXL_L_L\">卵</rt></ruby>$",
+    "$13562cap$$"
+  ],
+  [
+    "pi$",
+    "<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>$",
+    "$13563$$"
+  ],
+  [
+    "PI$",
+    "<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>$",
+    "$13563up$$"
+  ],
+  [
+    "Pi$",
+    "<ruby>pi<rt class=\"ruby-XS_S_S\">信心深い</rt></ruby>$",
+    "$13563cap$$"
+  ],
+  [
+    "re$",
+    "<ruby>re<rt class=\"ruby-S_S_S\">再び</rt></ruby>$",
+    "$13564$$"
+  ],
+  [
+    "RE$",
+    "<ruby>re<rt class=\"ruby-S_S_S\">再び</rt></ruby>$",
+    "$13564up$$"
+  ],
+  [
+    "Re$",
+    "<ruby>re<rt class=\"ruby-S_S_S\">再び</rt></ruby>$",
+    "$13564cap$$"
+  ],
+  [
+    "te$",
+    "<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>$",
+    "$13565$$"
+  ],
+  [
+    "TE$",
+    "<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>$",
+    "$13565up$$"
+  ],
+  [
+    "Te$",
+    "<ruby>te<rt class=\"ruby-XXL_L_L\">茶</rt></ruby>$",
+    "$13565cap$$"
+  ],
+  [
+    "uz$",
+    "<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>$",
+    "$13566$$"
+  ],
+  [
+    "UZ$",
+    "<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>$",
+    "$13566up$$"
+  ],
+  [
+    "Uz$",
+    "<ruby>uz<rt class=\"ruby-M_M_M\">使う</rt></ruby>$",
+    "$13566cap$$"
+  ],
+  [
+    "ĝu$",
+    "<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>$",
+    "$13567$$"
+  ],
+  [
+    "ĜU$",
+    "<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>$",
+    "$13567up$$"
+  ],
+  [
+    "Ĝu$",
+    "<ruby>ĝu<rt class=\"ruby-XS_S_S\">楽しむ</rt></ruby>$",
+    "$13567cap$$"
+  ],
+  [
+    "aĉ$",
+    "<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>$",
+    "$13568$$"
+  ],
+  [
+    "AĈ$",
+    "<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>$",
+    "$13568up$$"
+  ],
+  [
+    "Aĉ$",
+    "<ruby>aĉ<rt class=\"ruby-M_M_M\">粗悪</rt></ruby>$",
+    "$13568cap$$"
+  ],
+  [
+    "aĝ$",
+    "<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>$",
+    "$13569$$"
+  ],
+  [
+    "AĜ$",
+    "<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>$",
+    "$13569up$$"
+  ],
+  [
+    "Aĝ$",
+    "<ruby>aĝ<rt class=\"ruby-M_M_M\">年齢</rt></ruby>$",
+    "$13569cap$$"
+  ],
+  [
+    "ŝu$",
+    "<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>$",
+    "$13570$$"
+  ],
+  [
+    "ŜU$",
+    "<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>$",
+    "$13570up$$"
+  ],
+  [
+    "Ŝu$",
+    "<ruby>ŝu<rt class=\"ruby-M_M_M\">短靴</rt></ruby>$",
+    "$13570cap$$"
+  ],
+  [
+    "eĥ$",
+    "<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>$",
+    "$13571$$"
+  ],
+  [
+    "EĤ$",
+    "<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>$",
+    "$13571up$$"
+  ],
+  [
+    "Eĥ$",
+    "<ruby>eĥ<rt class=\"ruby-M_M_M\">反響</rt></ruby>$",
+    "$13571cap$$"
+  ]
+]
