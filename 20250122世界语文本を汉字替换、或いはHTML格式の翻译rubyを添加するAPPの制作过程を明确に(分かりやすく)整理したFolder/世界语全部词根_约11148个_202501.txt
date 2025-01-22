@@ -392,6 +392,7 @@ loksodromi
 luksemburg
 madagaskar
 mahabharat
+makrocefal
 manksinsul
 manufaktur
 manuskript
@@ -447,7 +448,6 @@ pleistocen
 plejstocen
 pleŭronekt
 plutokrati
-polarimetr
 polietilen
 poliklinik
 politeknik
@@ -461,7 +461,6 @@ psikrometr
 radioaktiv
 radiografi
 ranunkolac
-rapidometr
 referendum
 reformator
 regeneraci
@@ -1071,7 +1070,6 @@ sufiksoid
 superstiĉ
 suplement
 tabernakl
-taksimetr
 tanganjik
 taŭtologi
 teknologi
@@ -1145,7 +1143,6 @@ adriatik
 adstring
 aerodrom
 aerofagi
-aerometr
 aeronaŭt
 aeroplan
 aerostat
@@ -1173,7 +1170,6 @@ aldernej
 algoritm
 aligator
 alkaloid
-altometr
 altruism
 altruist
 amarilid
@@ -1904,7 +1900,6 @@ okcident
 oligarki
 oligarĥi
 oligocen
-ondometr
 ontogeni
 ontologi
 optimism
@@ -5560,7 +5555,6 @@ robert
 rodezi
 rohinj
 romanc
-romani
 romanĉ
 rondel
 ronron
@@ -5694,7 +5688,6 @@ sopran
 sorbon
 sordid
 sordin
-soveti
 spaget
 spalir
 spatel
@@ -6161,7 +6154,6 @@ arŝin
 aseps
 asert
 asign
-asiri
 asist
 asket
 asmer
@@ -7675,7 +7667,6 @@ sekoj
 sekst
 sekur
 selen
-semid
 senat
 senek
 senil
@@ -9577,7 +9568,6 @@ ritm
 roma
 romb
 rome
-romi
 romp
 rond
 ronk
@@ -10115,7 +10105,6 @@ amu
 an!
 and
 ann
-ano
 ans
 ant
 anĉ
