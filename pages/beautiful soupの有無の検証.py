@@ -47,6 +47,64 @@ def wrap_text_with_ruby(html_string, chunk_size=10):
     
     # 修正後のHTMLを文字列として返す
     return str(soup)
+def wrap_text_with_ruby(html_string: str, chunk_size: int = 10) -> str:
+    soup = BeautifulSoup(html_string, 'lxml')
+
+    def process_element(element: Tag, in_ruby: bool = False) -> None:
+        # 現在の要素が <ruby> or <rt> なら、その下はすべて「既にruby内」
+        if element.name in ['ruby', 'rt']:
+            in_ruby = True
+
+        for child in list(element.children):
+            if isinstance(child, NavigableString):
+                text = str(child)
+                # 空白や改行のみの場合はスキップ
+                if not text.strip():
+                    continue
+
+                # 親階層がrubyか、あるいは現在 <ruby>/<rt> の内側なら処理スキップ
+                if in_ruby:
+                    continue
+
+                # テキストを chunk_size ごとに分割
+                chunks = [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
+
+                new_tags = []
+                for chunk in chunks:
+                    chunk = chunk.replace(" ", "&nbsp;").replace("　", "&nbsp;&nbsp;")
+                    ruby_tag = soup.new_tag('ruby')
+                    ruby_tag.string = chunk
+                    new_tags.append(ruby_tag)
+
+                child.replace_with(*new_tags)
+
+            elif child.name and child.name.lower() in ['script', 'style']:
+                # スクリプト/スタイルは処理しない
+                continue
+            else:
+                # 子要素を再帰的に処理。in_rubyフラグを引き継ぐ
+                process_element(child, in_ruby)
+
+    process_element(soup, in_ruby=False)
+    final_str = str(soup).replace("&amp;nbsp;", "&nbsp;")
+    # final_str = soup.decode(formatter=None)
+    return final_str
+
+
+
+if __name__ == "__main__":
+    input_html = """
+    <br>
+    <ruby>国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国<rt class="ruby-XXS_S_S">国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国<br>国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国</rt></ruby><ruby>国国国国国国国国国国</ruby>国国国国国国国国国国国国国国国国国国国国<ruby>国国国国国国国国国国</ruby>
+    Some plain text that is not within any HTML tags. This text should be wrapped in tags every 10 characters.....
+    
+    <ruby>国国<rt class="ruby-XXS_S_S">国<br>国</rt></ruby>国国&nbsp;&nbsp;<ruby>国国<rt class="ruby-XS_S_S">国国</rt></ruby></ruby><ruby>国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国<rt class="ruby-S_S_S">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-M_M_M">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-L_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-XL_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-XXL_L_L">国国</rt></ruby>   <ruby>国国<rt class="ruby-XXS_S_S">国<br>国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-XS_S_S">国国</rt></ruby></ruby><ruby>国国<rt class="ruby-S_S_S">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-M_M_M">国国</rt></ruby>国国国国国国国国国国国国国国国国国国国国国国<ruby>国国<rt class="ruby-L_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-XL_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-XXL_L_L">国国</rt></ruby><br>
+    <ruby>国国<rt class="ruby-XXS_S_S">国<br>国</rt></ruby><ruby>国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国</ruby><ruby>国国国国国国国国国国国国国国国国国国国国</ruby><ruby>国国国国国国国国国国国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国国国国国国国国国</ruby><ruby>国国<rt class="ruby-XS_S_S">国国</rt></ruby></ruby><ruby>国国<rt class="ruby-S_S_S">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-M_M_M">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-L_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-S_S_S">&nbsp;</rt></ruby><ruby>国国<rt class="ruby-L_L_L">国国</rt></ruby><ruby>国国<rt class="ruby-XL_L_L">国国</rt></ruby>国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国国
+  
+    """
+    
+    processed_html = wrap_text_with_ruby(input_html, chunk_size=10)
+
 
 # サンプルファイルのパス
 file_path = './files_needed_to_get_replacements_text/20240316世界语词根列表＿包含2个字符的世界语词根＿生成AI_upload用.csv'
@@ -143,7 +201,7 @@ if uploaded_file is not None:
     output_html = wrap_text_with_ruby(input_html, chunk_size=10)
 
 
-    download_data = output_html
+    download_data = output_html+processed_html
     if format_type == 'HTML Format':
         st.download_button(
         label="Download replacements_list_html_format.txt",
