@@ -1,0 +1,16 @@
+[["替换后文字列(汉字)の使用者自定义设置方法の说明",
+""],
+["ili/n", "dflt", []],
+["geum/o", "dflt", []],
+["ge/um/", "dflt", ["NE", "Verbo_S1", "Verbo_S2"],"GEE/UUMM"],
+["plat/a/n", "dflt", []],
+["platan", "dflt", ["NE", "o","a"],"PULATON"],
+["princip/e", "dflt", [],"PURINCHI/PEE"],
+["principe", "dflt", ["NE", "o","a"]],
+["val/o/n", "dflt", []],
+["valon", "dflt", ["o","a"]],
+["ĉen/a/j", "dflt", ["o","a"],"CHE/NA/WII/II"],
+["mis", "dflt", ["Verbo_S1", "Verbo_S2"]],
+["misi", "dflt", ["o","a"]],
+["far/iĝ/", 87500, []]
+]
