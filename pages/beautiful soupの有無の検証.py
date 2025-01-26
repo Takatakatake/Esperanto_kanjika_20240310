@@ -5,8 +5,10 @@ import io
 import os
 import re
 from bs4 import BeautifulSoup, NavigableString
+from bs4.element import Tag
 import re
 from typing import List, Dict, Tuple, Optional  # List, Dict, Tuple, (Optional) など型ヒントを一括でインポート
+
 
 def wrap_text_with_ruby(html_string, chunk_size=10):
     """
