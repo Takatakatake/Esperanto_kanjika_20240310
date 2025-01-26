@@ -131,26 +131,7 @@ st.write('格式化文本:', formatted_text)
 # Streamlitでファイルアップロード機能を追加
 uploaded_file = st.file_uploader("上传你的CSV文件", type=['csv'])
 if uploaded_file is not None:
-    # Streamlitの環境でファイルを読み込むために必要な変更
-    dataframe = pd.read_csv(uploaded_file)
-    dataframe.to_csv("./files_needed_to_get_replacements_text/世界语词根列表＿user.csv", index=False)
 
-
-    result = []
-    # ファイルを読み込み
-    with open("./files_needed_to_get_replacements_text/检查世界语所有单词的结尾是否被正确切除(result).txt", "r", encoding='utf-8') as file:##世界语全部单词_大约44100个(原pejvo.txt)をここまで成形したものから使う。
-        for line in file:
-            # 改行文字を除去し、カンマで分割
-            parts = line.rstrip().split(',')##lstripはしない
-            # 分割されたデータが2つの要素を持つことを確認
-            if len(parts) >= 2:
-                result.append((parts[0], parts[1]))
-
-
-    #"replacements2"リストの内容を確認
-    with open("./files_needed_to_get_replacements_text/replacements_list_anytype.txt", 'w', encoding='utf-8') as file:
-        for old,new,place_holder in replacements2:
-            file.write(f'{old},{new},{place_holder}\n')
     # 入力文字列（ユーザー提供の例）
     input_html = """
     <br>
