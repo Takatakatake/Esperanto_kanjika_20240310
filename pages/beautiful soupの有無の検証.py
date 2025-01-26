@@ -6,6 +6,7 @@ import os
 import re
 from bs4 import BeautifulSoup, NavigableString
 import re
+from typing import List, Dict, Tuple, Optional  # List, Dict, Tuple, (Optional) など型ヒントを一括でインポート
 
 def wrap_text_with_ruby(html_string, chunk_size=10):
     """
