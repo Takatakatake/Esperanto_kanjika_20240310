@@ -294,14 +294,14 @@ def create_replacements_list_for_localized_replacement(text, placeholders: List[
 
 
 # windowsでは、相対座標がうまく認識されないことがあるので、PATHの設定には注意が必要。何とかこのpythonファイルがあるディレクトリ上で実行する方法を模索する必要がある。
-format_type = 'HTML格式_Ruby文字_大小调整'
+
 
 with open('例句_Esperanto文本.txt','r', encoding='utf-8') as g:
     text0=g.read()*text_repeat_times
 
 if __name__ == '__main__':
     multiprocessing.set_start_method('spawn', force=True)
-    text1=parallel_process(text0, num_processes, format_type)
+    text1=parallel_process(text0)
 
     # parallel_process(text: str, num_processes: int = num_processes, 
     #     placeholders_for_skipping_replacements: List[str] = placeholders_for_skipping_replacements, replacements_list_for_localized_string: List[Tuple[str, str, str]] = replacements_list_for_localized_string, 
