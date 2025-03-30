@@ -71,7 +71,7 @@ show_menu() {
     echo "2. git add (指定パス)"
     echo "3. git commit"
     echo "4. git push"
-    echo "5. git pull"
+    echo "5. git pull (通常 or --rebase 選択可)"
     echo "6. git log"
     echo "7. git branch"
     echo "8. git checkout (指定ブランチ)"
@@ -79,6 +79,7 @@ show_menu() {
     echo "10. git stash"
     echo "11. git remote -v"
     echo "12. git diff"
+    echo "13. [NEW] git stash -> git pull --rebase -> git stash pop"
     echo "h. Help"
     echo "0. Exit"
 }
@@ -91,7 +92,7 @@ show_help() {
     echo "2. git add (path)     : 指定したパスをステージング (未入力時は '.')"
     echo "3. git commit         : 単一行/マルチ行など選んでコミット"
     echo "4. git push           : リモートリポジトリに変更をプッシュ"
-    echo "5. git pull           : リモートリポジトリから変更をプル"
+    echo "5. git pull           : リモートリポジトリから変更をプル (通常 or --rebase)"
     echo "6. git log            : コミット履歴を表示"
     echo "7. git branch         : ブランチ一覧を表示"
     echo "8. git checkout       : 指定したブランチに切り替え"
@@ -99,6 +100,8 @@ show_help() {
     echo "10. git stash         : 作業中の変更を一時保存"
     echo "11. git remote -v     : リモートリポジトリのURL等を表示"
     echo "12. git diff          : 変更内容の差分を表示"
+    echo "13. git stash -> git pull --rebase -> git stash pop :"
+    echo "    未コミットの変更を stash で退避し、rebase 付き pull 後に再度変更を適用"
     echo "h. Help               : このヘルプを表示"
     echo "0. Exit               : スクリプトを終了"
     echo "---------------------------------"
@@ -162,6 +165,14 @@ git_commit() {
 }
 
 
+# ★★ ここで新しい関数を追加 ★★
+git_pull_rebase_with_stash() {
+    echo "Stash local changes, pull with rebase, and pop stash."
+    run_command "git stash"
+    run_command "git pull --rebase origin main"
+    run_command "git stash pop"
+}
+
 
 ###############################################################################
 # メインループセクション
@@ -192,8 +203,27 @@ while true; do
             run_command "git push"
             ;;
         5)
-            # git pull
-            run_command "git pull"
+            # ★ pull の方法を選択させる部分
+            echo "Choose pull method:"
+            echo "  0) Normal pull (default)"
+            echo "  1) Pull with rebase"
+            read -p "Select pull mode [0 or 1] (default: 0): " pull_choice
+
+            if [ -z "$pull_choice" ]; then
+                pull_choice=0
+            fi
+
+            case $pull_choice in
+                0)
+                    run_command "git pull"
+                    ;;
+                1)
+                    run_command "git pull --rebase"
+                    ;;
+                *)
+                    echo -e "${RED}Invalid choice for pull method. Skipped.${NC}"
+                    ;;
+            esac
             ;;
         6)
             # git log
@@ -224,6 +254,10 @@ while true; do
         12)
             # git diff
             run_command "git diff"
+            ;;
+        13)
+            # ★★★ 新しい項目 ★★★
+            git_pull_rebase_with_stash
             ;;
         h|H)
             show_help
